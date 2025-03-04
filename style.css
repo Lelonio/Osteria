@@ -571,6 +571,7 @@ nav div.show {
   }
   p a {
     font-size: 12px; /* Riduci la dimensione del testo */
+    line-height: 1.8; /* Puoi aumentare ulteriormente per schermi piccoli */
   }
   .maps{
     font-size: 12px;
