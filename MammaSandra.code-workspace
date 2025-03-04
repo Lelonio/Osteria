@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"phpserver.relativePath": "",
+		"phpserver.port": 3000
+	}
+}
