@@ -570,12 +570,10 @@ nav div.show {
     font-size: 15px;
   }
   p a {
-    font-size: 12px; /* Riduci la dimensione del testo */
+    font-size: 10px; /* Riduci la dimensione del testo */
     line-height: 1.8; /* Puoi aumentare ulteriormente per schermi piccoli */
   }
-  .maps{
-    font-size: 12px;
-  }
+
 
 }
 
