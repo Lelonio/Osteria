@@ -569,6 +569,9 @@ nav div.show {
   .faq .question {
     font-size: 15px;
   }
+  p a {
+    font-size: 12px; /* Riduci la dimensione del testo */
+  }
   .maps{
     font-size: 12px;
   }
