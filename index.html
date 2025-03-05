@@ -66,8 +66,8 @@
         <button class="exit-menu fa fa-times"></button>
         <li><a href="#" class="active">Home</a></li>
         <li class="to-who"><a href="#">Chi Siamo</a></li>
-        <li class="menu">
-        <a href="#" onclick="openMenuPage(); return false;">Menu</a>
+        <li class="to-menu">
+        <a href="#">Menu</a>
 </li>
 
 <script>
@@ -116,116 +116,24 @@
 </section>
 
 <section class="cucina-background center-h1">
-  <h1 class="custom-h1 alex-brush"><span class="custom-font" style="text-shadow: 1px 1px 1px  #000000;">Cucina</span><br />ROMANA</h1>
+  <h1 class="custom-h1 alex-brush"><span class="custom-font" style="text-shadow: 1px 1px 1px  #000000;">Cucina</span><br />DI PESCE</h1>
 </section>
 
 <section class="menu add-flex add-padding">
   <div class="menu-images">
     
-    <img src="assets/vino1.jpg"  data-aos="fade-down" data-aos-delay="300"/>
-    <img src="assets/caffe1.jpg" data-aos="fade-left" data-aos-delay="300"/>
+    <img src="assets/tavolo2.jpg"  data-aos="fade-down" data-aos-delay="300"/>
+    <img src="assets/tavolo3.jpg" data-aos="fade-left" data-aos-delay="300"/>
     
-    <img src="assets/cocktail2.jpg" data-aos="fade-up" data-aos-delay="300"/>
-    <img src="assets/pasta2.jpg" data-aos="fade-right" data-aos-delay="300"/>
   </div>
   <div class="menus">
   <div class="center-text"  id="menu">
     <h1><span class="custom-font alex-brush " style="text-shadow: 1px 1px 1px  #000000;">Scopri</span><br />IL NOSTRO MENU</h1>
     <h2>*</h2>
-    <p>Il Ristorante Osteria Del Pirgo vi delizierà dai gusti della cucina tipica romana fino a farvi incontrare le prelibatezze della migliore tradizione italiana.
-      Piatti gustosi, porzioni abbondanti e sapori autentici, tutto con grande attenzione al Made in Italy. 
-      Nella stupenda cornice dell'EUR il Osteria Del Pirgo apre a chiunque voglia fare un'esperienza ed immergersi nella tradizione culinaria romana.</p>
-    <a id="btnMenu" href="menu.pdf" target="_blank">Vai al Menu</a>
+    <p>Benvenuti all'Osteria del Pirgo, dove il mare incontra la tradizione in ogni piatto. Scopri il nostro menù, un viaggio tra sapori autentici e ingredienti freschissimi, selezionati con cura per offrirti un’esperienza gastronomica unica. Dalle specialità di pesce crudo ai piatti della tradizione marinara, ogni proposta è pensata per esaltare il gusto del mare con creatività e passione. Lasciati conquistare dai nostri antipasti, primi e secondi di pesce, accompagnati da una selezione di vini pregiati che esaltano ogni sapore. Buon appetito!</p>
+    <a id="btnMenu" href="#" target="_blank" style="text-shadow: 1px 1px 1px #000000" onclick="openMenuPage(); return false;">Vai al Menu</a>
   </div>
-  <div class="center-text"  id="menu-2">
-    <h1><span class="custom-font alex-brush " style="text-shadow: 1px 1px 1px  #000000;">Scopri</span><br />IL NOSTRO MENU</h1>
-    
-    <h3><span class="custom-font alex-brush exclusive" style="text-shadow: 1px 1px 1px  #000000;">"Exclusive "</span></h3>
-    <h2>*</h2>
-    <p>
-      Regala un'esperienza culinaria unica.
-      <br>
-      Lasciatevi guidare dai nostri percorsi a sorpresa scelti dai nostri Chef:
-      <br></p>
-      <p class="exclusive-menu alex-brush" >
-      VECCHIA ROMA – 10 portate (€140 a persona bevande escluse)
-      <br>
-      GIULIO CESARE – 8 portate (€110 a persona bevande escluse)
-      <br>
-      DAJE'NPO – 6 portate (€80 a persona bevande escluse)
-      <br>
-      INTERMEZZO – 4 portate (€60 a persona bevande escluse)</p>
-    
-    
-    <ul class="experience">
-      <li>
-        <a class="experience-btn" href="#exclusive"">Regala un'esperienza</a>
-        
-        
-        
-        <div class="experience-form" style="margin-top: 20px;">
-          <form id="experienceForm" action="#">
-
-            <input type="hidden" name="action" value="prenota" />
-      
-            
-              
-            <div class="mb-3">
-              <label for="persone" class="col-form-label">Persone: </label>
-              <input type="number" class="form-control" name="persone" id="persone"  min="1" max="40" style="width: 40px;" required/>
-            
-            </div>
-            <div class="mb-3">
-              <label for="Menu" class="col-form-label">Menu: </label>
-              <select id="menu" name="menu" class="form-control">
-                  
-                  <option value="VECCHIA ROMA">VECCHIA ROMA</option>
-                  <option value="GIULIO CESARE">GIULIO CESARE</option>
-                  <option value="DAJE'NPO">DAJE'NPO</option>
-                  <option value="INTERMEZZO">INTERMEZZO</option>
-                 
-              </select>
-            </div>
-              
-            <div class="mb-3">
-              <label for="first-name" class="col-form-label">
-                Nome Acquirente:
-              </label>
-              <input type="text" class="form-control" id="nome-acq" name="nome-acq" required/>
-            </div>
-            <br>
-            <div class="mb-3">
-              <label for="first-name" class="col-form-label">
-                Nome Ricevente:
-              </label>
-              <input type="text" class="form-control" id="nome-riv" name="nome-riv" required/>
-            </div>
-            <div class="mb-3">
-              <label for="phone" class="col-form-label">Telefono Ricevente:</label>
-              <input type="tel" class="form-control" id="phone" name="phone" required/>
-            </div>
-            <div>
-            <label for="email" class="col-form-label">
-              Email Ricevente:
-            </label>
-            <input type="email" class="form-control" id="email" name="email" style="width: 100px;" required/>
-          </div>
-          
-          <div>
-            <input type="checkbox" id="experience-checkbox" style="margin-left: -60px;"/>
-            <label class="label" for="checkbox" >
-                Accetta il trattamento dei dati a scopi commerciali
-            </label>
-          </div>
-                <a id="prenota-experience" href="#">Acquista Voucher</a>
-      
-              
-          </form>
-        
-        </div>
-      </li>
-      </ul>
-  </div>
+  
 </div>
 </section>
 
