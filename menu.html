@@ -19,6 +19,87 @@
       background-color: #f8f8f8;
     }
 
+    @media screen and (max-width: 768px) {
+  /* Rende il pulsante home più piccolo e lo sposta */
+  .home-button {
+    top: 10px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  /* Migliora il layout delle categorie su schermi piccoli */
+  .categories {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .categories button {
+    font-size: 1.2em;
+    padding: 8px 12px;
+  }
+
+  /* Ottimizza il menu per dispositivi mobili */
+  .menu-items {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  /* Rende le voci di menu più compatte */
+  .menu-item {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .menu-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5px;
+  }
+
+  /* Migliora la leggibilità del titolo */
+  .menu h1 {
+    font-size: 2em;
+  }
+
+  /* Ottimizza il logo */
+  .logo-container img {
+    width: 80%;
+    max-width: 150px;
+  }
+
+  /* Ridimensiona la finestra popup */
+  .popup-content {
+    width: 90%;
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Ulteriore adattamento per smartphone piccoli */
+  .categories button {
+    font-size: 1em;
+    padding: 6px 10px;
+  }
+
+  .menu h1 {
+    font-size: 1.8em;
+  }
+
+  .menu-item img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .home-button {
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+  }
+}
 
     .categories {
       display: flex;
