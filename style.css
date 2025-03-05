@@ -252,7 +252,7 @@ nav div.show {
 
 .custom-font {
   font-family: "Alex Brush", cursive;
-  color: #d2d2d2;
+  color:lightskyblue;
   font-size: 75px;
   line-height: 0;
 }
@@ -318,7 +318,15 @@ nav div.show {
 }
 
 #btnMenu{
-  font-size: 15px;
+  font-size: 40px;
+  color: lightskyblue;
+  
+  
+}
+
+#btnMenu:hover{
+
+  color: deepskyblue;
 }
 
 
@@ -565,16 +573,14 @@ nav div.show {
   height:500px;
   margin-bottom: -50px;
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
   .faq .question {
     font-size: 15px;
   }
   p a {
-    font-size: 10px; /* Riduci la dimensione del testo */
+    font-size: 12px;
     line-height: 1.8; /* Puoi aumentare ulteriormente per schermi piccoli */
   }
-
-
 }
 
 
