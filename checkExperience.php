@@ -9,7 +9,7 @@ if(isset($_POST['action'])) {
       case 'prenota' :
         $servername = "localhost";
         $username = "root";
-        $password = "emanuele00";
+        $password = "";
         $dbname = "sito";
 
         $conn = mysqli_connect($servername, $username, $password, $dbname);
