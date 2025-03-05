@@ -10,18 +10,6 @@
 
 	$mail = new PHPMailer();
 
-	$mail->isSMTP();
-
-	$mail->Host = "smtp.gmail.com";
-
-	$mail->SMTPAuth = true;
-
-	$mail->SMTPSecure = "tls";
-	$mail->Port = "587";
-	$mail->Username = "ristorantemammasandra@gmail.com";
-	$mail->Password = "MammaSandra275";
-	$mail->Subject = "Prenotazione Tavolo";
-	$mail->setFrom('ristorantemammasandra@gmail.com');
 	$mail->isHTML(true);
 
 if(isset($_POST['action'])) {
@@ -30,7 +18,7 @@ if(isset($_POST['action'])) {
       case 'prenota' :
         $servername = "localhost";
         $username = "root";
-        $password = "emanuele00";
+        $password = "";
         $dbname = "sito";
 
         $conn = mysqli_connect($servername, $username, $password, $dbname);
