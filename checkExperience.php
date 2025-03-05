@@ -1,24 +1,6 @@
 
 <?php
-//Include required PHPMailer files
-	require 'phpmailer/includes/PHPMailer.php';
-	require 'phpmailer/includes/SMTP.php';
-	require 'phpmailer/includes/Exception.php';
-//Define name spaces
-	use PHPMailer\PHPMailer\PHPMailer;
-	use PHPMailer\PHPMailer\SMTP;
-	use PHPMailer\PHPMailer\Exception;
-	$mail = new PHPMailer();
-	$mail->isSMTP();
-	$mail->Host = "smtp.gmail.com";
-	$mail->SMTPAuth = true;
-	$mail->SMTPSecure = "tls";
-	$mail->Port = "587";
-	$mail->Username = "ristorantemammasandra@gmail.com";
-	$mail->Password = "MammaSandra275";
-	
-	$mail->setFrom('ristorantemammasandra@gmail.com');
-	$mail->isHTML(true);
+
 
 
 if(isset($_POST['action'])) {
