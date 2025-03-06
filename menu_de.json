@@ -1,27 +1,26 @@
 [
-
     {
         "categoria": "antipasti",
-        "nome": "Soutè di cozze",
+        "nome": "Muscheln in Brühe",
         "prezzo": "12.00",
         "immagine": "assets/cozze.jpeg"
       },
       {
         "categoria": "antipasti",
-        "nome": "Crudi",
+        "nome": "Rohes Fischfilet",
         "prezzo": "28.00",
         "immagine": "assets/crudi.jpg"
       },
       {
         "categoria": "antipasti",
-        "nome": "Ostriche",
-        "prezzo": "4.00 cad.",
+        "nome": "Austern",
+        "prezzo": "4.00 pro Stück",
         "immagine": "assets/ostriche.jpg"
       },
       {
         "categoria": "antipasti",
-        "nome": "Sfiziosità di pesce caldi e freddi",
-        "prezzo": "18.00 - 6 assaggi",
+        "nome": "Fischhäppchen, warm und kalt",
+        "prezzo": "18.00 - 6 Kostproben",
         "immagine": "assets/sfiziosita_pesce.jpg"
       },
       {
@@ -32,13 +31,13 @@
       },
       {
         "categoria": "antipasti",
-        "nome": "Carpaccio di pesce",
+        "nome": "Fischcarpaccio",
         "prezzo": "14.00",
         "immagine": "assets/carpaccio_pesce.jpg"
       },
       {
         "categoria": "antipasti",
-        "nome": "Insalata di mare",
+        "nome": "Meeresfrüchtesalat",
         "prezzo": "16.00",
         "immagine": "assets/insalata_mare.jpg"
       },
@@ -50,25 +49,23 @@
       },
       {
         "categoria": "antipasti",
-        "nome": "Polpo con patate",
+        "nome": "Tintenfisch mit Kartoffeln",
         "prezzo": "16.00",
         "immagine": "assets/polpo_patate.jpg"
       },
-
       {
         "categoria": "antipasti",
-        "nome": "Tagliere di salumi, crostini e formaggi D.O.P. e fantasie di terra",
+        "nome": "Wurst- und Käseplatte mit D.O.P. Wurst, Crostini und landestypischen Köstlichkeiten",
         "prezzo": "20.00",
         "immagine": "assets/tagliere_salumi.jpg"
       },
-
     {
-        "nome": "Spaghetti alle vongole veraci",
+        "nome": "Spaghetti mit Venusmuscheln",
         "categoria": "Primi",
         "prezzo": "16.00"
     },
     {
-        "nome": "Risotto alla crema di scampi",
+        "nome": "Risotto mit Scampi-Creme",
         "categoria": "Primi",
         "prezzo": "14.00"
     },
@@ -78,17 +75,17 @@
         "prezzo": "15.00"
     },
     {
-        "nome": "Linguine all’astice",
+        "nome": "Linguine mit Hummer",
         "categoria": "Primi",
         "prezzo": "22.00"
     },
     {
-        "nome": "Linguine alle aragostelle",
+        "nome": "Linguine mit Langostinos",
         "categoria": "Primi",
         "prezzo": "18.00"
     },
     {
-        "nome": "Tagliolini al granchio",
+        "nome": "Tagliolini mit Krabben",
         "categoria": "Primi",
         "prezzo": "14.00"
     },
@@ -98,12 +95,12 @@
         "prezzo": "16.00"
     },
     {
-        "nome": "Ravioli di spigola al profumo di mare",
+        "nome": "Wolfsbarsch-Ravioli mit Meeresaroma",
         "categoria": "Primi",
         "prezzo": "14.00"
     },
     {
-        "nome": "Gnocchi pesce spada e pistacchio",
+        "nome": "Gnocchi mit Schwertfisch und Pistazien",
         "categoria": "Primi",
         "prezzo": "14.00"
     },
@@ -117,106 +114,105 @@
         "categoria": "Primi",
         "prezzo": "12.00"
     },
-
     {
         "categoria": "secondi",
-        "nome": "Grigliata di pesce",
+        "nome": "Fisch vom Grill",
         "prezzo": "22.00",
         "immagine": "assets/grigliata_pesce.jpg"
       },
       {
         "categoria": "secondi",
-        "nome": "Frittura di calamari e gamberi",
+        "nome": "Frittierte Kalmare und Garnelen",
         "prezzo": "16.00",
         "immagine": "assets/frittura_calamar_gamberi.jpg"
       },
       {
         "categoria": "secondi",
-        "nome": "Miscuglio di pesce",
+        "nome": "Fischmischung",
         "prezzo": "24.00",
         "immagine": "assets/miscuglio_pesce.jpg"
       },
       {
         "categoria": "secondi",
-        "nome": "Tagliata di tonno",
+        "nome": "Thunfischsteak",
         "prezzo": "18.00",
         "immagine": "assets/tagliata_tonno.jpg"
       },
       {
         "categoria": "secondi",
-        "nome": "Rombo al forno con patate",
-        "prezzo": "6.50 all'etto",
+        "nome": "Gebratener Steinbutt mit Kartoffeln",
+        "prezzo": "6.50 pro 100g",
         "immagine": "assets/rombo_patate.jpg"
       },
       {
         "categoria": "secondi",
-        "nome": "Pesce di pescato al forno con patate",
-        "prezzo": "6.50 all'etto",
+        "nome": "Gebackener Fisch mit Kartoffeln",
+        "prezzo": "6.50 pro 100g",
         "immagine": "assets/pescato_patate.jpg"
       },
       {
         "categoria": "secondi",
-        "nome": "Pesce al sale",
-        "prezzo": "7.00 all'etto",
+        "nome": "Fisch in Salzkruste",
+        "prezzo": "7.00 pro 100g",
         "immagine": "assets/pesce_sale.jpg"
       },
       {
         "categoria": "secondi",
-        "nome": "Orata di allevamento al forno con patate",
+        "nome": "Gebackene Dorade mit Kartoffeln",
         "prezzo": "18.00",
         "immagine": "assets/orata_patate.jpg"
       },
       {
         "categoria": "secondi",
-        "nome": "Zuppa di pesce",
+        "nome": "Fischsuppe",
         "prezzo": "55.00",
         "immagine": "assets/zuppa_pesce.jpg"
       },
       {
         "categoria": "secondi",
-        "nome": "Zuppa di crostacei",
+        "nome": "Krustentiersuppe",
         "prezzo": "60.00",
         "immagine": "assets/zuppa_crostacei.jpg"
       },
       {
         "categoria": "secondi",
-        "nome": "Trancio di salmone croccante alle erbe",
+        "nome": "Knuspriges Lachsteak mit Kräutern",
         "prezzo": "16.00",
         "immagine": "assets/salmone_erbe.jpg"
       },
       {
         "categoria": "secondi",
-        "nome": "Bistecca di manzo",
+        "nome": "Rindersteak",
         "prezzo": "18.00",
         "immagine": "assets/bistecca_manzo.jpg"
       },
       {
         "categoria": "contorni",
-        "nome": "Insalata mista o verde",
+        "nome": "Gemischter Salat oder Grüner Salat",
         "prezzo": "5.00",
         "immagine": "assets/insalata_mista.jpg"
       },
       {
         "categoria": "contorni",
-        "nome": "Patatine fritte o al forno",
+        "nome": "Pommes frites oder Ofenkartoffeln",
         "prezzo": "5.00",
         "immagine": "assets/patatine_fritte_forno.jpg"
       },
       {
         "categoria": "contorni",
-        "nome": "Cicoria ripassata in padella o all’agro",
+        "nome": "Cicoria in der Pfanne oder mit Essig",
         "prezzo": "5.00",
         "immagine": "assets/cicoria_ripassata.jpg"
       },
       {
         "categoria": "da bere",
-        "nome": "Acqua minerale",
+        "nome": "Mineralwasser",
         "prezzo": "2.50",
         "immagine": "assets/acqua_minerale.jpg"
       },
       {
         "categoria": "da bere",
-        "nome": "Birra – 0,25l",
+        "nome": "Bier – 0,25l",
         "prezzo": "4.00",
         "immagine": "assets/birra_025l.jpg"
       },
@@ -228,31 +224,31 @@
       },
       {
         "categoria": "da bere",
-        "nome": "Birra – 0,5l",
+        "nome": "Bier – 0,5l",
         "prezzo": "6.00",
         "immagine": "assets/birra_05l.jpg"
       },
       {
         "categoria": "da bere",
-        "nome": "Thè freddo alla pesca / limone",
+        "nome": "Eistee Pfirsich / Zitrone",
         "prezzo": "3.00",
         "immagine": "assets/the_freddo.jpg"
       },
       {
         "categoria": "da bere",
-        "nome": "Succhi di frutta",
+        "nome": "Fruchtsäfte",
         "prezzo": "3.00",
         "immagine": "assets/succhi_frutta.jpg"
       },
       {
         "categoria": "da bere",
-        "nome": "Birra Peroni – 0,66l",
+        "nome": "Peroni Bier – 0,66l",
         "prezzo": "6.00",
         "immagine": "assets/birra_peroni_066l.jpg"
       },
       {
         "categoria": "da bere",
-        "nome": "Birra Ichnusa/Corona – 0,33l",
+        "nome": "Ichnusa/Corona Bier – 0,33l",
         "prezzo": "4.00",
         "immagine": "assets/birra_ichnusa_corona_033l.jpg"
       },
@@ -264,13 +260,13 @@
       },
       {
         "categoria": "dessert",
-        "nome": "Panna cotta ai frutti di bosco",
+        "nome": "Panna cotta mit Beeren",
         "prezzo": "6.00",
         "immagine": "assets/panna_cotta_frutti_bosco.jpg"
       },
       {
         "categoria": "dessert",
-        "nome": "Panna cotta al pistacchio di Bronte",
+        "nome": "Panna cotta mit Bronte-Pistazien",
         "prezzo": "6.00",
         "immagine": "assets/panna_cotta_pistacchio.jpg"
       },
@@ -282,19 +278,19 @@
       },
       {
         "categoria": "dessert",
-        "nome": "Millefoglie dello chef",
+        "nome": "Millefoglie vom Chef",
         "prezzo": "6.00",
         "immagine": "assets/millefoglie.jpg"
       },
       {
         "categoria": "dessert",
-        "nome": "Soufflé al cioccolato con cuore caldo",
+        "nome": "Schokoladensoufflé mit warmem Kern",
         "prezzo": "6.00",
         "immagine": "assets/souffle_cioccolato.jpg"
       },
       {
         "categoria": "dessert",
-        "nome": "Sorbetto al limone",
+        "nome": "Zitronensorbet",
         "prezzo": "6.00",
         "immagine": "assets/sorbetto_limone.jpg"
       },
@@ -318,25 +314,25 @@
       },
       {
         "categoria": "dessert",
-        "nome": "Bavarese al cioccolato e Baileys",
+        "nome": "Bavaroise mit Schokolade und Baileys",
         "prezzo": "6.00",
         "immagine": "assets/bavarese_cioccolato_baileys.jpg"
       },
       {
         "categoria": "dessert",
-        "nome": "Bavarese al cioccolato bianco, agrumi e limoncello",
+        "nome": "Bavaroise mit weißer Schokolade, Zitrusfrüchten und Limoncello",
         "prezzo": "6.00",
         "immagine": "assets/bavarese_cioccolato_bianco.jpg"
       },
       {
         "categoria": "caffetteria",
-        "nome": "Caffè espresso",
+        "nome": "Espresso",
         "prezzo": "2.00",
         "immagine": "assets/caffe_espresso.jpg"
       },
       {
         "categoria": "caffetteria",
-        "nome": "Caffè decaffeinato",
+        "nome": "Entkoffeinierter Kaffee",
         "prezzo": "2.00",
         "immagine": "assets/caffe_decaffeinato.jpg"
       },
@@ -360,13 +356,13 @@
       },
       {
         "categoria": "caffetteria",
-        "nome": "Cappuccino decaffeinato",
+        "nome": "Entkoffeinierter Cappuccino",
         "prezzo": "2.50",
         "immagine": "assets/cappuccino_decaffeinato.jpg"
       },
       {
         "categoria": "caffetteria",
-        "nome": "Tè/Camomilla",
+        "nome": "Tee/Kamille",
         "prezzo": "2.50",
         "immagine": "assets/te_camomilla.jpg"
       },
@@ -419,8 +415,8 @@
       {"categoria": "bollicine", "nome": "Franciacorta DOCG Brut", "prezzo": "32.00"},
       {"categoria": "bollicine", "nome": "Franciacorta DOCG Rosé", "prezzo": "35.00"},
       {"categoria": "bollicine", "nome": "Franciacorta DOCG Satèn", "prezzo": "39.00"},
-      {"categoria": "liquori", "nome": "Talisker 12 anni", "prezzo": "8.00"},
-      {"categoria": "liquori", "nome": "Caol Ila 12 anni", "prezzo": "9.00"},
+      {"categoria": "liquori", "nome": "Talisker 12 Jahre", "prezzo": "8.00"},
+      {"categoria": "liquori", "nome": "Caol Ila 12 Jahre", "prezzo": "9.00"},
       {"categoria": "liquori", "nome": "Irish Whisky Tullamore Dew", "prezzo": "7.00"},
       {"categoria": "liquori", "nome": "Bourbon Whisky Wild Turkey", "prezzo": "7.00"},
       {"categoria": "liquori", "nome": "Flor de Cana", "prezzo": "8.00"},
@@ -431,5 +427,4 @@
       {"categoria": "liquori", "nome": "Limoncello", "prezzo": "4.00"},
       {"categoria": "liquori", "nome": "Baileys", "prezzo": "6.00"},
       {"categoria": "liquori", "nome": "Cointreau", "prezzo": "6.00"}
-      
 ]

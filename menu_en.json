@@ -1,0 +1,678 @@
+[
+    {
+        "categoria": "antipasti",
+        "nome": "Mussel soup",
+        "prezzo": "12.00",
+        "immagine": "assets/cozze.jpeg"
+    },
+    {
+        "categoria": "antipasti",
+        "nome": "Raw fish platter",
+        "prezzo": "28.00",
+        "immagine": "assets/crudi.jpg"
+    },
+    {
+        "categoria": "antipasti",
+        "nome": "Oysters",
+        "prezzo": "4.00 each",
+        "immagine": "assets/ostriche.jpg"
+    },
+    {
+        "categoria": "antipasti",
+        "nome": "Assorted hot and cold fish delicacies",
+        "prezzo": "18.00 - 6 tastings",
+        "immagine": "assets/sfiziosita_pesce.jpg"
+    },
+    {
+        "categoria": "antipasti",
+        "nome": "Trio of tartare",
+        "prezzo": "18.00",
+        "immagine": "assets/tris_tartare.jpg"
+    },
+    {
+        "categoria": "antipasti",
+        "nome": "Fish carpaccio",
+        "prezzo": "14.00",
+        "immagine": "assets/carpaccio_pesce.jpg"
+    },
+    {
+        "categoria": "antipasti",
+        "nome": "Seafood salad",
+        "prezzo": "16.00",
+        "immagine": "assets/insalata_mare.jpg"
+    },
+    {
+        "categoria": "antipasti",
+        "nome": "Luciana-style baby octopus",
+        "prezzo": "12.00",
+        "immagine": "assets/polipetti_luciana.jpg"
+    },
+    {
+        "categoria": "antipasti",
+        "nome": "Octopus with potatoes",
+        "prezzo": "16.00",
+        "immagine": "assets/polpo_patate.jpg"
+    },
+    {
+        "categoria": "antipasti",
+        "nome": "Platter of cured meats, crostini, and D.O.P. cheeses with land delicacies",
+        "prezzo": "20.00",
+        "immagine": "assets/tagliere_salumi.jpg"
+    },
+    {
+        "nome": "Spaghetti with clams",
+        "categoria": "Primi",
+        "prezzo": "16.00"
+    },
+    {
+        "nome": "Scampi cream risotto",
+        "categoria": "Primi",
+        "prezzo": "14.00"
+    },
+    {
+        "nome": "Seafood risotto",
+        "categoria": "Primi",
+        "prezzo": "15.00"
+    },
+    {
+        "nome": "Linguine with lobster",
+        "categoria": "Primi",
+        "prezzo": "22.00"
+    },
+    {
+        "nome": "Linguine with small lobsters",
+        "categoria": "Primi",
+        "prezzo": "18.00"
+    },
+    {
+        "nome": "Tagliolini with crab",
+        "categoria": "Primi",
+        "prezzo": "14.00"
+    },
+    {
+        "nome": "Tonnarelli with seafood",
+        "categoria": "Primi",
+        "prezzo": "16.00"
+    },
+    {
+        "nome": "Sea bass ravioli with a hint of the sea",
+        "categoria": "Primi",
+        "prezzo": "14.00"
+    },
+    {
+        "nome": "Swordfish and pistachio gnocchi",
+        "categoria": "Primi",
+        "prezzo": "14.00"
+    },
+    {
+        "nome": "Carbonara",
+        "categoria": "Primi",
+        "prezzo": "12.00"
+    },
+    {
+        "nome": "Cacio e pepe",
+        "categoria": "Primi",
+        "prezzo": "12.00"
+    },
+    {
+        "categoria": "secondi",
+        "nome": "Grilled fish platter",
+        "prezzo": "22.00",
+        "immagine": "assets/grigliata_pesce.jpg"
+    },
+    {
+        "categoria": "secondi",
+        "nome": "Fried calamari and shrimp",
+        "prezzo": "16.00",
+        "immagine": "assets/frittura_calamar_gamberi.jpg"
+    },
+    {
+        "categoria": "secondi",
+        "nome": "Mixed fish platter",
+        "prezzo": "24.00",
+        "immagine": "assets/miscuglio_pesce.jpg"
+    },
+    {
+        "categoria": "secondi",
+        "nome": "Tuna steak",
+        "prezzo": "18.00",
+        "immagine": "assets/tagliata_tonno.jpg"
+    },
+    {
+        "categoria": "secondi",
+        "nome": "Baked turbot with potatoes",
+        "prezzo": "6.50 per 100g",
+        "immagine": "assets/rombo_patate.jpg"
+    },
+    {
+        "categoria": "secondi",
+        "nome": "Baked catch of the day with potatoes",
+        "prezzo": "6.50 per 100g",
+        "immagine": "assets/pescato_patate.jpg"
+    },
+    {
+        "categoria": "secondi",
+        "nome": "Salt-crusted fish",
+        "prezzo": "7.00 per 100g",
+        "immagine": "assets/pesce_sale.jpg"
+    },
+    {
+        "categoria": "secondi",
+        "nome": "Baked farmed sea bream with potatoes",
+        "prezzo": "18.00",
+        "immagine": "assets/orata_patate.jpg"
+    },
+    {
+        "categoria": "secondi",
+        "nome": "Fish soup",
+        "prezzo": "55.00",
+        "immagine": "assets/zuppa_pesce.jpg"
+    },
+    {
+        "categoria": "secondi",
+        "nome": "Shellfish soup",
+        "prezzo": "60.00",
+        "immagine": "assets/zuppa_crostacei.jpg"
+    },
+    {
+        "categoria": "secondi",
+        "nome": "Crispy herb-crusted salmon fillet",
+        "prezzo": "16.00",
+        "immagine": "assets/salmone_erbe.jpg"
+    },
+    {
+        "categoria": "secondi",
+        "nome": "Beef steak",
+        "prezzo": "18.00",
+        "immagine": "assets/bistecca_manzo.jpg"
+    },
+    {
+        "categoria": "contorni",
+        "nome": "Mixed or green salad",
+        "prezzo": "5.00",
+        "immagine": "assets/insalata_mista.jpg"
+    },
+    {
+        "categoria": "contorni",
+        "nome": "French fries or baked potatoes",
+        "prezzo": "5.00",
+        "immagine": "assets/patatine_fritte_forno.jpg"
+    },
+    {
+        "categoria": "contorni",
+        "nome": "Sautéed chicory or with vinegar",
+        "prezzo": "5.00",
+        "immagine": "assets/cicoria_ripassata.jpg"
+    },
+    {
+        "categoria": "da bere",
+        "nome": "Mineral water",
+        "prezzo": "2.50",
+        "immagine": "assets/acqua_minerale.jpg"
+    },
+    {
+        "categoria": "da bere",
+        "nome": "Beer – 0.25l",
+        "prezzo": "4.00",
+        "immagine": "assets/birra_025l.jpg"
+    },
+    {
+        "categoria": "da bere",
+        "nome": "Fanta/Cola/Sprite",
+        "prezzo": "3.00",
+        "immagine": "assets/fanta_cola_sprite.jpg"
+    },
+    {
+        "categoria": "da bere",
+        "nome": "Beer – 0.5l",
+        "prezzo": "6.00",
+        "immagine": "assets/birra_05l.jpg"
+    },
+    {
+        "categoria": "da bere",
+        "nome": "Peach/lemon iced tea",
+        "prezzo": "3.00",
+        "immagine": "assets/the_freddo.jpg"
+    },
+    {
+        "categoria": "da bere",
+        "nome": "Fruit juices",
+        "prezzo": "3.00",
+        "immagine": "assets/succhi_frutta.jpg"
+    },
+    {
+        "categoria": "da bere",
+        "nome": "Peroni beer – 0.66l",
+        "prezzo": "6.00",
+        "immagine": "assets/birra_peroni_066l.jpg"
+    },
+    {
+        "categoria": "da bere",
+        "nome": "Ichnusa/Corona beer – 0.33l",
+        "prezzo": "4.00",
+        "immagine": "assets/birra_ichnusa_corona_033l.jpg"
+    },
+    {
+        "categoria": "dessert",
+        "nome": "Tiramisu",
+        "prezzo": "6.00",
+        "immagine": "assets/tiramisu.jpg"
+    },
+    {
+        "categoria": "dessert",
+        "nome": "Panna cotta with berries",
+        "prezzo": "6.00",
+        "immagine": "assets/panna_cotta_frutti_bosco.jpg"
+    },
+    {
+        "categoria": "dessert",
+        "nome": "Panna cotta with Bronte pistachio",
+        "prezzo": "6.00",
+        "immagine": "assets/panna_cotta_pistacchio.jpg"
+    },
+    {
+        "categoria": "dessert",
+        "nome": "Crème caramel",
+        "prezzo": "6.00",
+        "immagine": "assets/creme_caramel.jpg"
+    },
+    {
+        "categoria": "dessert",
+        "nome": "Chef's mille-feuille",
+        "prezzo": "6.00",
+        "immagine": "assets/millefoglie.jpg"
+    },
+    {
+        "categoria": "dessert",
+        "nome": "Chocolate soufflé with warm heart",
+        "prezzo": "6.00",
+        "immagine": "assets/souffle_cioccolato.jpg"
+    },
+    {
+        "categoria": "dessert",
+        "nome": "Lemon sorbet",
+        "prezzo": "6.00",
+        "immagine": "assets/sorbetto_limone.jpg"
+    },
+    {
+        "categoria": "dessert",
+        "nome": "Crème brûlée",
+        "prezzo": "6.00",
+        "immagine": "assets/crema_catalana.jpg"
+    },
+    {
+        "categoria": "dessert",
+        "nome": "Cherubino cup",
+        "prezzo": "6.00",
+        "immagine": "assets/coppa_cherubino.jpg"
+    },
+    {
+        "categoria": "dessert",
+        "nome": "Cheesecake",
+        "prezzo": "6.00",
+        "immagine": "assets/cheesecake.jpg"
+    },
+    {
+        "categoria": "dessert",
+        "nome": "Chocolate and Baileys bavarois",
+        "prezzo": "6.00",
+        "immagine": "assets/bavarese_cioccolato_baileys.jpg"
+    },
+    {
+        "categoria": "dessert",
+        "nome": "White chocolate, citrus, and limoncello bavarois",
+        "prezzo": "6.00",
+        "immagine": "assets/bavarese_cioccolato_bianco.jpg"
+    },
+    {
+        "categoria": "caffetteria",
+        "nome": "Espresso coffee",
+        "prezzo": "2.00",
+        "immagine": "assets/caffe_espresso.jpg"
+    },
+    {
+        "categoria": "caffetteria",
+        "nome": "Decaffeinated coffee",
+        "prezzo": "2.00",
+        "immagine": "assets/caffe_decaffeinato.jpg"
+    },
+    {
+        "categoria": "caffetteria",
+        "nome": "Cappuccino",
+        "prezzo": "2.50",
+        "immagine": "assets/cappuccino.jpg"
+    },
+    {
+        "categoria": "caffetteria",
+        "nome": "Caffè Latte",
+        "prezzo": "3.00",
+        "immagine": "assets/caffe_latte.jpg"
+    },
+    {
+        "categoria": "caffetteria",
+        "nome": "Americano coffee",
+        "prezzo": "2.50",
+        "immagine": "assets/caffe_americano.jpg"
+    },
+    {
+        "categoria": "caffetteria",
+        "nome": "Decaffeinated cappuccino",
+        "prezzo": "2.50",
+        "immagine": "assets/cappuccino_decaffeinato.jpg"
+    },
+    {
+        "categoria": "caffetteria",
+        "nome": "Tea/Chamomile",
+        "prezzo": "2.50",
+        "immagine": "assets/te_camomilla.jpg"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Gewurztraminer",
+        "prezzo": "26.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Muller Thurgau",
+        "prezzo": "25.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Riesling",
+        "prezzo": "26.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Silvaner",
+        "prezzo": "25.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Pecorino",
+        "prezzo": "17.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Trebbiano",
+        "prezzo": "17.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Fiano di Avellino",
+        "prezzo": "22.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Greco di Tufo",
+        "prezzo": "22.00",
+        "quantita": "0.75lt"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Greco di Tufo",
+        "prezzo": "12.00",
+        "quantita": "0.375lt"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Falanghina",
+        "prezzo": "18.00",
+        "quantita": "0.75lt"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Falanghina",
+        "prezzo": "11.00",
+        "quantita": "0.375lt"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "More Maiorum",
+        "prezzo": "30.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Chardonnay",
+        "prezzo": "20.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Cataratto",
+        "prezzo": "18.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Insolia",
+        "prezzo": "18.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Kikè Fina",
+        "prezzo": "22.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Ansonica",
+        "prezzo": "22.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Viognier",
+        "prezzo": "21.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Ribolla Gialla",
+        "prezzo": "20.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Pinot Grigio",
+        "prezzo": "20.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Friuliano Colli Orientali del Friuli DOC",
+        "prezzo": "20.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Sauvignon",
+        "prezzo": "18.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Traminer",
+        "prezzo": "18.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Passerina",
+        "prezzo": "18.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Roma Bianco DOC 2020",
+        "prezzo": "18.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Vermentino di Gallura",
+        "prezzo": "18.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Lintóri Vermentino di Sardegna DOC",
+        "prezzo": "28.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Vign'Angena Vermentino di Gallura DOCG",
+        "prezzo": "49.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Roero Arneis DOCG",
+        "prezzo": "18.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Gavi DOCG",
+        "prezzo": "18.00"
+    },
+    {
+        "categoria": "rossi",
+        "nome": "Lacryma Christi del Vesuvio Rosso DOC",
+        "prezzo": "18.00"
+    },
+    {
+        "categoria": "rossi",
+        "nome": "Lacrimarosa Irpinia Rosato",
+        "prezzo": "18.00"
+    },
+    {
+        "categoria": "rossi",
+        "nome": "Morellino di Scansano DOCG",
+        "prezzo": "18.00"
+    },
+    {
+        "categoria": "rossi",
+        "nome": "Chianti",
+        "prezzo": "18.00"
+    },
+    {
+        "categoria": "rossi",
+        "nome": "Barolo DOCG 2017",
+        "prezzo": "60.00"
+    },
+    {
+        "categoria": "rossi",
+        "nome": "Primo Scuro Cannonau di Sardegna DOC",
+        "prezzo": "18.00"
+    },
+    {
+        "categoria": "rossi",
+        "nome": "Radici Taurasi DOCG",
+        "prezzo": "46.00"
+    },
+    {
+        "categoria": "rossi",
+        "nome": "Syrah",
+        "prezzo": "18.00"
+    },
+    {
+        "categoria": "bollicine",
+        "nome": "Prosecco Valdobbiadene Brut DOCG",
+        "prezzo": "20.00"
+    },
+    {
+        "categoria": "bollicine",
+        "nome": "Prosecco Valdobbiadene Extra Dry DOCG",
+        "prezzo": "22.00"
+    },
+    {
+        "categoria": "bollicine",
+        "nome": "Prosecco Valdobbiadene Rosé DOCG",
+        "prezzo": "20.00"
+    },
+    {
+        "categoria": "bollicine",
+        "nome": "Valdobbiadene Prosecco Extra Dry \"Dirupo\"",
+        "prezzo": "24.00"
+    },
+    {
+        "categoria": "bollicine",
+        "nome": "Valdobbiadene Prosecco Brut \"Dirupo\"",
+        "prezzo": "24.00"
+    },
+    {
+        "categoria": "bollicine",
+        "nome": "Ferrari Brut Metodo Classico",
+        "prezzo": "30.00"
+    },
+    {
+        "categoria": "bollicine",
+        "nome": "Ferrari Rosé Metodo Classico",
+        "prezzo": "35.00"
+    },
+    {
+        "categoria": "bollicine",
+        "nome": "Champagne Brut",
+        "prezzo": "75.00"
+    },
+    {
+        "categoria": "bollicine",
+        "nome": "Franciacorta DOCG Brut",
+        "prezzo": "32.00"
+    },
+    {
+        "categoria": "bollicine",
+        "nome": "Franciacorta DOCG Rosé",
+        "prezzo": "35.00"
+    },
+    {
+        "categoria": "bollicine",
+        "nome": "Franciacorta DOCG Satèn",
+        "prezzo": "39.00"
+    },
+    {
+        "categoria": "liquori",
+        "nome": "Talisker 12 anni",
+        "prezzo": "8.00"
+    },
+    {
+        "categoria": "liquori",
+        "nome": "Caol Ila 12 anni",
+        "prezzo": "9.00"
+    },
+    {
+        "categoria": "liquori",
+        "nome": "Irish Whisky Tullamore Dew",
+        "prezzo": "7.00"
+    },
+    {
+        "categoria": "liquori",
+        "nome": "Bourbon Whisky Wild Turkey",
+        "prezzo": "7.00"
+    },
+    {
+        "categoria": "liquori",
+        "nome": "Flor de Cana",
+        "prezzo": "8.00"
+    },
+    {
+        "categoria": "liquori",
+        "nome": "Zacapa",
+        "prezzo": "9.00"
+    },
+    {
+        "categoria": "liquori",
+        "nome": "Armagnac Chevalier D’Espalet",
+        "prezzo": "8.00"
+    },
+    {
+        "categoria": "liquori",
+        "nome": "903 Barrique Grappe Maschio",
+        "prezzo": "5.00"
+    },
+    {
+        "categoria": "liquori",
+        "nome": "Amaro",
+        "prezzo": "4.00"
+    },
+    {
+        "categoria": "liquori",
+        "nome": "Limoncello",
+        "prezzo": "4.00"
+    },
+    {
+        "categoria": "liquori",
+        "nome": "Baileys",
+        "prezzo": "6.00"
+    },
+    {
+        "categoria": "liquori",
+        "nome": "Cointreau",
+        "prezzo": "6.00"
+    }
+]

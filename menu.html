@@ -1,9 +1,11 @@
 <!DOCTYPE html>
+
+
 <html lang="it">
 <head>
   <meta charset="UTF-8">
   <script src="js/fontawesome.js" ></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <link rel="icon" href="assets/logomenu.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Menu - Osteria Del Pirgo</title>
@@ -19,6 +21,50 @@
       background-color: #f8f8f8;
     }
 
+    .logo-container img {
+    width: 90%;
+    max-width: 200px;
+  }
+
+    .menu-item {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.menu-item.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.language-selector {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.language-selector img {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: transform 0.2s;
+}
+
+.language-selector img.active {
+  transform: scale(1.8);
+}
+
+
+.language-selector img:hover {
+    transform: scale(1.1);
+}
+
+
+
     @media screen and (max-width: 768px) {
   /* Rende il pulsante home più piccolo e lo sposta */
   .home-button {
@@ -28,6 +74,7 @@
     height: 40px;
     font-size: 20px;
   }
+
 
   /* Migliora il layout delle categorie su schermi piccoli */
   .categories {
@@ -61,9 +108,9 @@
   }
 
   /* Migliora la leggibilità del titolo */
-  .menu h1 {
-    font-size: 2em;
-  }
+  .menu h1.custom-font {
+        font-size: 1em; /* Riduce la dimensione del font per schermi più piccoli */
+    }
 
   /* Ottimizza il logo */
   .logo-container img {
@@ -77,6 +124,44 @@
     max-width: 400px;
   }
 }
+.fa-info-circle{
+  font-size: 20px;
+}
+
+.categories button {
+      background-color: #ddd;
+      border: none;
+      padding: 10px 15px;
+      margin: 5px;
+      cursor: pointer;
+    }
+
+    .categories button.active {
+    background-color: #bbb;
+    font-weight: bold;
+    color: white;
+}
+
+.allergens-container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .allergens-container h2 {
+      font-size: 1.8em;
+      margin-bottom: 10px;
+    }
+    .allergens-container ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .allergens-container li {
+      padding: 8px;
+      border-bottom: 1px solid #ddd;
+    }
 
 @media screen and (max-width: 480px) {
   /* Ulteriore adattamento per smartphone piccoli */
@@ -85,8 +170,15 @@
     padding: 6px 10px;
   }
 
+  .custom-font{
+      font-family: "Alex Brush", cursive;
+      color: #000000;
+      font-size: 20px;
+      line-height: 0;
+    }
+
   .menu h1 {
-    font-size: 1.8em;
+    font-size: 2px;
   }
 
   .menu-item img {
@@ -122,7 +214,7 @@
     }
 
     .dropdown-content button {
-      width: 100%;
+      width: 95%;
       text-align: left;
       padding: 10px;
       border: none;
@@ -206,9 +298,13 @@
     .categories button:hover {
       background-color: #d2d2d2;
     }
-    .categories button:active{
-      background-color: #d2d2d2;
-    }
+    .categories button.active {
+    background-color: #bbb;
+    font-weight: bold;
+    color: white;
+}
+
+
     .menu-items {
       width: 80%;
       max-width: 800px;
@@ -270,97 +366,297 @@
       font-size: 20px;
       font-weight: bold;
     }
-    @media (prefers-color-scheme: dark) {
-      .logo {
-        content: url("assets/navlogo.png");
-      }
-  body {
-    background-color: #121212 !important;
-    color: white !important;
-  }
 
-  .categories button {
-    background-color: #333 !important;
-    color: white !important;
-  }
-
-  h1, h1 span {
-    color: white !important;
-  }
-
-  /* Cambia colore ai pulsanti di categoria */
-  .categories button {
-    background-color: #333 !important;
-    color: white !important;
-  }
-
-  /* Cambia il colore dei menu-items */
-  .menu-item {
-    background-color: #222 !important;
-    color: white !important;
-  }
-
-  /* Assicura che i prezzi siano bianchi */
-  .menu-item .price {
-    color: white !important;
-  }
-
-  .home-button{
-        color: #ffffff;
-      }
-}
 
   </style>
 
 
 
 <script>
-  async function loadMenu() {
-    try {
-      const response = await fetch('menu.json');
-      const menuItems = await response.json();
-      const menuContainer = document.getElementById('menu-items');
-      menuContainer.innerHTML = '';
-      
-      menuItems.forEach(item => {
-        const menuItem = document.createElement('div');
-        menuItem.classList.add('menu-item');
-        menuItem.setAttribute('data-category', item.categoria);
-        
-        let imgPath = item.immagine;
-        let imgElement = new Image();
-        imgElement.src = imgPath;
-        imgElement.alt = item.nome;
-        imgElement.onload = function() {
-          menuItem.innerHTML = `
-            <img src="${imgPath}" alt="${item.nome}">
-            <div class="info">
-              <h3>${item.nome}</h3>
-            </div>
-            <span class="price">${item.prezzo}</span>
-          `;
-        };
-        imgElement.onerror = function() {
-          menuItem.innerHTML = `
-            <div class="info">
-              <h3>${item.nome}</h3>
-            </div>
-            <span class="price">${item.prezzo}</span>
-          `;
-        };
-        menuContainer.appendChild(menuItem);
-      });
-    } catch (error) {
-      console.error('Errore nel caricamento del menu:', error);
-    }
-  }
+const translations = {
+  it: {
+    antipasti: "Antipasti",
+    primi: "Primi Piatti",
+    secondi: "Secondi Piatti",
+    contorni: "Contorni",
+    da_bere: "Bevande",
+    dessert: "Desserts",
+    caffetteria: "Caffetteria",
+    carta_vini: "Carta dei Vini ▼",
+    bianchi: "Vini Bianchi",
+    rossi: "Vini Rossi",
+    bollicine: "Bollicine",
+    liquori: "Liquori"
+  },
+  en: {
+    antipasti: "Appetizers",
+    primi: "First Courses",
+    secondi: "Main Courses",
+    contorni: "Side Dishes",
+    da_bere: "Drinks",
+    dessert: "Desserts",
+    caffetteria: "Coffee Bar",
+    carta_vini: "Wine List ▼",
+    bianchi: "White Wines",
+    rossi: "Red Wines",
+    bollicine: "Sparkling Wines",
+    liquori: "Liquors"
+  },
+  es: {
+    antipasti: "Entrantes",
+    primi: "Primeros Platos",
+    secondi: "Platos Principales",
+    contorni:"Guarniciones",
+    da_bere: "Bebidas",
+    dessert: "Postres",
+    caffetteria: "Cafetería",
+    carta_vini: "Carta de Vinos ▼",
+    bianchi: "Vinos Blancos",
+    rossi: "Vinos Tintos",
+    bollicine: "Vinos Espumosos",
+    liquori: "Licores"
+  },
 
-  function filterMenu(category) {
-    let items = document.querySelectorAll('.menu-item');
-    items.forEach(item => {
-      item.style.display = item.getAttribute('data-category') === category ? 'flex' : 'none';
+  de: {
+  antipasti: "Vorspeisen",
+  primi: "Hauptspeisen",
+  secondi: "Hauptgerichte",
+  contorni: "Beilagen",
+  da_bere: "Getränke",
+  dessert: "Desserts",
+  caffetteria: "Kaffee",
+  carta_vini: "Weinkarte ▼",
+  bianchi: "Weißweine",
+  rossi: "Rotweine",
+  bollicine: "Schaumweine",
+  liquori: "Spirituosen"
+},
+
+fr: {
+  antipasti: "Entreès",
+  primi: "Plat Principal",
+  secondi: "Seconds Plats",
+  contorni: "Accompagnements",
+  da_bere: "Boissons",
+  dessert: "Desserts",
+  caffetteria: "Cafétéria",
+  carta_vini: "Carte des Vins ▼",
+  bianchi: "Vins Blancs",
+  rossi: "Vins Rouges",
+  bollicine: "Vins Effervescents",
+  liquori: "Liqueurs"
+},
+
+ru: {
+  antipasti: "Антипасти",
+  primi: "Первые блюда",
+  secondi: "Основные блюда",
+  contorni: "Гарниры",
+  da_bere: "Напитки",
+  dessert: "Десерты",
+  caffetteria: "Кофейня",
+  carta_vini: "Карта вин ▼",
+  bianchi: "Белые вина",
+  rossi: "Красные вина",
+  bollicine: "Игристые вина",
+  liquori: "Ликёры"
+}
+
+
+
+  // Aggiungi altre lingue se necessario
+};
+
+
+
+
+
+let currentLanguage = 'it'; // Default italiano
+
+function changeLanguage(lang, button) {
+    currentLanguage = lang;
+    localStorage.setItem('menuLanguage', lang); // Salva la lingua scelta
+    loadMenu();
+
+    // Cambia il testo dei pulsanti
+    updateButtonText(lang);
+
+    document.querySelectorAll('.language-selector img').forEach(btn => btn.classList.remove('active'));
+    document.querySelectorAll('.categories button').forEach(btn => btn.classList.remove('active'));
+
+    if (button) {
+        button.classList.add('active');
+    }
+
+    
+}
+
+// Funzione per aggiornare i testi dei tasti
+function updateButtonText(lang) {
+    document.querySelector('button[onclick="filterMenu(\'antipasti\', this)"]').textContent = translations[lang].antipasti;
+    document.querySelector('button[onclick="filterMenu(\'Primi\', this)"]').textContent = translations[lang].primi;
+    document.querySelector('button[onclick="filterMenu(\'secondi\', this)"]').textContent = translations[lang].secondi;
+    document.querySelector('button[onclick="filterMenu(\'contorni\', this)"]').textContent = translations[lang].contorni;
+
+    document.querySelector('button[onclick="filterMenu(\'da bere\', this)"]').textContent = translations[lang].da_bere;
+    document.querySelector('button[onclick="filterMenu(\'dessert\', this)"]').textContent = translations[lang].dessert;
+    document.querySelector('button[onclick="filterMenu(\'caffetteria\', this)"]').textContent = translations[lang].caffetteria;
+
+    // Se hai un menu a tendina per la carta dei vini
+    const wineListButton = document.querySelector('.dropdown button');
+    if (wineListButton) {
+        wineListButton.textContent = translations[lang].carta_vini;
+    }
+    const wineSubButtons = document.querySelectorAll('.dropdown-content button');
+    wineSubButtons[0].textContent = translations[lang].bianchi;
+    wineSubButtons[1].textContent = translations[lang].rossi;
+    wineSubButtons[2].textContent = translations[lang].bollicine;
+    wineSubButtons[3].textContent = translations[lang].liquori;
+}
+
+
+async function loadMenu() {
+    try {
+        // Se è la prima volta, usa il menu predefinito "menu.json"
+        let menuFile = currentLanguage === 'it' ? 'menu.json' : `menu_${currentLanguage}.json`;
+        
+        const response = await fetch(menuFile);
+        const menuItems = await response.json();
+        const menuContainer = document.getElementById('menu-items');
+        menuContainer.innerHTML = '';
+
+        menuItems.forEach((item, index) => {
+            const menuItem = document.createElement('div');
+            menuItem.classList.add('menu-item');
+            menuItem.setAttribute('data-category', item.categoria);
+
+            let imgPath = item.immagine || '';
+            let imgElement = new Image();
+            imgElement.src = imgPath;
+            imgElement.alt = item.nome;
+
+            let prezzoQuantita = `${item.prezzo}€`;
+            if (item.quantita) {
+                prezzoQuantita += ` (${item.quantita})`;
+            }
+
+            imgElement.onload = function () {
+                menuItem.innerHTML = `
+                    <img src="${imgPath}" alt="${item.nome}">
+                    <div class="info">
+                        <h3>${item.nome}</h3>
+                    </div>
+                    <span class="price">${prezzoQuantita}</span>
+                `;
+                setTimeout(() => menuItem.classList.add('show'), index * 100);
+            };
+
+            imgElement.onerror = function () {
+                menuItem.innerHTML = `
+                    <div class="info">
+                        <h3>${item.nome}</h3>
+                    </div>
+                    <span class="price">${prezzoQuantita}</span>
+                `;
+                setTimeout(() => menuItem.classList.add('show'), index * 100);
+            };
+
+            menuItem.addEventListener('click', () => {
+                let popupConfig = {
+                    title: item.nome,
+                    text: `${prezzoQuantita}`,
+                    showCloseButton: true,
+                    showConfirmButton: false
+                  
+                };
+
+                if (imgPath) {
+                    popupConfig.imageUrl = imgPath;
+                    popupConfig.imageWidth = 300;
+                    popupConfig.imageAlt = item.nome;
+                }
+
+                Swal.fire(popupConfig);
+            });
+
+            menuContainer.appendChild(menuItem);
+        });
+    } catch (error) {
+        console.error('Errore nel caricamento del menu:', error);
+    }
+}
+
+// Quando la pagina si carica
+document.addEventListener("DOMContentLoaded", () => {
+    const savedLanguage = localStorage.getItem('menuLanguage');
+    
+    // Se c'è una lingua salvata, usala, altrimenti usa il default (italiano)
+    if (savedLanguage) {
+        currentLanguage = savedLanguage;
+    } else {
+        currentLanguage = 'it';
+    }
+
+    // Aggiungi la classe 'active' alla bandiera corretta
+    document.querySelectorAll('.language-selector img').forEach(img => {
+        img.classList.remove('active');
     });
-  }
+
+    if (currentLanguage === 'it') {
+        document.getElementById('ita').classList.add('active');
+    } else if (currentLanguage === 'en') {
+        document.querySelector('[alt="English"]').classList.add('active');
+    } else if (currentLanguage === 'es') {
+        document.querySelector('[alt="Español"]').classList.add('active');
+    } else if (currentLanguage === 'de') {
+      document.querySelector('[alt="Deutsch"]').classList.add('active');
+    }
+
+    loadMenu();
+});
+
+
+
+
+
+
+
+function filterMenu(category, button) {
+    let items = document.querySelectorAll('.menu-item');
+
+    items.forEach(item => {
+        if (item.getAttribute('data-category') === category) {
+            item.style.display = 'flex';
+            setTimeout(() => {
+                item.classList.add('show'); // Aggiunge la classe per l'animazione
+            }, 10);
+        } else {
+            item.classList.remove('show'); // Rimuove la classe per nascondere
+            setTimeout(() => {
+                item.style.display = 'none';
+            }, 500); // Tempo della transizione
+        }
+    });
+
+    // Rimuove la classe 'active' da tutti i pulsanti
+    document.querySelectorAll('.categories button').forEach(btn => btn.classList.remove('active'));
+
+    // Aggiunge la classe 'active' al pulsante cliccato
+    if (button) {
+        button.classList.add('active');
+        
+        // Se il pulsante cliccato è nel dropdown, attiva anche il pulsante principale
+        let dropdownButton = button.closest('.dropdown')?.querySelector('button');
+        if (dropdownButton) {
+            dropdownButton.classList.add('active');
+        }
+    }
+}
+
+
+
+
+
 
   document.addEventListener("DOMContentLoaded", loadMenu);
 </script>
@@ -374,33 +670,70 @@
   <a href="index.html" class="home-button">
     <i class="fas fa-home"></i>
   </a>
+
+  <div class="language-selector">
+    <img id="ita" src="assets/flags/it.png" alt="Italiano" onclick="changeLanguage('it',this)">
+    <img src="assets/flags/en.png" alt="English" onclick="changeLanguage('en',this)">
+    <img src="assets/flags/es.png" alt="Español" onclick="changeLanguage('es',this)">
+    <img src="assets/flags/de.png" alt="Deutsch" onclick="changeLanguage('de',this)">
+    <img src="assets/flags/fr.png" alt="Français" onclick="changeLanguage('fr',this)">
+    <img src="assets/flags/ru.png" alt="Русский" onclick="changeLanguage('ru',this)">
+    <img src="assets/flags/zh.png" alt="中文" onclick="changeLanguage('zh',this)">
+</div>
+
   
 <section class="menu">
-  <div class="logo-container" href="#" target="_blank" onclick="openMenuPage(); return false;">
+  <div class="logo-container">
     <img src="assets/logomenu.png" alt="Menu" class="logo">
   </div>
   <h1 class="alex-brush"><span class="custom-font" style="text-shadow: 1px 1px 1px  #000000;">Menu</span><br /></h1>
   <div class="categories">
-    <button onclick="filterMenu('antipasti')">Antipasti</button>
-    <button onclick="filterMenu('Primi')">Primi Piatti</button>
-    <button onclick="filterMenu('secondi')">Secondi Piatti</button>
-    <button onclick="filterMenu('da bere')">Bevande</button>
-    <button onclick="filterMenu('dessert')">Desserts</button>
-    <button onclick="filterMenu('caffetteria')">Caffetteria</button>
+    <button onclick="filterMenu('antipasti', this)">Antipasti</button>
+    <button onclick="filterMenu('Primi', this)">Primi Piatti</button>
+    <button onclick="filterMenu('secondi', this)">Secondi Piatti</button>
+    <button onclick="filterMenu('contorni', this)">Contorni</button>
+    <button onclick="filterMenu('da bere', this)">Bevande</button>
+    <button onclick="filterMenu('dessert', this)">Desserts</button>
+    <button onclick="filterMenu('caffetteria', this)">Caffetteria</button>
+    
     
 <!-- Dropdown per la Carta dei Vini -->
 <div class="dropdown">
   <button>Carta dei Vini ▼</button>
   <div class="dropdown-content">
-    <button onclick="filterMenu('bianchi')">Vini Bianchi</button>
-    <button onclick="filterMenu('rossi')">Vini Rossi</button>
-    <button onclick="filterMenu('bollicine')">Bollicine</button>
-    <button onclick="filterMenu('liquori')">Liquori</button>
+    <button onclick="filterMenu('bianchi', this)">Vini Bianchi</button>
+    <button onclick="filterMenu('rossi', this)">Vini Rossi</button>
+    <button onclick="filterMenu('bollicine', this)">Bollicine</button>
+    <button onclick="filterMenu('liquori', this)">Liquori</button>
+    
   </div>
 </div>
 
 </div>
 <div class="menu-items" id="menu-items"></div>
+
+<section class="allergens-container">
+  <i class="fas fa-info-circle"></i>
+  <h2>Informazioni sugli Allergeni</h2>
+  <p>Si avvisa la gentile clientela che nei piatti preparati possono essere contenuti ingredienti o coadiuvanti considerati allergeni.</p>
+  <ul>
+    <li>1. Cereali contenenti glutine</li>
+    <li>2. Crostacei e prodotti derivati</li>
+    <li>3. Uova e prodotti derivati</li>
+    <li>4. Pesce e prodotti derivati</li>
+    <li>5. Arachidi e prodotti derivati</li>
+    <li>6. Soia e prodotti derivati</li>
+    <li>7. Latte e prodotti derivati (compreso lattosio)</li>
+    <li>8. Sedano e prodotti derivati</li>
+    <li>9. Senape e prodotti derivati</li>
+    <li>10. Semi di sesamo e prodotti derivati</li>
+    <li>11. Anidride solforosa e solfiti</li>
+    <li>12. Lupino e prodotti a base di lupino</li>
+    <li>13. Molluschi e prodotti a base di mollusco</li>
+    <li>14. Frutta a guscio</li>
+    <li>*Per ulteriori informazioni, si prega di rivolgersi al personale di sala.</li>
+  </ul>
+</section>
 </section>
 </body>
 </html>
