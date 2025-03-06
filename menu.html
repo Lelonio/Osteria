@@ -23,7 +23,8 @@
 
     .logo-container img {
     width: 90%;
-    max-width: 200px;
+    max-width: 250px;
+    padding-top: 50px;
   }
 
     .menu-item {
@@ -366,7 +367,48 @@
       font-size: 20px;
       font-weight: bold;
     }
+    @media (prefers-color-scheme: dark) {
+      .logo {
+        content: url("assets/navlogo.png");
+      }}
 
+  .fixed-top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px; /* Altezza fissa per evitare sovrapposizioni */
+  background-color: rgba(0, 0, 0, 0.8); /* Sfondo semitrasparente */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 1000;
+}
+
+.home-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  padding-bottom: 50px;
+}
+
+.language-selector {
+  display: flex;
+  gap: 10px;
+}
+
+.language-selector img {
+  width: 20px;
+  height: auto;
+  cursor: pointer;
+  
+}
+
+
+      
 
   </style>
 
@@ -386,7 +428,7 @@ const translations = {
     bianchi: "Vini Bianchi",
     rossi: "Vini Rossi",
     bollicine: "Bollicine",
-    liquori: "Liquori"
+    cocktails: "Cocktails"
   },
   en: {
     antipasti: "Appetizers",
@@ -400,7 +442,7 @@ const translations = {
     bianchi: "White Wines",
     rossi: "Red Wines",
     bollicine: "Sparkling Wines",
-    liquori: "Liquors"
+    cocktails: "Liquors"
   },
   es: {
     antipasti: "Entrantes",
@@ -414,7 +456,7 @@ const translations = {
     bianchi: "Vinos Blancos",
     rossi: "Vinos Tintos",
     bollicine: "Vinos Espumosos",
-    liquori: "Licores"
+    cocktails: "Licores"
   },
 
   de: {
@@ -429,7 +471,7 @@ const translations = {
   bianchi: "Weißweine",
   rossi: "Rotweine",
   bollicine: "Schaumweine",
-  liquori: "Spirituosen"
+  cocktails: "Spirituosen"
 },
 
 fr: {
@@ -444,7 +486,7 @@ fr: {
   bianchi: "Vins Blancs",
   rossi: "Vins Rouges",
   bollicine: "Vins Effervescents",
-  liquori: "Liqueurs"
+  cocktails: "Liqueurs"
 },
 
 ru: {
@@ -459,7 +501,7 @@ ru: {
   bianchi: "Белые вина",
   rossi: "Красные вина",
   bollicine: "Игристые вина",
-  liquori: "Ликёры"
+  cocktails: "Ликёры"
 },
 zh: {
   antipasti: "开胃菜",
@@ -473,7 +515,7 @@ zh: {
   bianchi: "白葡萄酒",
   rossi: "红葡萄酒",
   bollicine: "起泡酒",
-  liquori: "烈酒"
+  cocktails: "烈酒"
 }
 
 
@@ -492,6 +534,7 @@ function changeLanguage(lang, button) {
     currentLanguage = lang;
     localStorage.setItem('menuLanguage', lang); // Salva la lingua scelta
     loadMenu();
+    
 
     // Cambia il testo dei pulsanti
     updateButtonText(lang);
@@ -526,10 +569,80 @@ function updateButtonText(lang) {
     wineSubButtons[0].textContent = translations[lang].bianchi;
     wineSubButtons[1].textContent = translations[lang].rossi;
     wineSubButtons[2].textContent = translations[lang].bollicine;
-    wineSubButtons[3].textContent = translations[lang].liquori;
+    wineSubButtons[3].textContent = translations[lang].cocktails;
 }
+async function loadWines() {
+    try {
+        // Se è la prima volta, usa il menu predefinito "menu.json"
+        let winesFile = 'vini_aggiornato.json';
+        
+        const response = await fetch(winesFile);
+        const menuItems = await response.json();
+        const menuContainer = document.getElementById('menu-items');
+        menuContainer.innerHTML = '';
+
+        menuItems.forEach((item, index) => {
+            const menuItem = document.createElement('div');
+            menuItem.classList.add('menu-item');
+            menuItem.setAttribute('data-category', item.categoria);
+
+            let imgPath = item.immagine || '';
+            let imgElement = new Image();
+            imgElement.src = imgPath;
+            imgElement.alt = item.nome;
+
+            let prezzoQuantita = `${item.prezzo}€`;
+            if (item.quantita) {
+                prezzoQuantita += ` (${item.quantita})`;
+            }
+
+            imgElement.onload = function () {
+                menuItem.innerHTML = `
+                    <img src="${imgPath}" alt="${item.nome}">
+                    <div class="info">
+                        <h3>${item.nome}</h3>
+                    </div>
+                    <span class="price">${prezzoQuantita}</span>
+                `;
+                setTimeout(() => menuItem.classList.add('show'), index * 100);
+            };
+
+            imgElement.onerror = function () {
+                menuItem.innerHTML = `
+                    <div class="info">
+                        <h3>${item.nome}</h3>
+                    </div>
+                    <span class="price">${prezzoQuantita}</span>
+                `;
+                setTimeout(() => menuItem.classList.add('show'), index * 100);
+            };
+
+            menuItem.addEventListener('click', () => {
+                let popupConfig = {
+                    title: item.nome,
+                    text: `${prezzoQuantita}`,
+                    showCloseButton: true,
+                    showConfirmButton: false
+                  
+                };
+
+                if (imgPath) {
+                    popupConfig.imageUrl = imgPath;
+                    popupConfig.imageWidth = 300;
+                    popupConfig.imageAlt = item.nome;
+                }
+
+                Swal.fire(popupConfig);
+            });
+
+            menuContainer.appendChild(menuItem);
+        });
+    } catch (error) {
+        console.error('Errore nel caricamento del menu:', error);
+    }
 
 
+}
 async function loadMenu() {
     try {
         // Se è la prima volta, usa il menu predefinito "menu.json"
@@ -628,11 +741,44 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     loadMenu();
+    
 });
 
 
 
+function filterVini(category, button) {
+    let items = document.querySelectorAll('.menu-item');
 
+    items.forEach(item => {
+        if (item.getAttribute('data-category') === category) {
+            item.style.display = 'flex';
+            setTimeout(() => {
+                item.classList.add('show'); // Aggiunge la classe per l'animazione
+            }, 10);
+        } else {
+            item.classList.remove('show'); // Rimuove la classe per nascondere
+            setTimeout(() => {
+                item.style.display = 'none';
+            }, 500); // Tempo della transizione
+        }
+    });
+
+    // Rimuove la classe 'active' da tutti i pulsanti
+    document.querySelectorAll('.categories button').forEach(btn => btn.classList.remove('active'));
+
+    // Aggiunge la classe 'active' al pulsante cliccato
+    if (button) {
+        button.classList.add('active');
+        
+        // Se il pulsante cliccato è nel dropdown, attiva anche il pulsante principale
+        let dropdownButton = button.closest('.dropdown')?.querySelector('button');
+        if (dropdownButton) {
+            dropdownButton.classList.add('active');
+        }
+    }
+
+    
+}
 
 
 
@@ -673,7 +819,13 @@ function filterMenu(category, button) {
 
 
 
-  document.addEventListener("DOMContentLoaded", loadMenu);
+document.addEventListener("DOMContentLoaded", () => {
+    loadMenu();
+    loadWines();  // Aggiungilo qui
+});
+
+  
+
 </script>
 <script>
   function openMenuPage() {
@@ -682,19 +834,20 @@ function filterMenu(category, button) {
 </script>
 </head>
 <body>
-  <a href="index.html" class="home-button">
-    <i class="fas fa-home"></i>
-  </a>
+  <div class="fixed-top-bar">
+    <button class="home-button" href="index.html"><i class="fa fa-home"></i></button>
+    <div class="language-selector">
+      <img id="ita" src="assets/flags/it.png" alt="Italiano" onclick="changeLanguage('it',this)">
+      <img src="assets/flags/en.png" alt="English" onclick="changeLanguage('en',this)">
+      <img src="assets/flags/es.png" alt="Español" onclick="changeLanguage('es',this)">
+      <img src="assets/flags/de.png" alt="Deutsch" onclick="changeLanguage('de',this)">
+      <img src="assets/flags/fr.png" alt="Français" onclick="changeLanguage('fr',this)">
+      <img src="assets/flags/ru.png" alt="Русский" onclick="changeLanguage('ru',this)">
+      <img src="assets/flags/zh.png" alt="中文" onclick="changeLanguage('zh',this)">
 
-  <div class="language-selector">
-    <img id="ita" src="assets/flags/it.png" alt="Italiano" onclick="changeLanguage('it',this)">
-    <img src="assets/flags/en.png" alt="English" onclick="changeLanguage('en',this)">
-    <img src="assets/flags/es.png" alt="Español" onclick="changeLanguage('es',this)">
-    <img src="assets/flags/de.png" alt="Deutsch" onclick="changeLanguage('de',this)">
-    <img src="assets/flags/fr.png" alt="Français" onclick="changeLanguage('fr',this)">
-    <img src="assets/flags/ru.png" alt="Русский" onclick="changeLanguage('ru',this)">
-    <img src="assets/flags/zh.png" alt="中文" onclick="changeLanguage('zh',this)">
-</div>
+    </div>
+  </div>
+
 
   
 <section class="menu">
@@ -716,10 +869,11 @@ function filterMenu(category, button) {
 <div class="dropdown">
   <button>Carta dei Vini ▼</button>
   <div class="dropdown-content">
-    <button onclick="filterMenu('bianchi', this)">Vini Bianchi</button>
-    <button onclick="filterMenu('rossi', this)">Vini Rossi</button>
-    <button onclick="filterMenu('bollicine', this)">Bollicine</button>
-    <button onclick="filterMenu('liquori', this)">Liquori</button>
+    <button onclick="filterVini('bianchi', this)">Vini Bianchi</button>
+    <button onclick="filterVini('rossi', this)">Vini Rossi</button>
+    <button onclick="filterVini('bollicine', this)">Bollicine</button>
+    <button onclick="filterVini('rosati', this)">Rosati</button>
+    <button onclick="filterVini('cocktail', this)">Cocktails</button>
     
   </div>
 </div>

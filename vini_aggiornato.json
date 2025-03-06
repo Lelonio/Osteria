@@ -1,0 +1,423 @@
+[
+    {
+        "categoria": "bianchi",
+        "nome": "Gewurztraminer",
+        "prezzo": "28.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Muller Thurgau",
+        "prezzo": "27.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Riesling",
+        "prezzo": "28.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Silvaner",
+        "prezzo": "27.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Kerner",
+        "prezzo": "27.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Gewurztraminer DOC",
+        "prezzo": "25.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Falanghina Del Sannio DOC",
+        "prezzo": "22.00",
+        "quantita": "0.75lt"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Falanghina Del Sannio DOC",
+        "prezzo": "13.00",
+        "quantita": "0.375lt"
+    },
+ 
+    {
+        "categoria": "bianchi",
+        "nome": "Sauvignon DOC",
+        "prezzo": "20.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Traminer IGT",
+        "prezzo": "20.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Roma Bianco Bellone DOC",
+        "prezzo": "20.00"
+    },
+
+    {
+        "categoria": "bianchi",
+        "nome": "Lintóri Vermentino DOC",
+        "prezzo": "28.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Vign'Angena Vermentino sup. DOCG",
+        "prezzo": "45.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Vign'Angena Vermentino sup. DOCG 0,375ml",
+        "prezzo": "23.00"
+    },
+    {
+        "categoria": "rossi",
+        "nome": "Brunello di Montalcino DOCG",
+        "prezzo": "68.00"
+    },
+
+    {
+        "categoria": "rossi",
+        "nome": "Spiaggiole Morellino di Scansano DOCG",
+        "prezzo": "24.00"
+    },
+
+    {
+        "categoria": "rossi",
+        "nome": "Montepulciano Jus Primæ Noctis",
+        "prezzo": "22.00"
+    },
+
+    {
+        "categoria": "rossi",
+        "nome": "Vino al calice",
+        "prezzo": "5.00"
+    },
+
+    {
+        "categoria": "rossi",
+        "nome": "Barolo DOCG",
+        "prezzo": "60.00"
+    },
+    {
+        "categoria": "rossi",
+        "nome": "Chianti Colli Senesi",
+        "prezzo": "24.00"
+    },
+    {
+        "categoria": "rossi",
+        "nome": "Primo Scuro Cannonau di Sardegna DOC",
+        "prezzo": "22.00"
+    },
+    {
+        "categoria": "rossi",
+        "nome": "Taurasi DOCG",
+        "prezzo": "35.00"
+    },
+    {
+        "categoria": "rossi",
+        "nome": "Syrah",
+        "prezzo": "22.00"
+    },
+
+    {
+        "categoria": "bollicine",
+        "nome": "Prosecco Brut DOC",
+        "prezzo": "20.00"
+    },
+
+    {
+        "categoria": "bollicine",
+        "nome": "Prosecco Extra Dry DOC",
+        "prezzo": "22.00"
+    },
+
+    {
+        "categoria": "bollicine",
+        "nome": "Mare Divino Cesanese Rosè",
+        "prezzo": "20.00"
+    },
+
+    {
+        "categoria": "bollicine",
+        "nome": "Cama Brut Prosecco  Superiore DOCG",
+        "prezzo": "26.00"
+    },
+
+    {
+        "categoria": "bollicine",
+        "nome": "Leonte Extra Dry Prosecco Superiore DOCG",
+        "prezzo": "26.00"
+    },
+
+    {
+        "categoria": "bollicine",
+        "nome": "Ferrari Brut Metodo Classico",
+        "prezzo": "32.00"
+    },
+    {
+        "categoria": "bollicine",
+        "nome": "Ferrari Brut Metodo Classico 0,375ml",
+        "prezzo": "18.00"
+    },
+    {
+        "categoria": "bollicine",
+        "nome": "Ferrari Rosé Metodo Classico",
+        "prezzo": "38.00"
+    },
+    {
+        "categoria": "bollicine",
+        "nome": "Ferrari Perlè Metodo Classico",
+        "prezzo": "45.00"
+    },
+
+    {
+        "categoria": "bollicine",
+        "nome": "Franciacorta DOCG Brut",
+        "prezzo": "34.00"
+    },
+    {
+        "categoria": "bollicine",
+        "nome": "Franciacorta DOCG Rosé",
+        "prezzo": "38.00"
+    },
+    {
+        "categoria": "bollicine",
+        "nome": "Franciacorta DOCG Satèn",
+        "prezzo": "36.00"
+    },
+    {
+        "categoria": "bollicine",
+        "nome": "Franciacorta DOCG Prestige",
+        "prezzo": "59.00"
+    },
+
+    {
+        "categoria": "bollicine",
+        "nome": "Champagne Brut",
+        "prezzo": "75.00"
+    },
+
+    {
+        "categoria": "bollicine",
+        "nome": "Giulio Ferrari Extra Brut",
+        "prezzo": "195.00"
+    },
+    
+    {
+        "categoria": "bollicine",
+        "nome": "Champagne Brut Eclat",
+        "prezzo": "50.00"
+    },
+
+    {
+        "categoria": "bollicine",
+        "nome": "Champagne Vintage Dom Pérignon",
+        "prezzo": "360.00"
+    },
+
+    {
+        "categoria": "cocktail",
+        "nome": "Aperol Spritz",
+        "prezzo": "7.00"
+    },
+
+    {
+        "categoria": "cocktail",
+        "nome": "Campari Spritz",
+        "prezzo": "7.00"
+    },
+
+    {
+        "categoria": "cocktail",
+        "nome": "Limoncello Spritz",
+        "prezzo": "7.00"
+    },
+
+    {
+        "categoria": "cocktail",
+        "nome": "Vodka Lemon",
+        "prezzo": "7.00"
+    },
+
+    {
+        "categoria": "cocktail",
+        "nome": "Shandy",
+        "prezzo": "7.00"
+    },
+
+    {
+        "categoria": "cocktail",
+        "nome": "Cuba Libre",
+        "prezzo": "8.00"
+    },
+
+    {
+        "categoria": "cocktail",
+        "nome": "Gin Tonic",
+        "prezzo": "8.00"
+    },
+
+    {
+        "categoria": "cocktail",
+        "nome": "Vodka Tonic",
+        "prezzo": "8.00"
+    },
+
+    {
+        "categoria": "rosati",
+        "nome": "Insolitus Rosá Lagrein",
+        "prezzo": "28.00"
+    },
+
+    {
+        "categoria": "rosati",
+        "nome": "Cerasuolo d'Abruzzo DOP",
+        "prezzo": "18.00"
+    },
+
+    {
+        "categoria": "rosati",
+        "nome": "San Crag Campania Rosato IGT",
+        "prezzo": "24.00"
+    },
+
+    {
+        "categoria": "rosati",
+        "nome": "Isola dei Nuraghi Rosato Tambè IGT",
+        "prezzo": "30.00"
+    },
+
+
+
+    {
+        "categoria": "bianchi",
+        "nome": "Grüner Veltliner “Praepositus”",
+        "prezzo": "34.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Moscato Giallo DOC",
+        "prezzo": "24.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Chardonnay Collio DOC 375ml",
+        "prezzo": "14.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Pinot Grigio Collio DOC 375ml",
+        "prezzo": "14.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Ribolla Gialla IGT",
+        "prezzo": "22.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Pinot Grigio DOC",
+        "prezzo": "22.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Arneis 'Macadì' DOCG",
+        "prezzo": "22.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Arneis 'Macadì' DOCG 375ml",
+        "prezzo": "13.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Santasso Viognier DOC",
+        "prezzo": "24.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Incrocio Bruni 54 IGT",
+        "prezzo": "28.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Joco Falerio Pecorino DOC Biologico",
+        "prezzo": "20.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Trebbiano Spoletino DOC",
+        "prezzo": "24.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Breza Marina IGT",
+        "prezzo": "18.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Zui Passerina IGP",
+        "prezzo": "22.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Greco di Tufo DOCG",
+        "prezzo": "24.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Greco di Tufo DOCG 375ml",
+        "prezzo": "14.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Fiano di Avellino DOCG",
+        "prezzo": "24.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Fiano di Avellino DOCG'Pietracalda' Riserva",
+        "prezzo": "30.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Vermentino di Sardegna DOC",
+        "prezzo": "20.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Isola dei Nuraghi Vermentino IGT",
+        "prezzo": "55.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Insolia IGP",
+        "prezzo": "18.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Zibibbo Secco Talia DOC Biologico",
+        "prezzo": "22.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Vino della Casa 'Osteria del Pirgo' 0.75lt",
+        "prezzo": "13.00"
+    },
+    {
+        "categoria": "bollicine",
+        "nome": "Vino al Calice Prosecco",
+        "prezzo": "5.00"
+    },
+    {
+        "categoria": "bianchi",
+        "nome": "Vino al Calice",
+        "prezzo": "5.00"
+    }
+
+
+]
