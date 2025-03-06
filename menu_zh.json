@@ -1,0 +1,430 @@
+[
+    {
+        "categoria": "antipasti",
+        "nome": "蒸贻贝",
+        "prezzo": "12.00",
+        "immagine": "assets/cozze.jpeg"
+      },
+      {
+        "categoria": "antipasti",
+        "nome": "生鱼片",
+        "prezzo": "28.00",
+        "immagine": "assets/crudi.jpg"
+      },
+      {
+        "categoria": "antipasti",
+        "nome": "生蚝",
+        "prezzo": "4.00 每个",
+        "immagine": "assets/ostriche.jpg"
+      },
+      {
+        "categoria": "antipasti",
+        "nome": "冷热海鲜小吃",
+        "prezzo": "18.00 - 6 种品尝",
+        "immagine": "assets/sfiziosita_pesce.jpg"
+      },
+      {
+        "categoria": "antipasti",
+        "nome": "三种鞑靼",
+        "prezzo": "18.00",
+        "immagine": "assets/tris_tartare.jpg"
+      },
+      {
+        "categoria": "antipasti",
+        "nome": "鱼片卡帕奇欧",
+        "prezzo": "14.00",
+        "immagine": "assets/carpaccio_pesce.jpg"
+      },
+      {
+        "categoria": "antipasti",
+        "nome": "海鲜沙拉",
+        "prezzo": "16.00",
+        "immagine": "assets/insalata_mare.jpg"
+      },
+      {
+        "categoria": "antipasti",
+        "nome": "Polipetti alla Luciana",
+        "prezzo": "12.00",
+        "immagine": "assets/polipetti_luciana.jpg"
+      },
+      {
+        "categoria": "antipasti",
+        "nome": "章鱼配土豆",
+        "prezzo": "16.00",
+        "immagine": "assets/polpo_patate.jpg"
+      },
+      {
+        "categoria": "antipasti",
+        "nome": "冷盘拼盘，烤面包和D.O.P.奶酪及陆地美食",
+        "prezzo": "20.00",
+        "immagine": "assets/tagliere_salumi.jpg"
+      },
+    {
+        "nome": "蛤蜊意大利面",
+        "categoria": "Primi",
+        "prezzo": "16.00"
+    },
+    {
+        "nome": "虾仁奶油烩饭",
+        "categoria": "Primi",
+        "prezzo": "14.00"
+    },
+    {
+        "nome": "渔夫烩饭",
+        "categoria": "Primi",
+        "prezzo": "15.00"
+    },
+    {
+        "nome": "龙虾扁面",
+        "categoria": "Primi",
+        "prezzo": "22.00"
+    },
+    {
+        "nome": "小龙虾扁面",
+        "categoria": "Primi",
+        "prezzo": "18.00"
+    },
+    {
+        "nome": "蟹肉细面",
+        "categoria": "Primi",
+        "prezzo": "14.00"
+    },
+    {
+        "nome": "海鲜细面",
+        "categoria": "Primi",
+        "prezzo": "16.00"
+    },
+    {
+        "nome": "海鲈鱼馅馄饨",
+        "categoria": "Primi",
+        "prezzo": "14.00"
+    },
+    {
+        "nome": "剑鱼和开心果意式团子",
+        "categoria": "Primi",
+        "prezzo": "14.00"
+    },
+    {
+        "nome": "卡邦尼意面",
+        "categoria": "Primi",
+        "prezzo": "12.00"
+    },
+    {
+        "nome": "奶酪胡椒意面",
+        "categoria": "Primi",
+        "prezzo": "12.00"
+    },
+    {
+        "categoria": "secondi",
+        "nome": "烤鱼拼盘",
+        "prezzo": "22.00",
+        "immagine": "assets/grigliata_pesce.jpg"
+      },
+      {
+        "categoria": "secondi",
+        "nome": "炸鱿鱼和虾",
+        "prezzo": "16.00",
+        "immagine": "assets/frittura_calamar_gamberi.jpg"
+      },
+      {
+        "categoria": "secondi",
+        "nome": "混合海鲜",
+        "prezzo": "24.00",
+        "immagine": "assets/miscuglio_pesce.jpg"
+      },
+      {
+        "categoria": "secondi",
+        "nome": "金枪鱼排",
+        "prezzo": "18.00",
+        "immagine": "assets/tagliata_tonno.jpg"
+      },
+      {
+        "categoria": "secondi",
+        "nome": "烤比目鱼配土豆",
+        "prezzo": "6.50 每100克",
+        "immagine": "assets/rombo_patate.jpg"
+      },
+      {
+        "categoria": "secondi",
+        "nome": "烤当日鲜鱼配土豆",
+        "prezzo": "6.50 每100克",
+        "immagine": "assets/pescato_patate.jpg"
+      },
+      {
+        "categoria": "secondi",
+        "nome": "盐焗鱼",
+        "prezzo": "7.00 每100克",
+        "immagine": "assets/pesce_sale.jpg"
+      },
+      {
+        "categoria": "secondi",
+        "nome": "烤养殖鲷鱼配土豆",
+        "prezzo": "18.00",
+        "immagine": "assets/orata_patate.jpg"
+      },
+      {
+        "categoria": "secondi",
+        "nome": "海鲜汤",
+        "prezzo": "55.00",
+        "immagine": "assets/zuppa_pesce.jpg"
+      },
+      {
+        "categoria": "secondi",
+        "nome": "甲壳类海鲜汤",
+        "prezzo": "60.00",
+        "immagine": "assets/zuppa_crostacei.jpg"
+      },
+      {
+        "categoria": "secondi",
+        "nome": "香草脆皮三文鱼排",
+        "prezzo": "16.00",
+        "immagine": "assets/salmone_erbe.jpg"
+      },
+      {
+        "categoria": "secondi",
+        "nome": "牛排",
+        "prezzo": "18.00",
+        "immagine": "assets/bistecca_manzo.jpg"
+      },
+      {
+        "categoria": "contorni",
+        "nome": "混合沙拉或绿色沙拉",
+        "prezzo": "5.00",
+        "immagine": "assets/insalata_mista.jpg"
+      },
+      {
+        "categoria": "contorni",
+        "nome": "炸薯条或烤土豆",
+        "prezzo": "5.00",
+        "immagine": "assets/patatine_fritte_forno.jpg"
+      },
+      {
+        "categoria": "contorni",
+        "nome": "炒菊苣或酸味菊苣",
+        "prezzo": "5.00",
+        "immagine": "assets/cicoria_ripassata.jpg"
+      },
+      {
+        "categoria": "da bere",
+        "nome": "矿泉水",
+        "prezzo": "2.50",
+        "immagine": "assets/acqua_minerale.jpg"
+      },
+      {
+        "categoria": "da bere",
+        "nome": "啤酒 – 0,25升",
+        "prezzo": "4.00",
+        "immagine": "assets/birra_025l.jpg"
+      },
+      {
+        "categoria": "da bere",
+        "nome": "芬达/可乐/雪碧",
+        "prezzo": "3.00",
+        "immagine": "assets/fanta_cola_sprite.jpg"
+      },
+      {
+        "categoria": "da bere",
+        "nome": "啤酒 – 0,5升",
+        "prezzo": "6.00",
+        "immagine": "assets/birra_05l.jpg"
+      },
+      {
+        "categoria": "da bere",
+        "nome": "冰茶（桃子/柠檬）",
+        "prezzo": "3.00",
+        "immagine": "assets/the_freddo.jpg"
+      },
+      {
+        "categoria": "da bere",
+        "nome": "果汁",
+        "prezzo": "3.00",
+        "immagine": "assets/succhi_frutta.jpg"
+      },
+      {
+        "categoria": "da bere",
+        "nome": "Peroni啤酒 – 0,66升",
+        "prezzo": "6.00",
+        "immagine": "assets/birra_peroni_066l.jpg"
+      },
+      {
+        "categoria": "da bere",
+        "nome": "Ichnusa/Corona啤酒 – 0,33升",
+        "prezzo": "4.00",
+        "immagine": "assets/birra_ichnusa_corona_033l.jpg"
+      },
+      {
+        "categoria": "dessert",
+        "nome": "提拉米苏",
+        "prezzo": "6.00",
+        "immagine": "assets/tiramisu.jpg"
+      },
+      {
+        "categoria": "dessert",
+        "nome": "浆果意式奶冻",
+        "prezzo": "6.00",
+        "immagine": "assets/panna_cotta_frutti_bosco.jpg"
+      },
+      {
+        "categoria": "dessert",
+        "nome": "布龙泰开心果意式奶冻",
+        "prezzo": "6.00",
+        "immagine": "assets/panna_cotta_pistacchio.jpg"
+      },
+      {
+        "categoria": "dessert",
+        "nome": "焦糖布丁",
+        "prezzo": "6.00",
+        "immagine": "assets/creme_caramel.jpg"
+      },
+      {
+        "categoria": "dessert",
+        "nome": "主厨千层酥",
+        "prezzo": "6.00",
+        "immagine": "assets/millefoglie.jpg"
+      },
+      {
+        "categoria": "dessert",
+        "nome": "巧克力熔岩舒芙蕾",
+        "prezzo": "6.00",
+        "immagine": "assets/souffle_cioccolato.jpg"
+      },
+      {
+        "categoria": "dessert",
+        "nome": "柠檬雪葩",
+        "prezzo": "6.00",
+        "immagine": "assets/sorbetto_limone.jpg"
+      },
+      {
+        "categoria": "dessert",
+        "nome": "加泰罗尼亚奶油",
+        "prezzo": "6.00",
+        "immagine": "assets/crema_catalana.jpg"
+      },
+      {
+        "categoria": "dessert",
+        "nome": "天使之杯",
+        "prezzo": "6.00",
+        "immagine": "assets/coppa_cherubino.jpg"
+      },
+      {
+        "categoria": "dessert",
+        "nome": "芝士蛋糕",
+        "prezzo": "6.00",
+        "immagine": "assets/cheesecake.jpg"
+      },
+      {
+        "categoria": "dessert",
+        "nome": "巧克力百利甜巴伐利亚奶油",
+        "prezzo": "6.00",
+        "immagine": "assets/bavarese_cioccolato_baileys.jpg"
+      },
+      {
+        "categoria": "dessert",
+        "nome": "白巧克力柑橘柠檬酒巴伐利亚奶油",
+        "prezzo": "6.00",
+        "immagine": "assets/bavarese_cioccolato_bianco.jpg"
+      },
+      {
+        "categoria": "caffetteria",
+        "nome": "浓缩咖啡",
+        "prezzo": "2.00",
+        "immagine": "assets/caffe_espresso.jpg"
+      },
+      {
+        "categoria": "caffetteria",
+        "nome": "无咖啡因咖啡",
+        "prezzo": "2.00",
+        "immagine": "assets/caffe_decaffeinato.jpg"
+      },
+      {
+        "categoria": "caffetteria",
+        "nome": "卡布奇诺",
+        "prezzo": "2.50",
+        "immagine": "assets/cappuccino.jpg"
+      },
+      {
+        "categoria": "caffetteria",
+        "nome": "拿铁咖啡",
+        "prezzo": "3.00",
+        "immagine": "assets/caffe_latte.jpg"
+      },
+      {
+        "categoria": "caffetteria",
+        "nome": "美式咖啡",
+        "prezzo": "2.50",
+        "immagine": "assets/caffe_americano.jpg"
+      },
+      {
+        "categoria": "caffetteria",
+        "nome": "无咖啡因卡布奇诺",
+        "prezzo": "2.50",
+        "immagine": "assets/cappuccino_decaffeinato.jpg"
+      },
+      {
+        "categoria": "caffetteria",
+        "nome": "茶/洋甘菊茶",
+        "prezzo": "2.50",
+        "immagine": "assets/te_camomilla.jpg"
+      },
+      {"categoria": "bianchi", "nome": "琼瑶浆", "prezzo": "26.00"},
+      {"categoria": "bianchi", "nome": "穆勒图尔高", "prezzo": "25.00"},
+      {"categoria": "bianchi", "nome": "雷司令", "prezzo": "26.00"},
+      {"categoria": "bianchi", "nome": "西万尼", "prezzo": "25.00"},
+      {"categoria": "bianchi", "nome": "佩科里诺", "prezzo": "17.00"},
+      {"categoria": "bianchi", "nome": "特雷比亚诺", "prezzo": "17.00"},
+      {"categoria": "bianchi", "nome": "阿韦利诺菲亚诺", "prezzo": "22.00"},
+      {"categoria": "bianchi", "nome": "图福格雷克", "prezzo": "22.00", "quantita": "0.75升"},
+      {"categoria": "bianchi", "nome": "图福格雷克", "prezzo": "12.00", "quantita": "0.375升"},
+      {"categoria": "bianchi", "nome": "法兰吉娜", "prezzo": "18.00", "quantita": "0.75升"},
+      {"categoria": "bianchi", "nome": "法兰吉娜", "prezzo": "11.00", "quantita": "0.375升"},
+      {"categoria": "bianchi", "nome": "More Maiorum", "prezzo": "30.00"},
+      {"categoria": "bianchi", "nome": "霞多丽", "prezzo": "20.00"},
+      {"categoria": "bianchi", "nome": "卡塔拉托", "prezzo": "18.00"},
+      {"categoria": "bianchi", "nome": "因索利亚", "prezzo": "18.00"},
+      {"categoria": "bianchi", "nome": "Kikè Fina", "prezzo": "22.00"},
+      {"categoria": "bianchi", "nome": "安索尼卡", "prezzo": "22.00"},
+      {"categoria": "bianchi", "nome": "维欧尼", "prezzo": "21.00"},
+      {"categoria": "bianchi", "nome": "里波拉吉亚拉", "prezzo": "20.00"},
+      {"categoria": "bianchi", "nome": "灰皮诺", "prezzo": "20.00"},
+      {"categoria": "bianchi", "nome": "弗留利东方丘陵弗留利DOC", "prezzo": "20.00"},
+      {"categoria": "bianchi", "nome": "长相思", "prezzo": "18.00"},
+      {"categoria": "bianchi", "nome": "特拉米纳", "prezzo": "18.00"},
+      {"categoria": "bianchi", "nome": "帕塞里纳", "prezzo": "18.00"},
+      {"categoria": "bianchi", "nome": "罗马白DOC 2020", "prezzo": "18.00"},
+      {"categoria": "bianchi", "nome": "加卢拉维蒙蒂诺", "prezzo": "18.00"},
+      {"categoria": "bianchi", "nome": "Lintóri撒丁岛维蒙蒂诺DOC", "prezzo": "28.00"},
+      {"categoria": "bianchi", "nome": "Vign'Angena加卢拉维蒙蒂诺DOCG", "prezzo": "49.00"},
+      {"categoria": "bianchi", "nome": "罗埃罗阿内斯DOCG", "prezzo": "18.00"},
+      {"categoria": "bianchi", "nome": "加维DOCG", "prezzo": "18.00"},
+      {"categoria": "rossi", "nome": "维苏威红泪DOC", "prezzo": "18.00"},
+      {"categoria": "rossi", "nome": "拉克里马罗萨伊尔皮尼亚桃红", "prezzo": "18.00"},
+      {"categoria": "rossi", "nome": "莫雷利诺迪斯坎萨诺DOCG", "prezzo": "18.00"},
+      {"categoria": "rossi", "nome": "基安蒂", "prezzo": "18.00"},
+      {"categoria": "rossi", "nome": "巴罗洛DOCG 2017", "prezzo": "60.00"},
+      {"categoria": "rossi", "nome": "普里莫斯库罗撒丁岛卡诺瑙DOC", "prezzo": "18.00"},
+      {"categoria": "rossi", "nome": "拉迪奇陶拉西DOCG", "prezzo": "46.00"},
+      {"categoria": "rossi", "nome": "西拉", "prezzo": "18.00"},
+      {"categoria": "bollicine", "nome": "普洛赛克瓦尔多比亚德内干型DOCG", "prezzo": "20.00"},
+      {"categoria": "bollicine", "nome": "普洛赛克瓦尔多比亚德内特干型DOCG", "prezzo": "22.00"},
+      {"categoria": "bollicine", "nome": "普洛赛克瓦尔多比亚德内桃红DOCG", "prezzo": "20.00"},
+      {"categoria": "bollicine", "nome": "瓦尔多比亚德内普洛赛克特干型\"Dirupo\"", "prezzo": "24.00"},
+      {"categoria": "bollicine", "nome": "瓦尔多比亚德内普洛赛克干型\"Dirupo\"", "prezzo": "24.00"},
+      {"categoria": "bollicine", "nome": "法拉利干型经典法", "prezzo": "30.00"},
+      {"categoria": "bollicine", "nome": "法拉利桃红经典法", "prezzo": "35.00"},
+      {"categoria": "bollicine", "nome": "香槟干型", "prezzo": "75.00"},
+      {"categoria": "bollicine", "nome": "弗朗恰柯塔DOCG干型", "prezzo": "32.00"},
+      {"categoria": "bollicine", "nome": "弗朗恰柯塔DOCG桃红", "prezzo": "35.00"},
+      {"categoria": "bollicine", "nome": "弗朗恰柯塔DOCG萨腾", "prezzo": "39.00"},
+      {"categoria": "liquori", "nome": "泰斯卡12年", "prezzo": "8.00"},
+      {"categoria": "liquori", "nome": "卡尔里拉12年", "prezzo": "9.00"},
+      {"categoria": "liquori", "nome": "爱尔兰威士忌图拉摩尔露", "prezzo": "7.00"},
+      {"categoria": "liquori", "nome": "波本威士忌野火鸡", "prezzo": "7.00"},
+      {"categoria": "liquori", "nome": "弗洛德卡纳", "prezzo": "8.00"},
+      {"categoria": "liquori", "nome": "萨卡帕", "prezzo": "9.00"},
+      {"categoria": "liquori", "nome": "阿马尼亚克骑士德斯帕莱", "prezzo": "8.00"},
+      {"categoria": "liquori", "nome": "903巴里克格拉佩马斯奇奥", "prezzo": "5.00"},
+      {"categoria": "liquori", "nome": "阿马罗", "prezzo": "4.00"},
+      {"categoria": "liquori", "nome": "柠檬酒", "prezzo": "4.00"},
+      {"categoria": "liquori", "nome": "百利甜", "prezzo": "6.00"},
+      {"categoria": "liquori", "nome": "君度", "prezzo": "6.00"}
+]
