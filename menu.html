@@ -47,22 +47,37 @@
 }
 
 .language-selector img {
-    width: 30px;
-    height: 20px;
-    cursor: pointer;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    transition: transform 0.2s;
+  width: 25px;  /* Imposta una dimensione media più adeguata */
+  height: auto; /* Mantiene la proporzione dell'immagine */
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  transition: transform 0.2s;
 }
 
+/* Quando attiva, la bandiera si ingrandisce leggermente */
 .language-selector img.active {
-  transform: scale(1.8);
+  transform: scale(1.5);
 }
 
-
+/* Effetto hover più leggero */
 .language-selector img:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
+
+/* Riduzione delle bandiere solo per schermi molto piccoli */
+@media screen and (max-width: 480px) {
+  .language-selector img {
+    width: 18px; /* Più piccolo per adattarsi meglio agli schermi piccoli */
+  }
+
+  .language-selector img.active {
+    transform: scale(1.2);
+  }
+}
+
+
+
 
 
 
@@ -170,6 +185,24 @@
     font-size: 1em;
     padding: 6px 10px;
   }
+
+  .language-selector img {
+    width: 20px;
+    height: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: transform 0.2s;
+}
+
+.language-selector img.active {
+  transform: scale(1.2);
+}
+
+
+.language-selector img:hover {
+    transform: scale(1.1);
+}
 
   .custom-font{
       font-family: "Alex Brush", cursive;
