@@ -47,34 +47,37 @@
 }
 
 .language-selector img {
-  width: 25px;  /* Imposta una dimensione media più adeguata */
-  height: auto; /* Mantiene la proporzione dell'immagine */
+  width: 20px;  /* Dimensione più contenuta */
+  height: auto; 
   cursor: pointer;
   border: 1px solid #ccc;
   border-radius: 3px;
   transition: transform 0.2s;
+  max-width: 100%; /* Evita che si allarghino troppo */
+  max-height: 20px; /* Limita l'altezza */
+  margin: 2px; /* Aggiunge spaziatura tra le bandiere */
 }
 
-/* Quando attiva, la bandiera si ingrandisce leggermente */
 .language-selector img.active {
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
-/* Effetto hover più leggero */
 .language-selector img:hover {
   transform: scale(1.1);
 }
 
-/* Riduzione delle bandiere solo per schermi molto piccoli */
+/* Per schermi molto piccoli */
 @media screen and (max-width: 480px) {
   .language-selector img {
-    width: 18px; /* Più piccolo per adattarsi meglio agli schermi piccoli */
+    width: 14px; /* Ancora più piccolo per smartphone */
+    max-height: 14px;
   }
 
   .language-selector img.active {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
 }
+
 
 
 
