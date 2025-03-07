@@ -1,430 +1,342 @@
 [
-    {
-        "categoria": "antipasti",
-        "nome": "Мидии на пару",
-        "prezzo": "12.00",
-        "immagine": "assets/cozze.jpeg"
-      },
-      {
-        "categoria": "antipasti",
-        "nome": "Сырая рыба",
-        "prezzo": "28.00",
-        "immagine": "assets/crudi.jpg"
-      },
-      {
-        "categoria": "antipasti",
-        "nome": "Устрицы",
-        "prezzo": "4.00 за штуку",
-        "immagine": "assets/ostriche.jpg"
-      },
-      {
-        "categoria": "antipasti",
-        "nome": "Рыбные деликатесы, горячие и холодные",
-        "prezzo": "18.00 - 6 дегустаций",
-        "immagine": "assets/sfiziosita_pesce.jpg"
-      },
-      {
-        "categoria": "antipasti",
-        "nome": "Три тартара",
-        "prezzo": "18.00",
-        "immagine": "assets/tris_tartare.jpg"
-      },
-      {
-        "categoria": "antipasti",
-        "nome": "Карпаччо из рыбы",
-        "prezzo": "14.00",
-        "immagine": "assets/carpaccio_pesce.jpg"
-      },
-      {
-        "categoria": "antipasti",
-        "nome": "Салат из морепродуктов",
-        "prezzo": "16.00",
-        "immagine": "assets/insalata_mare.jpg"
-      },
-      {
-        "categoria": "antipasti",
-        "nome": "Polipetti alla Luciana",
-        "prezzo": "12.00",
-        "immagine": "assets/polipetti_luciana.jpg"
-      },
-      {
-        "categoria": "antipasti",
-        "nome": "Осьминог с картофелем",
-        "prezzo": "16.00",
-        "immagine": "assets/polpo_patate.jpg"
-      },
-      {
-        "categoria": "antipasti",
-        "nome": "Мясная нарезка, кростини и сыры D.O.P. с деликатесами земли",
-        "prezzo": "20.00",
-        "immagine": "assets/tagliere_salumi.jpg"
-      },
-    {
-        "nome": "Спагетти с вонголе",
-        "categoria": "Primi",
-        "prezzo": "16.00"
+  {
+      "categoria": "antipasti",
+      "nome": "Мидии на пару",
+      "prezzo": "12.00€",
+      "immagine": "assets/cozze.jpeg"
     },
     {
-        "nome": "Ризотто с кремом из креветок",
-        "categoria": "Primi",
-        "prezzo": "14.00"
+      "categoria": "antipasti",
+      "nome": "Сырая рыба",
+      "prezzo": "28.00€",
+      "immagine": "assets/crudi.jpg"
     },
     {
-        "nome": "Ризотто по-рыбацки",
-        "categoria": "Primi",
-        "prezzo": "15.00"
+      "categoria": "antipasti",
+      "nome": "Устрицы",
+      "prezzo": "4.00€ за штуку",
+      "immagine": "assets/ostriche.jpg"
     },
     {
-        "nome": "Лингвини с омаром",
-        "categoria": "Primi",
-        "prezzo": "22.00"
+      "categoria": "antipasti",
+      "nome": "Горячие и холодные рыбные деликатесы",
+      "prezzo": "18.00€ - 6 дегустаций",
+      "immagine": "assets/sfiziosita_pesce.jpg"
     },
     {
-        "nome": "Лингвини с лангустинами",
-        "categoria": "Primi",
-        "prezzo": "18.00"
+      "categoria": "antipasti",
+      "nome": "Три тартара",
+      "prezzo": "18.00€",
+      "immagine": "assets/tris_tartare.jpg"
     },
     {
-        "nome": "Тальолини с крабом",
-        "categoria": "Primi",
-        "prezzo": "14.00"
+      "categoria": "antipasti",
+      "nome": "Салат из морепродуктов",
+      "prezzo": "16.00€",
+      "immagine": "assets/insalata_mare.jpg"
     },
     {
-        "nome": "Тоннарелли с морепродуктами",
-        "categoria": "Primi",
-        "prezzo": "16.00"
+      "categoria": "antipasti",
+      "nome": "*Polipetti alla Luciana",
+      "prezzo": "12.00€",
+      "immagine": "assets/polipetti_luciana.jpg"
     },
     {
-        "nome": "Равиоли с морским окунем и ароматом моря",
-        "categoria": "Primi",
-        "prezzo": "14.00"
+      "categoria": "antipasti",
+      "nome": "*Осьминог с картофелем",
+      "prezzo": "16.00€",
+      "immagine": "assets/polpo_patate.jpg"
     },
     {
-        "nome": "Ньокки с рыбой-мечом и фисташками",
-        "categoria": "Primi",
-        "prezzo": "14.00"
+      "categoria": "antipasti",
+      "nome": "Мясная нарезка, кростини и сыры D.O.P. с деликатесами земли",
+      "prezzo": "20.00€",
+      "immagine": "assets/tagliere_salumi.jpg"
+    },
+  {
+      "nome": "Спагетти с вонголе",
+      "categoria": "Primi",
+      "prezzo": "16.00€"
+  },
+  {
+      "nome": "Ризотто с кремом из креветок",
+      "categoria": "Primi",
+      "prezzo": "14.00€"
+  },
+  {
+      "nome": "*Ризотто по-рыбацки",
+      "categoria": "Primi",
+      "prezzo": "15.00€"
+  },
+  {
+      "nome": "Лингвини с омаром",
+      "categoria": "Primi",
+      "prezzo": "22.00€"
+  },
+  {
+      "nome": "Тоннарелли с морепродуктами",
+      "categoria": "Primi",
+      "prezzo": "16.00€"
+  },
+  {
+      "nome": "Ньокки с рыбой-мечом и фисташками",
+      "categoria": "Primi",
+      "prezzo": "14.00€"
+  },
+  {
+      "nome": "Карбонара",
+      "categoria": "Primi",
+      "prezzo": "13.00€"
+  },
+  {
+      "nome": "Качо э пепе",
+      "categoria": "Primi",
+      "prezzo": "13.00€"
+  },
+  {
+      "categoria": "secondi",
+      "nome": "Рыба на гриле",
+      "prezzo": "24.00€",
+      "immagine": "assets/grigliata_pesce.jpg"
     },
     {
-        "nome": "Карбонара",
-        "categoria": "Primi",
-        "prezzo": "12.00"
+      "categoria": "secondi",
+      "nome": "*Жареные кальмары и креветки",
+      "prezzo": "16.00€",
+      "immagine": "assets/frittura_calamar_gamberi.jpg"
     },
     {
-        "nome": "Качо э пепе",
-        "categoria": "Primi",
-        "prezzo": "12.00"
+      "categoria": "secondi",
+      "nome": "Смесь из рыбы",
+      "prezzo": "24.00€",
+      "immagine": "assets/miscuglio_pesce.jpg"
     },
     {
-        "categoria": "secondi",
-        "nome": "Рыба на гриле",
-        "prezzo": "22.00",
-        "immagine": "assets/grigliata_pesce.jpg"
-      },
-      {
-        "categoria": "secondi",
-        "nome": "Жареные кальмары и креветки",
-        "prezzo": "16.00",
-        "immagine": "assets/frittura_calamar_gamberi.jpg"
-      },
-      {
-        "categoria": "secondi",
-        "nome": "Смесь из рыбы",
-        "prezzo": "24.00",
-        "immagine": "assets/miscuglio_pesce.jpg"
-      },
-      {
-        "categoria": "secondi",
-        "nome": "Стейк из тунца",
-        "prezzo": "18.00",
-        "immagine": "assets/tagliata_tonno.jpg"
-      },
-      {
-        "categoria": "secondi",
-        "nome": "Запеченный палтус с картофелем",
-        "prezzo": "6.50 за 100г",
-        "immagine": "assets/rombo_patate.jpg"
-      },
-      {
-        "categoria": "secondi",
-        "nome": "Запеченная рыба с картофелем",
-        "prezzo": "6.50 за 100г",
-        "immagine": "assets/pescato_patate.jpg"
-      },
-      {
-        "categoria": "secondi",
-        "nome": "Рыба в соли",
-        "prezzo": "7.00 за 100г",
-        "immagine": "assets/pesce_sale.jpg"
-      },
-      {
-        "categoria": "secondi",
-        "nome": "Запеченная дорада с картофелем",
-        "prezzo": "18.00",
-        "immagine": "assets/orata_patate.jpg"
-      },
-      {
-        "categoria": "secondi",
-        "nome": "Уха",
-        "prezzo": "55.00",
-        "immagine": "assets/zuppa_pesce.jpg"
-      },
-      {
-        "categoria": "secondi",
-        "nome": "Суп из ракообразных",
-        "prezzo": "60.00",
-        "immagine": "assets/zuppa_crostacei.jpg"
-      },
-      {
-        "categoria": "secondi",
-        "nome": "Хрустящий стейк из лосося с травами",
-        "prezzo": "16.00",
-        "immagine": "assets/salmone_erbe.jpg"
-      },
-      {
-        "categoria": "secondi",
-        "nome": "Стейк из говядины",
-        "prezzo": "18.00",
-        "immagine": "assets/bistecca_manzo.jpg"
-      },
-      {
-        "categoria": "contorni",
-        "nome": "Смешанный или зеленый салат",
-        "prezzo": "5.00",
-        "immagine": "assets/insalata_mista.jpg"
-      },
-      {
-        "categoria": "contorni",
-        "nome": "Картофель фри или запеченный",
-        "prezzo": "5.00",
-        "immagine": "assets/patatine_fritte_forno.jpg"
-      },
-      {
-        "categoria": "contorni",
-        "nome": "Цикорий, обжаренный на сковороде или с уксусом",
-        "prezzo": "5.00",
-        "immagine": "assets/cicoria_ripassata.jpg"
-      },
-      {
-        "categoria": "da bere",
-        "nome": "Минеральная вода",
-        "prezzo": "2.50",
-        "immagine": "assets/acqua_minerale.jpg"
-      },
-      {
-        "categoria": "da bere",
-        "nome": "Пиво – 0,25л",
-        "prezzo": "4.00",
-        "immagine": "assets/birra_025l.jpg"
-      },
-      {
-        "categoria": "da bere",
-        "nome": "Фанта/Кола/Спрайт",
-        "prezzo": "3.00",
-        "immagine": "assets/fanta_cola_sprite.jpg"
-      },
-      {
-        "categoria": "da bere",
-        "nome": "Пиво – 0,5л",
-        "prezzo": "6.00",
-        "immagine": "assets/birra_05l.jpg"
-      },
-      {
-        "categoria": "da bere",
-        "nome": "Холодный чай с персиком / лимоном",
-        "prezzo": "3.00",
-        "immagine": "assets/the_freddo.jpg"
-      },
-      {
-        "categoria": "da bere",
-        "nome": "Фруктовые соки",
-        "prezzo": "3.00",
-        "immagine": "assets/succhi_frutta.jpg"
-      },
-      {
-        "categoria": "da bere",
-        "nome": "Пиво Peroni – 0,66л",
-        "prezzo": "6.00",
-        "immagine": "assets/birra_peroni_066l.jpg"
-      },
-      {
-        "categoria": "da bere",
-        "nome": "Пиво Ichnusa/Corona – 0,33л",
-        "prezzo": "4.00",
-        "immagine": "assets/birra_ichnusa_corona_033l.jpg"
-      },
-      {
-        "categoria": "dessert",
-        "nome": "Тирамису",
-        "prezzo": "6.00",
-        "immagine": "assets/tiramisu.jpg"
-      },
-      {
-        "categoria": "dessert",
-        "nome": "Панна котта с ягодами",
-        "prezzo": "6.00",
-        "immagine": "assets/panna_cotta_frutti_bosco.jpg"
-      },
-      {
-        "categoria": "dessert",
-        "nome": "Панна котта с фисташками из Бронте",
-        "prezzo": "6.00",
-        "immagine": "assets/panna_cotta_pistacchio.jpg"
-      },
-      {
-        "categoria": "dessert",
-        "nome": "Крем-карамель",
-        "prezzo": "6.00",
-        "immagine": "assets/creme_caramel.jpg"
-      },
-      {
-        "categoria": "dessert",
-        "nome": "Наполеон от шеф-повара",
-        "prezzo": "6.00",
-        "immagine": "assets/millefoglie.jpg"
-      },
-      {
-        "categoria": "dessert",
-        "nome": "Шоколадный суфле с жидкой сердцевиной",
-        "prezzo": "6.00",
-        "immagine": "assets/souffle_cioccolato.jpg"
-      },
-      {
-        "categoria": "dessert",
-        "nome": "Лимонный сорбет",
-        "prezzo": "6.00",
-        "immagine": "assets/sorbetto_limone.jpg"
-      },
-      {
-        "categoria": "dessert",
-        "nome": "Крем-каталана",
-        "prezzo": "6.00",
-        "immagine": "assets/crema_catalana.jpg"
-      },
-      {
-        "categoria": "dessert",
-        "nome": "Coppa del Cherubino",
-        "prezzo": "6.00",
-        "immagine": "assets/coppa_cherubino.jpg"
-      },
-      {
-        "categoria": "dessert",
-        "nome": "Чизкейк",
-        "prezzo": "6.00",
-        "immagine": "assets/cheesecake.jpg"
-      },
-      {
-        "categoria": "dessert",
-        "nome": "Баварский крем с шоколадом и Baileys",
-        "prezzo": "6.00",
-        "immagine": "assets/bavarese_cioccolato_baileys.jpg"
-      },
-      {
-        "categoria": "dessert",
-        "nome": "Баварский крем с белым шоколадом, цитрусовыми и лимончелло",
-        "prezzo": "6.00",
-        "immagine": "assets/bavarese_cioccolato_bianco.jpg"
-      },
-      {
-        "categoria": "caffetteria",
-        "nome": "Эспрессо",
-        "prezzo": "2.00",
-        "immagine": "assets/caffe_espresso.jpg"
-      },
-      {
-        "categoria": "caffetteria",
-        "nome": "Кофе без кофеина",
-        "prezzo": "2.00",
-        "immagine": "assets/caffe_decaffeinato.jpg"
-      },
-      {
-        "categoria": "caffetteria",
-        "nome": "Капучино",
-        "prezzo": "2.50",
-        "immagine": "assets/cappuccino.jpg"
-      },
-      {
-        "categoria": "caffetteria",
-        "nome": "Латте",
-        "prezzo": "3.00",
-        "immagine": "assets/caffe_latte.jpg"
-      },
-      {
-        "categoria": "caffetteria",
-        "nome": "Американо",
-        "prezzo": "2.50",
-        "immagine": "assets/caffe_americano.jpg"
-      },
-      {
-        "categoria": "caffetteria",
-        "nome": "Капучино без кофеина",
-        "prezzo": "2.50",
-        "immagine": "assets/cappuccino_decaffeinato.jpg"
-      },
-      {
-        "categoria": "caffetteria",
-        "nome": "Чай/Ромашка",
-        "prezzo": "2.50",
-        "immagine": "assets/te_camomilla.jpg"
-      },
-      {"categoria": "bianchi", "nome": "Gewurztraminer", "prezzo": "26.00"},
-      {"categoria": "bianchi", "nome": "Muller Thurgau", "prezzo": "25.00"},
-      {"categoria": "bianchi", "nome": "Riesling", "prezzo": "26.00"},
-      {"categoria": "bianchi", "nome": "Silvaner", "prezzo": "25.00"},
-      {"categoria": "bianchi", "nome": "Pecorino", "prezzo": "17.00"},
-      {"categoria": "bianchi", "nome": "Trebbiano", "prezzo": "17.00"},
-      {"categoria": "bianchi", "nome": "Fiano di Avellino", "prezzo": "22.00"},
-      {"categoria": "bianchi", "nome": "Greco di Tufo", "prezzo": "22.00", "quantita": "0.75lt"},
-      {"categoria": "bianchi", "nome": "Greco di Tufo", "prezzo": "12.00", "quantita": "0.375lt"},
-      {"categoria": "bianchi", "nome": "Falanghina", "prezzo": "18.00", "quantita": "0.75lt"},
-      {"categoria": "bianchi", "nome": "Falanghina", "prezzo": "11.00", "quantita": "0.375lt"},
-      {"categoria": "bianchi", "nome": "More Maiorum", "prezzo": "30.00"},
-      {"categoria": "bianchi", "nome": "Chardonnay", "prezzo": "20.00"},
-      {"categoria": "bianchi", "nome": "Cataratto", "prezzo": "18.00"},
-      {"categoria": "bianchi", "nome": "Insolia", "prezzo": "18.00"},
-      {"categoria": "bianchi", "nome": "Kikè Fina", "prezzo": "22.00"},
-      {"categoria": "bianchi", "nome": "Ansonica", "prezzo": "22.00"},
-      {"categoria": "bianchi", "nome": "Viognier", "prezzo": "21.00"},
-      {"categoria": "bianchi", "nome": "Ribolla Gialla", "prezzo": "20.00"},
-      {"categoria": "bianchi", "nome": "Pinot Grigio", "prezzo": "20.00"},
-      {"categoria": "bianchi", "nome": "Friuliano Colli Orientali del Friuli DOC", "prezzo": "20.00"},
-      {"categoria": "bianchi", "nome": "Sauvignon", "prezzo": "18.00"},
-      {"categoria": "bianchi", "nome": "Traminer", "prezzo": "18.00"},
-      {"categoria": "bianchi", "nome": "Passerina", "prezzo": "18.00"},
-      {"categoria": "bianchi", "nome": "Roma Bianco DOC 2020", "prezzo": "18.00"},
-      {"categoria": "bianchi", "nome": "Vermentino di Gallura", "prezzo": "18.00"},
-      {"categoria": "bianchi", "nome": "Lintóri Vermentino di Sardegna DOC", "prezzo": "28.00"},
-      {"categoria": "bianchi", "nome": "Vign'Angena Vermentino di Gallura DOCG", "prezzo": "49.00"},
-      {"categoria": "bianchi", "nome": "Roero Arneis DOCG", "prezzo": "18.00"},
-      {"categoria": "bianchi", "nome": "Gavi DOCG", "prezzo": "18.00"},
-      {"categoria": "rossi", "nome": "Lacryma Christi del Vesuvio Rosso DOC", "prezzo": "18.00"},
-      {"categoria": "rossi", "nome": "Lacrimarosa Irpinia Rosato", "prezzo": "18.00"},
-      {"categoria": "rossi", "nome": "Morellino di Scansano DOCG", "prezzo": "18.00"},
-      {"categoria": "rossi", "nome": "Chianti", "prezzo": "18.00"},
-      {"categoria": "rossi", "nome": "Barolo DOCG 2017", "prezzo": "60.00"},
-      {"categoria": "rossi", "nome": "Primo Scuro Cannonau di Sardegna DOC", "prezzo": "18.00"},
-      {"categoria": "rossi", "nome": "Radici Taurasi DOCG", "prezzo": "46.00"},
-      {"categoria": "rossi", "nome": "Syrah", "prezzo": "18.00"},
-      {"categoria": "bollicine", "nome": "Prosecco Valdobbiadene Brut DOCG", "prezzo": "20.00"},
-      {"categoria": "bollicine", "nome": "Prosecco Valdobbiadene Extra Dry DOCG", "prezzo": "22.00"},
-      {"categoria": "bollicine", "nome": "Prosecco Valdobbiadene Rosé DOCG", "prezzo": "20.00"},
-      {"categoria": "bollicine", "nome": "Valdobbiadene Prosecco Extra Dry \"Dirupo\"", "prezzo": "24.00"},
-      {"categoria": "bollicine", "nome": "Valdobbiadene Prosecco Brut \"Dirupo\"", "prezzo": "24.00"},
-      {"categoria": "bollicine", "nome": "Ferrari Brut Metodo Classico", "prezzo": "30.00"},
-      {"categoria": "bollicine", "nome": "Ferrari Rosé Metodo Classico", "prezzo": "35.00"},
-      {"categoria": "bollicine", "nome": "Champagne Brut", "prezzo": "75.00"},
-      {"categoria": "bollicine", "nome": "Franciacorta DOCG Brut", "prezzo": "32.00"},
-      {"categoria": "bollicine", "nome": "Franciacorta DOCG Rosé", "prezzo": "35.00"},
-      {"categoria": "bollicine", "nome": "Franciacorta DOCG Satèn", "prezzo": "39.00"},
-      {"categoria": "liquori", "nome": "Talisker 12 лет", "prezzo": "8.00"},
-      {"categoria": "liquori", "nome": "Caol Ila 12 лет", "prezzo": "9.00"},
-      {"categoria": "liquori", "nome": "Irish Whisky Tullamore Dew", "prezzo": "7.00"},
-      {"categoria": "liquori", "nome": "Bourbon Whisky Wild Turkey", "prezzo": "7.00"},
-      {"categoria": "liquori", "nome": "Flor de Cana", "prezzo": "8.00"},
-      {"categoria": "liquori", "nome": "Zacapa", "prezzo": "9.00"},
-      {"categoria": "liquori", "nome": "Armagnac Chevalier D’Espalet", "prezzo": "8.00"},
-      {"categoria": "liquori", "nome": "903 Barrique Grappe Maschio", "prezzo": "5.00"},
-      {"categoria": "liquori", "nome": "Амаро", "prezzo": "4.00"},
-      {"categoria": "liquori", "nome": "Лимончелло", "prezzo": "4.00"},
-      {"categoria": "liquori", "nome": "Baileys", "prezzo": "6.00"},
-      {"categoria": "liquori", "nome": "Cointreau", "prezzo": "6.00"}
+      "categoria": "secondi",
+      "nome": "Стейк из тунца",
+      "prezzo": "18.00€",
+      "immagine": "assets/tagliata_tonno.jpg"
+    },
+    {
+      "categoria": "secondi",
+      "nome": "Запеченный палтус с картофелем",
+      "prezzo": "6.50€ за 100г",
+      "immagine": "assets/rombo_patate.jpg"
+    },
+    {
+      "categoria": "secondi",
+      "nome": "Запеченная рыба с картофелем",
+      "prezzo": "6.50€ за 100г",
+      "immagine": "assets/pescato_patate.jpg"
+    },
+    {
+      "categoria": "secondi",
+      "nome": "Запеченная дорада с картофелем",
+      "prezzo": "18.00€",
+      "immagine": "assets/orata_patate.jpg"
+    },
+    {
+      "categoria": "secondi",
+      "nome": "Уха",
+      "prezzo": "55.00€",
+      "immagine": "assets/zuppa_pesce.jpg"
+    },
+    {
+      "categoria": "secondi",
+      "nome": "Суп из ракообразных",
+      "prezzo": "60.00€",
+      "immagine": "assets/zuppa_crostacei.jpg"
+    },
+    {
+      "categoria": "secondi",
+      "nome": "Хрустящий стейк из лосося с травами",
+      "prezzo": "18.00€",
+      "immagine": "assets/salmone_erbe.jpg"
+    },
+    {
+      "categoria": "secondi",
+      "nome": "Стейк из говядины",
+      "prezzo": "18.00€",
+      "immagine": "assets/bistecca_manzo.jpg"
+    },
+    {
+      "categoria": "contorni",
+      "nome": "Смешанный или зеленый салат",
+      "prezzo": "5.00€",
+      "immagine": "assets/insalata_mista.jpg"
+    },
+    {
+      "categoria": "contorni",
+      "nome": "*Картофель фри или запеченный",
+      "prezzo": "5.00€",
+      "immagine": "assets/patatine_fritte_forno.jpg"
+    },
+    {
+      "categoria": "contorni",
+      "nome": "Цикорий, обжаренный на сковороде или с уксусом",
+      "prezzo": "5.00€",
+      "immagine": "assets/cicoria_ripassata.jpg"
+    },
+    {
+      "categoria": "da bere",
+      "nome": "Минеральная вода",
+      "prezzo": "2.50€",
+      "immagine": "assets/acqua_minerale.jpg"
+    },
+    {
+      "categoria": "da bere",
+      "nome": "Пиво – 0,25л",
+      "prezzo": "4.00€",
+      "immagine": "assets/birra_025l.jpg"
+    },
+    {
+      "categoria": "da bere",
+      "nome": "Фанта/Кола/Спрайт",
+      "prezzo": "3.00€",
+      "immagine": "assets/fanta_cola_sprite.jpg"
+    },
+    {
+      "categoria": "da bere",
+      "nome": "Пиво – 0,5л",
+      "prezzo": "6.00€",
+      "immagine": "assets/birra_05l.jpg"
+    },
+    {
+      "categoria": "da bere",
+      "nome": "Холодный чай (персик/лимон)",
+      "prezzo": "3.00€",
+      "immagine": "assets/the_freddo.jpg"
+    },
+    {
+      "categoria": "da bere",
+      "nome": "Фруктовые соки",
+      "prezzo": "3.00€",
+      "immagine": "assets/succhi_frutta.jpg"
+    },
+    {
+      "categoria": "da bere",
+      "nome": "Пиво Peroni – 0,62л",
+      "prezzo": "6.00€",
+      "immagine": "assets/birra_peroni_066l.jpg"
+    },
+    {
+      "categoria": "da bere",
+      "nome": "Пиво Ichnusa/Corona – 0,33л",
+      "prezzo": "4.00€",
+      "immagine": "assets/birra_ichnusa_corona_033l.jpg"
+    },
+    {
+      "categoria": "dessert",
+      "nome": "Тирамису",
+      "prezzo": "6.00€",
+      "immagine": "assets/tiramisu.jpg"
+    },
+    {
+      "categoria": "dessert",
+      "nome": "Панна котта с ягодами",
+      "prezzo": "6.00€",
+      "immagine": "assets/panna_cotta_frutti_bosco.jpg"
+    },
+    {
+      "categoria": "dessert",
+      "nome": "Панна котта с фисташками из Бронте",
+      "prezzo": "6.00€",
+      "immagine": "assets/panna_cotta_pistacchio.jpg"
+    },
+    {
+      "categoria": "dessert",
+      "nome": "Крем-карамель",
+      "prezzo": "6.00€",
+      "immagine": "assets/creme_caramel.jpg"
+    },
+    {
+      "categoria": "dessert",
+      "nome": "Наполеон от шеф-повара",
+      "prezzo": "6.00€",
+      "immagine": "assets/millefoglie.jpg"
+    },
+    {
+      "categoria": "dessert",
+      "nome": "Шоколадный суфле с жидкой сердцевиной",
+      "prezzo": "6.00€",
+      "immagine": "assets/souffle_cioccolato.jpg"
+    },
+    {
+      "categoria": "dessert",
+      "nome": "Лимонный сорбет",
+      "prezzo": "6.00€",
+      "immagine": "assets/sorbetto_limone.jpg"
+    },
+    {
+      "categoria": "dessert",
+      "nome": "Крем-каталана",
+      "prezzo": "6.00€",
+      "immagine": "assets/crema_catalana.jpg"
+    },
+    {
+      "categoria": "dessert",
+      "nome": "Coppa del Cherubino",
+      "prezzo": "6.00€",
+      "immagine": "assets/coppa_cherubino.jpg"
+    },
+    {
+      "categoria": "dessert",
+      "nome": "Чизкейк",
+      "prezzo": "6.00€",
+      "immagine": "assets/cheesecake.jpg"
+    },
+    {
+      "categoria": "dessert",
+      "nome": "Баварский крем с шоколадом и Baileys",
+      "prezzo": "6.00€",
+      "immagine": "assets/bavarese_cioccolato_baileys.jpg"
+    },
+    {
+      "categoria": "dessert",
+      "nome": "Баварский крем с белым шоколадом, цитрусовыми и лимончелло",
+      "prezzo": "6.00€",
+      "immagine": "assets/bavarese_cioccolato_bianco.jpg"
+    },
+    {
+      "categoria": "caffetteria",
+      "nome": "Эспрессо",
+      "prezzo": "2.00€",
+      "immagine": "assets/caffe_espresso.jpg"
+    },
+    {
+      "categoria": "caffetteria",
+      "nome": "Кофе без кофеина",
+      "prezzo": "2.00€",
+      "immagine": "assets/caffe_decaffeinato.jpg"
+    },
+    {
+      "categoria": "caffetteria",
+      "nome": "Капучино",
+      "prezzo": "2.50€",
+      "immagine": "assets/cappuccino.jpg"
+    },
+    {
+      "categoria": "caffetteria",
+      "nome": "Латте",
+      "prezzo": "3.00€",
+      "immagine": "assets/caffe_latte.jpg"
+    },
+    {
+      "categoria": "caffetteria",
+      "nome": "Американо",
+      "prezzo": "2.50€",
+      "immagine": "assets/caffe_americano.jpg"
+    },
+    {
+      "categoria": "caffetteria",
+      "nome": "Капучино без кофеина",
+      "prezzo": "2.50€",
+      "immagine": "assets/cappuccino_decaffeinato.jpg"
+    },
+    {
+      "categoria": "caffetteria",
+      "nome": "Чай/Ромашка",
+      "prezzo": "2.50€",
+      "immagine": "assets/te_camomilla.jpg"
+    }
 ]

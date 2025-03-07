@@ -1,430 +1,342 @@
 [
-    {
-        "categoria": "antipasti",
-        "nome": "Moules à la vapeur",
-        "prezzo": "12.00",
-        "immagine": "assets/cozze.jpeg"
-      },
-      {
-        "categoria": "antipasti",
-        "nome": "Poisson cru",
-        "prezzo": "28.00",
-        "immagine": "assets/crudi.jpg"
-      },
-      {
-        "categoria": "antipasti",
-        "nome": "Huîtres",
-        "prezzo": "4.00 pièce",
-        "immagine": "assets/ostriche.jpg"
-      },
-      {
-        "categoria": "antipasti",
-        "nome": "Délices de poisson chauds et froids",
-        "prezzo": "18.00 - 6 dégustations",
-        "immagine": "assets/sfiziosita_pesce.jpg"
-      },
-      {
-        "categoria": "antipasti",
-        "nome": "Tris de tartare",
-        "prezzo": "18.00",
-        "immagine": "assets/tris_tartare.jpg"
-      },
-      {
-        "categoria": "antipasti",
-        "nome": "Carpaccio de poisson",
-        "prezzo": "14.00",
-        "immagine": "assets/carpaccio_pesce.jpg"
-      },
-      {
-        "categoria": "antipasti",
-        "nome": "Salade de fruits de mer",
-        "prezzo": "16.00",
-        "immagine": "assets/insalata_mare.jpg"
-      },
-      {
-        "categoria": "antipasti",
-        "nome": "Polipetti alla Luciana",
-        "prezzo": "12.00",
-        "immagine": "assets/polipetti_luciana.jpg"
-      },
-      {
-        "categoria": "antipasti",
-        "nome": "Poulpe avec pommes de terre",
-        "prezzo": "16.00",
-        "immagine": "assets/polpo_patate.jpg"
-      },
-      {
-        "categoria": "antipasti",
-        "nome": "Assiette de charcuterie, crostini et fromages D.O.P. et spécialités de la terre",
-        "prezzo": "20.00",
-        "immagine": "assets/tagliere_salumi.jpg"
-      },
-    {
-        "nome": "Spaghetti aux palourdes",
-        "categoria": "Primi",
-        "prezzo": "16.00"
+  {
+      "categoria": "antipasti",
+      "nome": "Moules à la vapeur",
+      "prezzo": "12.00€",
+      "immagine": "assets/cozze.jpeg"
     },
     {
-        "nome": "Risotto à la crème de crevettes",
-        "categoria": "Primi",
-        "prezzo": "14.00"
+      "categoria": "antipasti",
+      "nome": "Poisson cru",
+      "prezzo": "28.00€",
+      "immagine": "assets/crudi.jpg"
     },
     {
-        "nome": "Risotto alla pescatora",
-        "categoria": "Primi",
-        "prezzo": "15.00"
+      "categoria": "antipasti",
+      "nome": "Huîtres",
+      "prezzo": "4.00€ pièce",
+      "immagine": "assets/ostriche.jpg"
     },
     {
-        "nome": "Linguine au homard",
-        "categoria": "Primi",
-        "prezzo": "22.00"
+      "categoria": "antipasti",
+      "nome": "Délices de poisson chauds et froids",
+      "prezzo": "18.00€ - 6 dégustations",
+      "immagine": "assets/sfiziosita_pesce.jpg"
     },
     {
-        "nome": "Linguine aux langoustines",
-        "categoria": "Primi",
-        "prezzo": "18.00"
+      "categoria": "antipasti",
+      "nome": "Trio de tartare",
+      "prezzo": "18.00€",
+      "immagine": "assets/tris_tartare.jpg"
     },
     {
-        "nome": "Tagliolini au crabe",
-        "categoria": "Primi",
-        "prezzo": "14.00"
+      "categoria": "antipasti",
+      "nome": "Salade de fruits de mer",
+      "prezzo": "16.00€",
+      "immagine": "assets/insalata_mare.jpg"
     },
     {
-        "nome": "Tonnarelli allo scoglio",
-        "categoria": "Primi",
-        "prezzo": "16.00"
+      "categoria": "antipasti",
+      "nome": "*Polipetti alla Luciana",
+      "prezzo": "12.00€",
+      "immagine": "assets/polipetti_luciana.jpg"
     },
     {
-        "nome": "Raviolis de loup de mer au parfum de mer",
-        "categoria": "Primi",
-        "prezzo": "14.00"
+      "categoria": "antipasti",
+      "nome": "*Poulpe avec pommes de terre",
+      "prezzo": "16.00€",
+      "immagine": "assets/polpo_patate.jpg"
     },
     {
-        "nome": "Gnocchi au poisson-épée et pistache",
-        "categoria": "Primi",
-        "prezzo": "14.00"
+      "categoria": "antipasti",
+      "nome": "Planche de charcuterie, crostini et fromages D.O.P. avec délices de la terre",
+      "prezzo": "20.00€",
+      "immagine": "assets/tagliere_salumi.jpg"
+    },
+  {
+      "nome": "Spaghetti aux palourdes",
+      "categoria": "Primi",
+      "prezzo": "16.00€"
+  },
+  {
+      "nome": "Risotto à la crème de crevettes",
+      "categoria": "Primi",
+      "prezzo": "14.00€"
+  },
+  {
+      "nome": "*Risotto à la pêche",
+      "categoria": "Primi",
+      "prezzo": "15.00€"
+  },
+  {
+      "nome": "Linguine au homard",
+      "categoria": "Primi",
+      "prezzo": "22.00€"
+  },
+  {
+      "nome": "Tonnarelli aux fruits de mer",
+      "categoria": "Primi",
+      "prezzo": "16.00€"
+  },
+  {
+      "nome": "Gnocchi à l'espadon et pistache",
+      "categoria": "Primi",
+      "prezzo": "14.00€"
+  },
+  {
+      "nome": "Carbonara",
+      "categoria": "Primi",
+      "prezzo": "13.00€"
+  },
+  {
+      "nome": "Cacio e pepe",
+      "categoria": "Primi",
+      "prezzo": "13.00€"
+  },
+  {
+      "categoria": "secondi",
+      "nome": "Plateau de poisson grillé",
+      "prezzo": "24.00€",
+      "immagine": "assets/grigliata_pesce.jpg"
     },
     {
-        "nome": "Carbonara",
-        "categoria": "Primi",
-        "prezzo": "12.00"
+      "categoria": "secondi",
+      "nome": "*Calamars et crevettes frits",
+      "prezzo": "16.00€",
+      "immagine": "assets/frittura_calamar_gamberi.jpg"
     },
     {
-        "nome": "Cacio e pepe",
-        "categoria": "Primi",
-        "prezzo": "12.00"
+      "categoria": "secondi",
+      "nome": "Mélange de poisson",
+      "prezzo": "24.00€",
+      "immagine": "assets/miscuglio_pesce.jpg"
     },
     {
-        "categoria": "secondi",
-        "nome": "Grillade de poisson",
-        "prezzo": "22.00",
-        "immagine": "assets/grigliata_pesce.jpg"
-      },
-      {
-        "categoria": "secondi",
-        "nome": "Friture de calamars et crevettes",
-        "prezzo": "16.00",
-        "immagine": "assets/frittura_calamar_gamberi.jpg"
-      },
-      {
-        "categoria": "secondi",
-        "nome": "Mélange de poisson",
-        "prezzo": "24.00",
-        "immagine": "assets/miscuglio_pesce.jpg"
-      },
-      {
-        "categoria": "secondi",
-        "nome": "Tranche de thon",
-        "prezzo": "18.00",
-        "immagine": "assets/tagliata_tonno.jpg"
-      },
-      {
-        "categoria": "secondi",
-        "nome": "Turbot au four avec pommes de terre",
-        "prezzo": "6.50 aux 100g",
-        "immagine": "assets/rombo_patate.jpg"
-      },
-      {
-        "categoria": "secondi",
-        "nome": "Poisson du jour au four avec pommes de terre",
-        "prezzo": "6.50 aux 100g",
-        "immagine": "assets/pescato_patate.jpg"
-      },
-      {
-        "categoria": "secondi",
-        "nome": "Poisson au sel",
-        "prezzo": "7.00 aux 100g",
-        "immagine": "assets/pesce_sale.jpg"
-      },
-      {
-        "categoria": "secondi",
-        "nome": "Dorade d'élevage au four avec pommes de terre",
-        "prezzo": "18.00",
-        "immagine": "assets/orata_patate.jpg"
-      },
-      {
-        "categoria": "secondi",
-        "nome": "Soupe de poisson",
-        "prezzo": "55.00",
-        "immagine": "assets/zuppa_pesce.jpg"
-      },
-      {
-        "categoria": "secondi",
-        "nome": "Soupe de crustacés",
-        "prezzo": "60.00",
-        "immagine": "assets/zuppa_crostacei.jpg"
-      },
-      {
-        "categoria": "secondi",
-        "nome": "Tranche de saumon croustillant aux herbes",
-        "prezzo": "16.00",
-        "immagine": "assets/salmone_erbe.jpg"
-      },
-      {
-        "categoria": "secondi",
-        "nome": "Steak de bœuf",
-        "prezzo": "18.00",
-        "immagine": "assets/bistecca_manzo.jpg"
-      },
-      {
-        "categoria": "contorni",
-        "nome": "Salade mixte ou verte",
-        "prezzo": "5.00",
-        "immagine": "assets/insalata_mista.jpg"
-      },
-      {
-        "categoria": "contorni",
-        "nome": "Frites ou pommes de terre au four",
-        "prezzo": "5.00",
-        "immagine": "assets/patatine_fritte_forno.jpg"
-      },
-      {
-        "categoria": "contorni",
-        "nome": "Cicoria sautée à la poêle ou à l'aigre",
-        "prezzo": "5.00",
-        "immagine": "assets/cicoria_ripassata.jpg"
-      },
-      {
-        "categoria": "da bere",
-        "nome": "Eau minérale",
-        "prezzo": "2.50",
-        "immagine": "assets/acqua_minerale.jpg"
-      },
-      {
-        "categoria": "da bere",
-        "nome": "Bière – 0,25l",
-        "prezzo": "4.00",
-        "immagine": "assets/birra_025l.jpg"
-      },
-      {
-        "categoria": "da bere",
-        "nome": "Fanta/Cola/Sprite",
-        "prezzo": "3.00",
-        "immagine": "assets/fanta_cola_sprite.jpg"
-      },
-      {
-        "categoria": "da bere",
-        "nome": "Bière – 0,5l",
-        "prezzo": "6.00",
-        "immagine": "assets/birra_05l.jpg"
-      },
-      {
-        "categoria": "da bere",
-        "nome": "Thé froid à la pêche / citron",
-        "prezzo": "3.00",
-        "immagine": "assets/the_freddo.jpg"
-      },
-      {
-        "categoria": "da bere",
-        "nome": "Jus de fruits",
-        "prezzo": "3.00",
-        "immagine": "assets/succhi_frutta.jpg"
-      },
-      {
-        "categoria": "da bere",
-        "nome": "Bière Peroni – 0,66l",
-        "prezzo": "6.00",
-        "immagine": "assets/birra_peroni_066l.jpg"
-      },
-      {
-        "categoria": "da bere",
-        "nome": "Bière Ichnusa/Corona – 0,33l",
-        "prezzo": "4.00",
-        "immagine": "assets/birra_ichnusa_corona_033l.jpg"
-      },
-      {
-        "categoria": "dessert",
-        "nome": "Tiramisù",
-        "prezzo": "6.00",
-        "immagine": "assets/tiramisu.jpg"
-      },
-      {
-        "categoria": "dessert",
-        "nome": "Panna cotta aux fruits rouges",
-        "prezzo": "6.00",
-        "immagine": "assets/panna_cotta_frutti_bosco.jpg"
-      },
-      {
-        "categoria": "dessert",
-        "nome": "Panna cotta à la pistache de Bronte",
-        "prezzo": "6.00",
-        "immagine": "assets/panna_cotta_pistacchio.jpg"
-      },
-      {
-        "categoria": "dessert",
-        "nome": "Crème Caramel",
-        "prezzo": "6.00",
-        "immagine": "assets/creme_caramel.jpg"
-      },
-      {
-        "categoria": "dessert",
-        "nome": "Millefeuille du chef",
-        "prezzo": "6.00",
-        "immagine": "assets/millefoglie.jpg"
-      },
-      {
-        "categoria": "dessert",
-        "nome": "Soufflé au chocolat avec cœur fondant",
-        "prezzo": "6.00",
-        "immagine": "assets/souffle_cioccolato.jpg"
-      },
-      {
-        "categoria": "dessert",
-        "nome": "Sorbet au citron",
-        "prezzo": "6.00",
-        "immagine": "assets/sorbetto_limone.jpg"
-      },
-      {
-        "categoria": "dessert",
-        "nome": "Crème catalane",
-        "prezzo": "6.00",
-        "immagine": "assets/crema_catalana.jpg"
-      },
-      {
-        "categoria": "dessert",
-        "nome": "Coppa del Cherubino",
-        "prezzo": "6.00",
-        "immagine": "assets/coppa_cherubino.jpg"
-      },
-      {
-        "categoria": "dessert",
-        "nome": "Cheesecake",
-        "prezzo": "6.00",
-        "immagine": "assets/cheesecake.jpg"
-      },
-      {
-        "categoria": "dessert",
-        "nome": "Bavarois au chocolat et Baileys",
-        "prezzo": "6.00",
-        "immagine": "assets/bavarese_cioccolato_baileys.jpg"
-      },
-      {
-        "categoria": "dessert",
-        "nome": "Bavarois au chocolat blanc, agrumes et limoncello",
-        "prezzo": "6.00",
-        "immagine": "assets/bavarese_cioccolato_bianco.jpg"
-      },
-      {
-        "categoria": "caffetteria",
-        "nome": "Café expresso",
-        "prezzo": "2.00",
-        "immagine": "assets/caffe_espresso.jpg"
-      },
-      {
-        "categoria": "caffetteria",
-        "nome": "Café décaféiné",
-        "prezzo": "2.00",
-        "immagine": "assets/caffe_decaffeinato.jpg"
-      },
-      {
-        "categoria": "caffetteria",
-        "nome": "Cappuccino",
-        "prezzo": "2.50",
-        "immagine": "assets/cappuccino.jpg"
-      },
-      {
-        "categoria": "caffetteria",
-        "nome": "Caffè Latte",
-        "prezzo": "3.00",
-        "immagine": "assets/caffe_latte.jpg"
-      },
-      {
-        "categoria": "caffetteria",
-        "nome": "Café américain",
-        "prezzo": "2.50",
-        "immagine": "assets/caffe_americano.jpg"
-      },
-      {
-        "categoria": "caffetteria",
-        "nome": "Cappuccino décaféiné",
-        "prezzo": "2.50",
-        "immagine": "assets/cappuccino_decaffeinato.jpg"
-      },
-      {
-        "categoria": "caffetteria",
-        "nome": "Thé/Camomille",
-        "prezzo": "2.50",
-        "immagine": "assets/te_camomilla.jpg"
-      },
-      {"categoria": "bianchi", "nome": "Gewurztraminer", "prezzo": "26.00"},
-      {"categoria": "bianchi", "nome": "Muller Thurgau", "prezzo": "25.00"},
-      {"categoria": "bianchi", "nome": "Riesling", "prezzo": "26.00"},
-      {"categoria": "bianchi", "nome": "Silvaner", "prezzo": "25.00"},
-      {"categoria": "bianchi", "nome": "Pecorino", "prezzo": "17.00"},
-      {"categoria": "bianchi", "nome": "Trebbiano", "prezzo": "17.00"},
-      {"categoria": "bianchi", "nome": "Fiano di Avellino", "prezzo": "22.00"},
-      {"categoria": "bianchi", "nome": "Greco di Tufo", "prezzo": "22.00", "quantita": "0.75lt"},
-      {"categoria": "bianchi", "nome": "Greco di Tufo", "prezzo": "12.00", "quantita": "0.375lt"},
-      {"categoria": "bianchi", "nome": "Falanghina", "prezzo": "18.00", "quantita": "0.75lt"},
-      {"categoria": "bianchi", "nome": "Falanghina", "prezzo": "11.00", "quantita": "0.375lt"},
-      {"categoria": "bianchi", "nome": "More Maiorum", "prezzo": "30.00"},
-      {"categoria": "bianchi", "nome": "Chardonnay", "prezzo": "20.00"},
-      {"categoria": "bianchi", "nome": "Cataratto", "prezzo": "18.00"},
-      {"categoria": "bianchi", "nome": "Insolia", "prezzo": "18.00"},
-      {"categoria": "bianchi", "nome": "Kikè Fina", "prezzo": "22.00"},
-      {"categoria": "bianchi", "nome": "Ansonica", "prezzo": "22.00"},
-      {"categoria": "bianchi", "nome": "Viognier", "prezzo": "21.00"},
-      {"categoria": "bianchi", "nome": "Ribolla Gialla", "prezzo": "20.00"},
-      {"categoria": "bianchi", "nome": "Pinot Grigio", "prezzo": "20.00"},
-      {"categoria": "bianchi", "nome": "Friuliano Colli Orientali del Friuli DOC", "prezzo": "20.00"},
-      {"categoria": "bianchi", "nome": "Sauvignon", "prezzo": "18.00"},
-      {"categoria": "bianchi", "nome": "Traminer", "prezzo": "18.00"},
-      {"categoria": "bianchi", "nome": "Passerina", "prezzo": "18.00"},
-      {"categoria": "bianchi", "nome": "Roma Bianco DOC 2020", "prezzo": "18.00"},
-      {"categoria": "bianchi", "nome": "Vermentino di Gallura", "prezzo": "18.00"},
-      {"categoria": "bianchi", "nome": "Lintóri Vermentino di Sardegna DOC", "prezzo": "28.00"},
-      {"categoria": "bianchi", "nome": "Vign'Angena Vermentino di Gallura DOCG", "prezzo": "49.00"},
-      {"categoria": "bianchi", "nome": "Roero Arneis DOCG", "prezzo": "18.00"},
-      {"categoria": "bianchi", "nome": "Gavi DOCG", "prezzo": "18.00"},
-      {"categoria": "rossi", "nome": "Lacryma Christi del Vesuvio Rosso DOC", "prezzo": "18.00"},
-      {"categoria": "rossi", "nome": "Lacrimarosa Irpinia Rosato", "prezzo": "18.00"},
-      {"categoria": "rossi", "nome": "Morellino di Scansano DOCG", "prezzo": "18.00"},
-      {"categoria": "rossi", "nome": "Chianti", "prezzo": "18.00"},
-      {"categoria": "rossi", "nome": "Barolo DOCG 2017", "prezzo": "60.00"},
-      {"categoria": "rossi", "nome": "Primo Scuro Cannonau di Sardegna DOC", "prezzo": "18.00"},
-      {"categoria": "rossi", "nome": "Radici Taurasi DOCG", "prezzo": "46.00"},
-      {"categoria": "rossi", "nome": "Syrah", "prezzo": "18.00"},
-      {"categoria": "bollicine", "nome": "Prosecco Valdobbiadene Brut DOCG", "prezzo": "20.00"},
-      {"categoria": "bollicine", "nome": "Prosecco Valdobbiadene Extra Dry DOCG", "prezzo": "22.00"},
-      {"categoria": "bollicine", "nome": "Prosecco Valdobbiadene Rosé DOCG", "prezzo": "20.00"},
-      {"categoria": "bollicine", "nome": "Valdobbiadene Prosecco Extra Dry \"Dirupo\"", "prezzo": "24.00"},
-      {"categoria": "bollicine", "nome": "Valdobbiadene Prosecco Brut \"Dirupo\"", "prezzo": "24.00"},
-      {"categoria": "bollicine", "nome": "Ferrari Brut Metodo Classico", "prezzo": "30.00"},
-      {"categoria": "bollicine", "nome": "Ferrari Rosé Metodo Classico", "prezzo": "35.00"},
-      {"categoria": "bollicine", "nome": "Champagne Brut", "prezzo": "75.00"},
-      {"categoria": "bollicine", "nome": "Franciacorta DOCG Brut", "prezzo": "32.00"},
-      {"categoria": "bollicine", "nome": "Franciacorta DOCG Rosé", "prezzo": "35.00"},
-      {"categoria": "bollicine", "nome": "Franciacorta DOCG Satèn", "prezzo": "39.00"},
-      {"categoria": "liquori", "nome": "Talisker 12 ans", "prezzo": "8.00"},
-      {"categoria": "liquori", "nome": "Caol Ila 12 ans", "prezzo": "9.00"},
-      {"categoria": "liquori", "nome": "Irish Whisky Tullamore Dew", "prezzo": "7.00"},
-      {"categoria": "liquori", "nome": "Bourbon Whisky Wild Turkey", "prezzo": "7.00"},
-      {"categoria": "liquori", "nome": "Flor de Cana", "prezzo": "8.00"},
-      {"categoria": "liquori", "nome": "Zacapa", "prezzo": "9.00"},
-      {"categoria": "liquori", "nome": "Armagnac Chevalier D’Espalet", "prezzo": "8.00"},
-      {"categoria": "liquori", "nome": "903 Barrique Grappe Maschio", "prezzo": "5.00"},
-      {"categoria": "liquori", "nome": "Amaro", "prezzo": "4.00"},
-      {"categoria": "liquori", "nome": "Limoncello", "prezzo": "4.00"},
-      {"categoria": "liquori", "nome": "Baileys", "prezzo": "6.00"},
-      {"categoria": "liquori", "nome": "Cointreau", "prezzo": "6.00"}
+      "categoria": "secondi",
+      "nome": "Steak de thon",
+      "prezzo": "18.00€",
+      "immagine": "assets/tagliata_tonno.jpg"
+    },
+    {
+      "categoria": "secondi",
+      "nome": "Turbot au four avec pommes de terre",
+      "prezzo": "6.50€ pour 100g",
+      "immagine": "assets/rombo_patate.jpg"
+    },
+    {
+      "categoria": "secondi",
+      "nome": "Poisson du jour au four avec pommes de terre",
+      "prezzo": "6.50€ pour 100g",
+      "immagine": "assets/pescato_patate.jpg"
+    },
+    {
+      "categoria": "secondi",
+      "nome": "Dorade d'élevage au four avec pommes de terre",
+      "prezzo": "18.00€",
+      "immagine": "assets/orata_patate.jpg"
+    },
+    {
+      "categoria": "secondi",
+      "nome": "Soupe de poisson",
+      "prezzo": "55.00€",
+      "immagine": "assets/zuppa_pesce.jpg"
+    },
+    {
+      "categoria": "secondi",
+      "nome": "Soupe de crustacés",
+      "prezzo": "60.00€",
+      "immagine": "assets/zuppa_crostacei.jpg"
+    },
+    {
+      "categoria": "secondi",
+      "nome": "Steak de saumon croustillant aux herbes",
+      "prezzo": "18.00€",
+      "immagine": "assets/salmone_erbe.jpg"
+    },
+    {
+      "categoria": "secondi",
+      "nome": "Steak de bœuf",
+      "prezzo": "18.00€",
+      "immagine": "assets/bistecca_manzo.jpg"
+    },
+    {
+      "categoria": "contorni",
+      "nome": "Salade mixte ou verte",
+      "prezzo": "5.00€",
+      "immagine": "assets/insalata_mista.jpg"
+    },
+    {
+      "categoria": "contorni",
+      "nome": "*Pommes frites ou au four",
+      "prezzo": "5.00€",
+      "immagine": "assets/patatine_fritte_forno.jpg"
+    },
+    {
+      "categoria": "contorni",
+      "nome": "Chicorée sautée ou à l'aigre",
+      "prezzo": "5.00€",
+      "immagine": "assets/cicoria_ripassata.jpg"
+    },
+    {
+      "categoria": "da bere",
+      "nome": "Eau minérale",
+      "prezzo": "2.50€",
+      "immagine": "assets/acqua_minerale.jpg"
+    },
+    {
+      "categoria": "da bere",
+      "nome": "Bière – 0,25l",
+      "prezzo": "4.00€",
+      "immagine": "assets/birra_025l.jpg"
+    },
+    {
+      "categoria": "da bere",
+      "nome": "Fanta/Cola/Sprite",
+      "prezzo": "3.00€",
+      "immagine": "assets/fanta_cola_sprite.jpg"
+    },
+    {
+      "categoria": "da bere",
+      "nome": "Bière – 0,5l",
+      "prezzo": "6.00€",
+      "immagine": "assets/birra_05l.jpg"
+    },
+    {
+      "categoria": "da bere",
+      "nome": "Thé froid (pêche/citron)",
+      "prezzo": "3.00€",
+      "immagine": "assets/the_freddo.jpg"
+    },
+    {
+      "categoria": "da bere",
+      "nome": "Jus de fruits",
+      "prezzo": "3.00€",
+      "immagine": "assets/succhi_frutta.jpg"
+    },
+    {
+      "categoria": "da bere",
+      "nome": "Bière Peroni – 0,62l",
+      "prezzo": "6.00€",
+      "immagine": "assets/birra_peroni_066l.jpg"
+    },
+    {
+      "categoria": "da bere",
+      "nome": "Bière Ichnusa/Corona – 0,33l",
+      "prezzo": "4.00€",
+      "immagine": "assets/birra_ichnusa_corona_033l.jpg"
+    },
+    {
+      "categoria": "dessert",
+      "nome": "Tiramisu",
+      "prezzo": "6.00€",
+      "immagine": "assets/tiramisu.jpg"
+    },
+    {
+      "categoria": "dessert",
+      "nome": "Panna cotta aux fruits rouges",
+      "prezzo": "6.00€",
+      "immagine": "assets/panna_cotta_frutti_bosco.jpg"
+    },
+    {
+      "categoria": "dessert",
+      "nome": "Panna cotta à la pistache de Bronte",
+      "prezzo": "6.00€",
+      "immagine": "assets/panna_cotta_pistacchio.jpg"
+    },
+    {
+      "categoria": "dessert",
+      "nome": "Crème caramel",
+      "prezzo": "6.00€",
+      "immagine": "assets/creme_caramel.jpg"
+    },
+    {
+      "categoria": "dessert",
+      "nome": "Mille-feuille du chef",
+      "prezzo": "6.00€",
+      "immagine": "assets/millefoglie.jpg"
+    },
+    {
+      "categoria": "dessert",
+      "nome": "Soufflé au chocolat avec cœur fondant",
+      "prezzo": "6.00€",
+      "immagine": "assets/souffle_cioccolato.jpg"
+    },
+    {
+      "categoria": "dessert",
+      "nome": "Sorbet au citron",
+      "prezzo": "6.00€",
+      "immagine": "assets/sorbetto_limone.jpg"
+    },
+    {
+      "categoria": "dessert",
+      "nome": "Crème catalane",
+      "prezzo": "6.00€",
+      "immagine": "assets/crema_catalana.jpg"
+    },
+    {
+      "categoria": "dessert",
+      "nome": "Coppa del Cherubino",
+      "prezzo": "6.00€",
+      "immagine": "assets/coppa_cherubino.jpg"
+    },
+    {
+      "categoria": "dessert",
+      "nome": "Cheesecake",
+      "prezzo": "6.00€",
+      "immagine": "assets/cheesecake.jpg"
+    },
+    {
+      "categoria": "dessert",
+      "nome": "Bavarois au chocolat et Baileys",
+      "prezzo": "6.00€",
+      "immagine": "assets/bavarese_cioccolato_baileys.jpg"
+    },
+    {
+      "categoria": "dessert",
+      "nome": "Bavarois au chocolat blanc, agrumes et limoncello",
+      "prezzo": "6.00€",
+      "immagine": "assets/bavarese_cioccolato_bianco.jpg"
+    },
+    {
+      "categoria": "caffetteria",
+      "nome": "Café expresso",
+      "prezzo": "2.00€",
+      "immagine": "assets/caffe_espresso.jpg"
+    },
+    {
+      "categoria": "caffetteria",
+      "nome": "Café décaféiné",
+      "prezzo": "2.00€",
+      "immagine": "assets/caffe_decaffeinato.jpg"
+    },
+    {
+      "categoria": "caffetteria",
+      "nome": "Cappuccino",
+      "prezzo": "2.50€",
+      "immagine": "assets/cappuccino.jpg"
+    },
+    {
+      "categoria": "caffetteria",
+      "nome": "Caffè Latte",
+      "prezzo": "3.00€",
+      "immagine": "assets/caffe_latte.jpg"
+    },
+    {
+      "categoria": "caffetteria",
+      "nome": "Café américain",
+      "prezzo": "2.50€",
+      "immagine": "assets/caffe_americano.jpg"
+    },
+    {
+      "categoria": "caffetteria",
+      "nome": "Cappuccino décaféiné",
+      "prezzo": "2.50€",
+      "immagine": "assets/cappuccino_decaffeinato.jpg"
+    },
+    {
+      "categoria": "caffetteria",
+      "nome": "Thé/Camomille",
+      "prezzo": "2.50€",
+      "immagine": "assets/te_camomilla.jpg"
+    }
 ]

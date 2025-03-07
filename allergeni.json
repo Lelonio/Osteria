@@ -1,0 +1,150 @@
+{
+      "it": {
+        "titolo": "Informazioni sugli Allergeni",
+        "descrizione": "Si avvisa la gentile clientela che nei piatti preparati possono essere contenuti ingredienti o coadiuvanti considerati allergeni.",
+        "elenco": [
+          "Cereali contenenti glutine",
+          "Crostacei e prodotti derivati",
+          "Uova e prodotti derivati",
+          "Pesce e prodotti derivati",
+          "Arachidi e prodotti derivati",
+          "Soia e prodotti derivati",
+          "Latte e prodotti derivati (compreso lattosio)",
+          "Sedano e prodotti derivati",
+          "Senape e prodotti derivati",
+          "Semi di sesamo e prodotti derivati",
+          "Anidride solforosa e solfiti",
+          "Lupino e prodotti a base di lupino",
+          "Molluschi e prodotti a base di mollusco",
+          "Frutta a guscio"
+        ],
+        "nota": "*Per ulteriori informazioni, si prega di rivolgersi al personale di sala."
+      },
+      "en": {
+        "titolo": "Allergen Information",
+        "descrizione": "Customers are advised that prepared dishes may contain ingredients or processing aids considered allergens.",
+        "elenco": [
+          "Cereals containing gluten",
+          "Crustaceans and derived products",
+          "Eggs and derived products",
+          "Fish and derived products",
+          "Peanuts and derived products",
+          "Soy and derived products",
+          "Milk and dairy products (including lactose)",
+          "Celery and derived products",
+          "Mustard and derived products",
+          "Sesame seeds and derived products",
+          "Sulfur dioxide and sulfites",
+          "Lupin and lupin-based products",
+          "Mollusks and mollusk-based products",
+          "Tree nuts"
+        ],
+        "nota": "*For further information, please contact the staff."
+      },
+      "es": {
+        "titolo": "Información sobre alérgenos",
+        "descrizione": "Se informa a la distinguida clientela que los platos preparados pueden contener ingredientes o adyuvantes considerados alérgenos.",
+        "elenco": [
+          "Cereales que contienen gluten",
+          "Crustáceos y productos derivados",
+          "Huevos y productos derivados",
+          "Pescado y productos derivados",
+          "Cacahuetes y productos derivados",
+          "Soja y productos derivados",
+          "Leche y productos lácteos (incluida la lactosa)",
+          "Apio y productos derivados",
+          "Mostaza y productos derivados",
+          "Semillas de sésamo y productos derivados",
+          "Dióxido de azufre y sulfitos",
+          "Altramuces y productos a base de altramuces",
+          "Moluscos y productos a base de moluscos",
+          "Frutos secos"
+        ],
+        "nota": "*Para más información, por favor consulte al personal."
+      },
+      "de": {
+        "titolo": "Informationen zu Allergenen",
+        "descrizione": "Wir informieren unsere geschätzten Kunden, dass zubereitete Gerichte Zutaten oder Verarbeitungshilfsstoffe enthalten können, die als Allergene gelten.",
+        "elenco": [
+          "Getreide, das Gluten enthält",
+          "Krebstiere und daraus gewonnene Produkte",
+          "Eier und daraus gewonnene Produkte",
+          "Fisch und daraus gewonnene Produkte",
+          "Erdnüsse und daraus gewonnene Produkte",
+          "Soja und daraus gewonnene Produkte",
+          "Milch und Milchprodukte (einschließlich Laktose)",
+          "Sellerie und daraus gewonnene Produkte",
+          "Senf und daraus gewonnene Produkte",
+          "Sesamsamen und daraus gewonnene Produkte",
+          "Schwefeldioxid und Sulfite",
+          "Lupinen und daraus gewonnene Produkte",
+          "Weichtiere und daraus gewonnene Produkte",
+          "Schalenfrüchte"
+        ],
+        "nota": "*Für weitere Informationen wenden Sie sich bitte an das Personal."
+      },
+      "fr": {
+        "titolo": "Informations sur les allergènes",
+        "descrizione": "Nous informons notre aimable clientèle que les plats préparés peuvent contenir des ingrédients ou des auxiliaires technologiques considérés comme des allergènes.",
+        "elenco": [
+          "Céréales contenant du gluten",
+          "Crustacés et produits dérivés",
+          "Œufs et produits dérivés",
+          "Poisson et produits dérivés",
+          "Arachides et produits dérivés",
+          "Soja et produits dérivés",
+          "Lait et produits laitiers (y compris le lactose)",
+          "Céleri et produits dérivés",
+          "Moutarde et produits dérivés",
+          "Graines de sésame et produits dérivés",
+          "Anhydride sulfureux et sulfites",
+          "Lupin et produits à base de lupin",
+          "Mollusques et produits à base de mollusques",
+          "Fruits à coque"
+        ],
+        "nota": "*Pour plus d’informations, veuillez contacter le personnel."
+      },
+      "ru": {
+        "titolo": "Информация о аллергенах",
+        "descrizione": "Мы информируем уважаемых клиентов, что в приготовленных блюдах могут содержаться ингредиенты или вспомогательные вещества, считающиеся аллергенами.",
+        "elenco": [
+          "Зерновые, содержащие глютен",
+          "Ракообразные и производные продукты",
+          "Яйца и производные продукты",
+          "Рыба и производные продукты",
+          "Арахис и производные продукты",
+          "Соя и производные продукты",
+          "Молоко и молочные продукты (включая лактозу)",
+          "Сельдерей и производные продукты",
+          "Горчица и производные продукты",
+          "Кунжутные семена и производные продукты",
+          "Диоксид серы и сульфиты",
+          "Люпин и продукты на основе люпина",
+          "Моллюски и продукты на основе моллюсков",
+          "Орехи"
+        ],
+        "nota": "*Для получения дополнительной информации, пожалуйста, обратитесь к персоналу."
+      },
+      "zh": {
+        "titolo": "过敏原信息",
+        "descrizione": "我们提醒尊贵的顾客，所提供的菜肴可能含有被视为过敏原的成分或辅料。",
+        "elenco": [
+          "含麸质的谷物",
+          "甲壳类动物及其制品",
+          "鸡蛋及其制品",
+          "鱼类及其制品",
+          "花生及其制品",
+          "大豆及其制品",
+          "牛奶及奶制品（包括乳糖）",
+          "芹菜及其制品",
+          "芥末及其制品",
+          "芝麻及其制品",
+          "二氧化硫和亚硫酸盐",
+          "羽扇豆及其制品",
+          "软体动物及其制品",
+          "坚果"
+        ],
+        "nota": "*如需更多信息，请咨询工作人员。"
+      }
+    }
+  
