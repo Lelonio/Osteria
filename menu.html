@@ -35,6 +35,23 @@
   <style>
     @import url("css/pt-sans.css");
 
+
+
+    /* Imposta lo stato iniziale del dropdown */
+.dropdown-content {
+    display: block!important; /* Lo teniamo visibile ma nascosto con altezza */
+    max-height: 0!important;
+    overflow: hidden!important;
+    transition: max-height 0.4s ease-in-out, opacity 0.3s ease-in-out!important;
+    opacity: 0!important;
+}
+
+/* Quando il dropdown è aperto */
+.dropdown-content.show {
+    max-height: 300px!important; /* Altezza massima per evitare un'apertura infinita */
+    opacity: 1!important;
+}
+
     .categories button {
   padding: 12px 20px !important;
   font-size: 1.2em!important;
@@ -299,16 +316,12 @@
 
     .dropdown-content {
       display: none;
-      position: absolute;
-      background-color: #ffffff;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+      position:absolute;
       z-index: 1;
     }
 
     .dropdown-content button {
-      width: 95%;
-      text-align: left;
+      text-align: center;
       padding: 10px;
       border: none;
       background-color: #ffffff;
@@ -954,9 +967,83 @@ document.addEventListener("DOMContentLoaded", () => {
     loadMenu();  // Aggiungilo qui
 });
 
-  
+
 
 </script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+      const dropdownParents = document.querySelectorAll(".dropdown");
+  
+      dropdownParents.forEach(parent => {
+          let mainButton = parent.querySelector("button");
+          let content = parent.querySelector(".dropdown-content");
+  
+          if (!mainButton || !content) return;
+  
+          // **Gestione apertura dropdown con animazione**
+          mainButton.addEventListener("click", function(event) {
+              event.stopPropagation(); // Evita chiusure immediate
+  
+              let isVisible = content.classList.contains("show");
+              
+              // Chiude solo gli altri dropdown, ma NON quello attuale se è già aperto
+              closeAllDropdowns(parent);
+  
+              if (!isVisible) {
+                  content.classList.add("show");
+                  this.classList.add("active");
+              }
+          });
+  
+          // **Quando si seleziona una voce nel dropdown**
+          content.querySelectorAll("button").forEach(subButton => {
+              subButton.addEventListener("click", function() {
+                  closeDropdown(parent); // Chiude solo il dropdown associato
+                  this.classList.add("active"); // Evidenzia l'elemento selezionato
+  
+                  let mainButton = parent.querySelector("button");
+                  if (mainButton) {
+                      mainButton.classList.add("active"); // Mantiene attivo il pulsante principale
+                  }
+              });
+          });
+      });
+  
+      // **Chiude tutti i dropdown quando si clicca fuori**
+      document.addEventListener("click", function(event) {
+          if (!event.target.closest(".dropdown")) {
+              closeAllDropdowns();
+          }
+      });
+  
+      // **Chiude un solo dropdown specifico con animazione**
+      function closeDropdown(parent) {
+          let content = parent.querySelector(".dropdown-content");
+          if (content) {
+              content.classList.remove("show");
+          }
+  
+          let mainButton = parent.querySelector("button");
+          if (mainButton && !parent.querySelector(".dropdown-content button.active")) {
+              mainButton.classList.remove("active");
+          }
+      }
+  
+      // **Chiude tutti i dropdown tranne quello specificato**
+      function closeAllDropdowns(exception = null) {
+          document.querySelectorAll(".dropdown").forEach(parent => {
+              if (parent !== exception) {
+                  closeDropdown(parent);
+              }
+          });
+      }
+  });
+  </script>
+  
+  
+  
+  
+  
 <script>
   function openMenuPage() {
     window.location.href = 'index.html'; 
