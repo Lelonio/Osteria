@@ -3,7 +3,18 @@
 
 <html lang="it">
 <head>
+  <link rel="manifest" href="/manifest.json">
   <meta charset="UTF-8">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('js/sw.js').then(() => {
+        console.log("Service Worker registrato!");
+      });
+    }
+  </script>
+  
   <script src="js/fontawesome.js" ></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <link rel="icon" href="assets/logomenu.png">
@@ -443,10 +454,15 @@
   cursor: pointer;
   
 }
+@media (prefers-color-scheme: dark) {
+      .logo {
+        content: url("assets/navlogo.png");
+      }}
 
-
-      
-
+      @media (prefers-color-scheme: light) {
+      .logo {
+        content: url("assets/logomenu.png");
+      }}
   </style>
 
 
@@ -883,9 +899,6 @@ function filterMenu(category, button) {
         }
     }
 
-    setTimeout(() => {
-                dropdown.querySelector('.dropdown-content').style.display = 'none';
-            }, 200);
 
     // **SCROLL AUTOMATICO ALLA SEZIONE MENU**
     setTimeout(() => {
