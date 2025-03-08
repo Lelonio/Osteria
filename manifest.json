@@ -2,7 +2,7 @@
     "name": "Osteria Del Pirgo",
     "short_name": "Osteria Del Pirgo",
     "display": "fullscreen",
-    "start_url": "/?utm_source=homescreen",
+    "start_url": "/menu.html",
     "scope": "/",
 
     "background_color": "#ffffff",
