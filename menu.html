@@ -35,6 +35,63 @@
   <style>
     @import url("css/pt-sans.css");
 
+    .categories button {
+  padding: 12px 20px !important;
+  font-size: 1.2em!important;
+  background:grey !important;
+  color: white!important;
+  border: none!important;
+  border-radius: 5px!important;
+  cursor: pointer!important;
+  transition: background 0.3s ease, transform 0.2s ease-in-out!important;
+}
+
+.categories button:hover {
+  background: lightskyblue!important;
+  transform: scale(1.05)!important;
+}
+
+.categories button.active {
+  background: lightskyblue!important;
+  transform: scale(1.2)!important;
+}
+
+
+
+    .menu-items {
+  display: grid!important;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 10fr))!important; /* Disposizione dinamica */
+  gap: 15px!important;
+  justify-content: center!important;
+  padding: 20px!important;
+}
+
+.menu-item {
+  background: white!important;
+  border-radius: 10px!important;
+  padding: 15px!important;
+  text-align: center!important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+.menu-item:hover {
+  transform: scale(1.05) !important; /* Leggera animazione al passaggio */
+}
+
+.menu-item img {
+  width: 100%!important;
+  max-width: 150px!important;
+  height: auto!important;
+  border-radius: 8px!important;
+  margin-bottom: 10px!important;
+}
+
+.price {
+  font-size: 1.2em!important;
+  font-weight: bold!important;
+  color: black!important;
+}
+
     body {
       font-family: "PT Sans", sans-serif !important;
       text-align: center;
@@ -127,10 +184,7 @@
   }
 
   /* Ottimizza il menu per dispositivi mobili */
-  .menu-items {
-    width: 100%;
-    max-width: 500px;
-  }
+
 
   /* Rende le voci di menu più compatte */
   .menu-item {
@@ -175,7 +229,7 @@
     }
 
     .categories button.active {
-    background-color: #bbb;
+    background-color: lightskyblue;
     font-weight: bold;
     color: white;
 }
@@ -233,7 +287,7 @@
 
   .custom-font{
       font-family: "Alex Brush", cursive;
-      color: #000000;
+      color: lightskyblue;
       font-size: 20px;
       line-height: 0;
     }
@@ -325,7 +379,7 @@
     }
     .custom-font{
       font-family: "Alex Brush", cursive;
-      color: #000000;
+      color: lightskyblue;
       font-size: 75px;
       line-height: 0;
     }
@@ -357,10 +411,10 @@
       font-size: 1.5em;
     }
     .categories button:hover {
-      background-color: #d2d2d2;
+      background-color: lightskyblue;
     }
     .categories button.active {
-    background-color: #bbb;
+    background-color: lightskyblue;
     font-weight: bold;
     color: white;
 }
@@ -758,7 +812,7 @@ async function loadMenu() {
                     <div class="info">
                         <h3>${item.nome}</h3>
                     </div>
-                    <span class="price">${prezzoQuantita}</span>
+                    <span class="price" style="text-shadow: 1px 1px 1px  #d2d2d2;">${prezzoQuantita}</span>
                 `;
                 setTimeout(() => menuItem.classList.add('show'), index * 100);
             };
@@ -768,7 +822,7 @@ async function loadMenu() {
                     <div class="info">
                         <h3>${item.nome}</h3>
                     </div>
-                    <span class="price">${prezzoQuantita}</span>
+                    <span class="price" style="text-shadow: 1px 1px 1px  #d2d2d2;">${prezzoQuantita}</span>
                 `;
                 setTimeout(() => menuItem.classList.add('show'), index * 100);
             };
@@ -804,7 +858,6 @@ async function loadMenu() {
             menuContainer.appendChild(menuItem);
         });
 
-        console.log("Menu e vini caricati:", allItems);
     } catch (error) {
         console.error('Errore nel caricamento del menu:', error);
     }
@@ -919,7 +972,6 @@ function filterMenu(category, button) {
         }
     }, 300); // Ritardo per garantire che gli elementi siano stati mostrati
 
-    console.log(`Filtro selezionato: ${category}`);
 }
 
 
