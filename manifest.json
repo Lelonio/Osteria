@@ -1,7 +1,7 @@
 {
     "name": "Osteria Del Pirgo",
     "short_name": "Osteria Del Pirgo",
-    "display": "standalone",
+    "display": "fullscreen",
     "start_url": "/?utm_source=homescreen",
     "scope": "/",
 
