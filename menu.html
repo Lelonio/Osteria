@@ -808,17 +808,32 @@ async function loadMenu() {
             };
 
             imgElement.onerror = function () {
+                if (item.categoria == "Primi" || item.categoria == "secondi" || item.categoria == "antipasti" || item.categoria == "contorni" || item.categoria == "dessert"){
+
                 menuItem.innerHTML = `
+                    <i class="fa fa-cutlery fa-4x" aria-hidden="true"></i>
                     <div class="info">
                         <h3>${item.nome}</h3>
                     </div>
                     <span class="price" style="text-shadow: 1px 1px 1px  #d2d2d2;">${prezzoQuantita}</span>
                 `;
-                setTimeout(() => menuItem.classList.add('show'), index * 20);
-            };
+                setTimeout(() => menuItem.classList.add('show'), index * 100);
+            } else {
+              menuItem.innerHTML = `
+                    <i class="fa fa-glass fa-4x" aria-hidden="true"></i>
+                    <div class="info">
+                        <h3>${item.nome}</h3>
+                    </div>
+                    <span class="price" style="text-shadow: 1px 1px 1px  #d2d2d2;">${prezzoQuantita}</span>
+                `;
+                setTimeout(() => menuItem.classList.add('show'), index * 100);
+            }
+          
+          };
 
             menuItem.addEventListener('click', () => {
     let popupConfig = {
+
         title: item.nome,
         text: `${prezzoQuantita}`,
         showCloseButton: true,
@@ -837,6 +852,7 @@ async function loadMenu() {
         };
 
         testImage.onerror = function () {
+            
             Swal.fire(popupConfig); // Mostra il popup senza immagine se c'è un errore
         };
     } else {
