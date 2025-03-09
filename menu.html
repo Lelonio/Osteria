@@ -831,7 +831,7 @@ async function loadMenu() {
           
           };
 
-            menuItem.addEventListener('click', () => {
+            menuItem.addEventListener('click', async function () {
     let popupConfig = {
 
         title: item.nome,
@@ -841,24 +841,22 @@ async function loadMenu() {
     };
 
     if (imgPath) {
-        let testImage = new Image();
-        testImage.src = imgPath;
+        try {
+            // **Controlliamo se l'immagine esiste con una richiesta fetch**
+            const response = await fetch(imgPath, { method: 'HEAD' });
 
-        testImage.onload = function () {
-            popupConfig.imageUrl = imgPath;
-            popupConfig.imageWidth = 300;
-            popupConfig.imageAlt = item.nome;
-            Swal.fire(popupConfig);
-        };
-
-        testImage.onerror = function () {
-            
-            Swal.fire(popupConfig); // Mostra il popup senza immagine se c'è un errore
-        };
-    } else {
+            if (response.ok) {
+                // **L'immagine esiste, la mostriamo nel popup**
+                popupConfig.imageUrl = imgPath;
+                popupConfig.imageWidth = 300;
+                popupConfig.imageAlt = item.nome;
+            }
+        } catch (error) {
+            console.warn(`Immagine non trovata per ${item.nome}, caricando popup senza immagine.`);
+        }}
         Swal.fire(popupConfig);
-    }
-});
+    
+        });
 
 
             menuContainer.appendChild(menuItem);
