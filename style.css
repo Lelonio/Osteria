@@ -586,6 +586,19 @@ nav div.show {
   .logo-container{
     margin-top: 150px;
   }
+
+  .cucina-background {
+    background: black url("assets/salaest.jpg") no-repeat center center;
+    background-size: cover;
+    height: 600px;
+    
+  }
+  .ristorante-background {
+    background: black url("assets/salaint.jpg") no-repeat center center;
+    background-size: cover;
+    height: 600px;
+    
+  }
 }
 
 
