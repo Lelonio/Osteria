@@ -516,6 +516,19 @@
   
 }
 
+.fade-out {
+    opacity: 0;
+    transform: translateY(-5px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 1s ease-in, transform 1s ease-in;
+}
+
+
   </style>
 
 
@@ -699,8 +712,9 @@ function changeLanguage(lang, button) {
     currentLanguage = lang;
     localStorage.setItem('menuLanguage', lang);
     loadMenu();
-    loadAllergens(); // Carica gli allergeni con la lingua selezionata
-    updateButtonText(lang);
+    loadAllergens();
+    
+    animateButtonTextChange(lang); // Animazione per i pulsanti
 
     document.querySelectorAll('.language-selector img').forEach(btn => btn.classList.remove('active'));
     document.querySelectorAll('.categories button').forEach(btn => btn.classList.remove('active'));
@@ -709,24 +723,35 @@ function changeLanguage(lang, button) {
         button.classList.add('active');
     }
     button.offsetWidth;
-
-
+    
     window.scrollTo({
-        top, // 50px di margine per visibilità
-        behavior:"smooth"
+        top: 0, // Corretto l'errore precedente
+        behavior: "smooth"
     });
 
-
     loadMenu();
-    updateButtonText(lang);
 }
 
-// Carica gli allergeni al caricamento della pagina
-document.addEventListener("DOMContentLoaded", () => {
-    loadAllergens();
-});
+// **Funzione per animare il cambio di testo dei pulsanti**
+function animateButtonTextChange(lang) {
+    const buttons = document.querySelectorAll('.categories button, .wine-menu button, .sweet-menu button, .wine-menu .dropdown-content button, .sweet-menu .dropdown-content button');
+    
+    buttons.forEach(button => {
+        button.classList.add('fade-out'); // **Aggiunge animazione di uscita**
 
-// Funzione per aggiornare i testi dei tasti
+        setTimeout(() => {
+            updateButtonText(lang); // Cambia il testo dopo l'animazione fade-out
+            button.classList.remove('fade-out'); 
+            button.classList.add('fade-in'); // **Aggiunge animazione di entrata**
+
+            setTimeout(() => {
+                button.classList.remove('fade-in'); // Rimuove l'animazione dopo la transizione
+            }, 500);
+        }, 300);
+    });
+}
+
+// **Funzione per aggiornare i testi dei pulsanti**
 function updateButtonText(lang) {
     document.querySelector('button[onclick="filterMenu(\'antipasti\', this)"]').textContent = translations[lang].antipasti;
     document.querySelector('button[onclick="filterMenu(\'Primi\', this)"]').textContent = translations[lang].primi;
@@ -739,29 +764,30 @@ function updateButtonText(lang) {
 
     document.querySelector('button[onclick="filterMenu(\'caffetteria\', this)"]').textContent = translations[lang].caffetteria;
 
-    // Se hai un menu a tendina per la carta dei vini
+    // Menu a tendina per la carta dei vini
     const wineListButton = document.querySelector('.wine-menu button');
-if (wineListButton) {
-    wineListButton.textContent = translations[lang].carta_vini;
-}
-const wineSubButtons = document.querySelectorAll('.wine-menu .dropdown-content button');
-if (wineSubButtons.length >= 5) {
-    wineSubButtons[0].textContent = translations[lang].bianchi;
-    wineSubButtons[1].textContent = translations[lang].rossi;
-    wineSubButtons[2].textContent = translations[lang].bollicine;
-    wineSubButtons[3].textContent = translations[lang].rosati;
-    wineSubButtons[4].textContent = translations[lang].cocktails;
-}
+    if (wineListButton) {
+        wineListButton.textContent = translations[lang].carta_vini;
+    }
+    const wineSubButtons = document.querySelectorAll('.wine-menu .dropdown-content button');
+    if (wineSubButtons.length >= 5) {
+        wineSubButtons[0].textContent = translations[lang].bianchi;
+        wineSubButtons[1].textContent = translations[lang].rossi;
+        wineSubButtons[2].textContent = translations[lang].bollicine;
+        wineSubButtons[3].textContent = translations[lang].rosati;
+        wineSubButtons[4].textContent = translations[lang].cocktails;
+    }
 
-const sweetListButton = document.querySelector('.sweet-menu button');
-if (sweetListButton) {
-    sweetListButton.textContent = translations[lang].dolci;
+    const sweetListButton = document.querySelector('.sweet-menu button');
+    if (sweetListButton) {
+        sweetListButton.textContent = translations[lang].dolci;
+    }
+    const sweetSubButtons = document.querySelectorAll('.sweet-menu .dropdown-content button');
+    if (sweetSubButtons.length >= 2) {
+        sweetSubButtons[0].textContent = translations[lang].dessert;
+        sweetSubButtons[1].textContent = translations[lang].amari;
+    }
 }
-const sweetSubButtons = document.querySelectorAll('.sweet-menu .dropdown-content button');
-if (sweetSubButtons.length >= 2) {
-    sweetSubButtons[0].textContent = translations[lang].dessert;
-    sweetSubButtons[1].textContent = translations[lang].amari;
-}}
 
 
 async function loadMenu() {
