@@ -1,342 +1,350 @@
 [
   {
       "categoria": "antipasti",
-      "nome": "Gedämpfte Muscheln",
+      "nome": "Muschelsuppe",
       "prezzo": "12.00€",
-      "immagine": "assets/cozze.jpeg"
-    },
-    {
+      "immagine": "assets/piatti/cozze.jpg"
+  },
+  {
       "categoria": "antipasti",
-      "nome": "Roher Fisch",
+      "nome": "Rohfischplatte",
       "prezzo": "28.00€",
-      "immagine": "assets/crudi.jpg"
-    },
-    {
+      "immagine": "assets/piatti/crudi.jpg"
+  },
+  {
       "categoria": "antipasti",
       "nome": "Austern",
       "prezzo": "4.00€ pro Stück",
-      "immagine": "assets/ostriche.jpg"
-    },
-    {
+      "immagine": "assets/piatti/ostriche.jpg"
+  },
+  {
       "categoria": "antipasti",
-      "nome": "Heiße und kalte Fischdelikatessen",
+      "nome": "Assortierte warme und kalte Fischdelikatessen",
       "prezzo": "18.00€ - 6 Kostproben",
-      "immagine": "assets/sfiziosita_pesce.jpg"
-    },
-    {
+      "immagine": "assets/piatti/sfiziosita_pesce.jpg"
+  },
+  {
       "categoria": "antipasti",
       "nome": "Trio von Tartar",
       "prezzo": "18.00€",
-      "immagine": "assets/tris_tartare.jpg"
-    },
-    {
+      "immagine": "assets/piatti/tris_tartare.jpg"
+  },
+  {
       "categoria": "antipasti",
       "nome": "Meeresfrüchtesalat",
       "prezzo": "16.00€",
-      "immagine": "assets/insalata_mare.jpg"
-    },
-    {
+      "immagine": "assets/piatti/insalata_mare.jpg"
+  },
+  {
       "categoria": "antipasti",
-      "nome": "*Polipetti alla Luciana",
+      "nome": "*Luciana-Style Babyoctopus",
       "prezzo": "12.00€",
-      "immagine": "assets/polipetti_luciana.jpg"
-    },
-    {
+      "immagine": "assets/piatti/polipetti_luciana.jpg"
+  },
+  {
       "categoria": "antipasti",
-      "nome": "*Tintenfisch mit Kartoffeln",
+      "nome": "*Octopus mit Kartoffeln",
       "prezzo": "16.00€",
-      "immagine": "assets/polpo_patate.jpg"
-    },
-    {
+      "immagine": "assets/piatti/polpo_patate.jpg"
+  },
+  {
       "categoria": "antipasti",
-      "nome": "Wurst- und Käseplatte, Crostini und D.O.P. Käse mit Landdelikatessen",
+      "nome": "Wurstplatte, Crostini und D.O.P. Käse mit Landfantasien",
       "prezzo": "20.00€",
-      "immagine": "assets/tagliere_salumi.jpg"
-    },
+      "immagine": "assets/piatti/tagliere_salumi.jpg"
+  },
   {
       "nome": "Spaghetti mit Venusmuscheln",
       "categoria": "Primi",
-      "prezzo": "16.00€"
+      "prezzo": "16.00€",
+      "immagine": "assets/piatti/spaghetti_alle_vongole_veraci.jpg"
   },
   {
       "nome": "Risotto mit Scampi-Creme",
       "categoria": "Primi",
-      "prezzo": "14.00€"
+      "prezzo": "14.00€",
+      "immagine": "assets/piatti/risotto_alla_crema_di_scampi.jpg"
   },
   {
       "nome": "*Fischerrisotto",
       "categoria": "Primi",
-      "prezzo": "15.00€"
+      "prezzo": "15.00€",
+      "immagine": "assets/piatti/risotto_alla_pescatora.jpg"
   },
   {
       "nome": "Linguine mit Hummer",
       "categoria": "Primi",
-      "prezzo": "22.00€"
+      "prezzo": "22.00€",
+      "immagine": "assets/piatti/linguine_allastice.jpg"
   },
   {
       "nome": "Tonnarelli mit Meeresfrüchten",
       "categoria": "Primi",
-      "prezzo": "16.00€"
+      "prezzo": "16.00€",
+      "immagine": "assets/piatti/tonnarelli_allo_scoglio.jpg"
   },
   {
-      "nome": "Schwertfisch- und Pistazien-Gnocchi",
+      "nome": "Gnocchi mit Schwertfisch und Pistazie",
       "categoria": "Primi",
-      "prezzo": "14.00€"
+      "prezzo": "14.00€",
+      "immagine": "assets/piatti/gnocchi_pesce_spada_e_pistacchio.jpg"
   },
   {
       "nome": "Carbonara",
       "categoria": "Primi",
-      "prezzo": "13.00€"
+      "prezzo": "13.00€",
+      "immagine": "assets/piatti/carbonara.jpg"
   },
   {
       "nome": "Cacio e pepe",
       "categoria": "Primi",
-      "prezzo": "13.00€"
+      "prezzo": "13.00€",
+      "immagine": "assets/piatti/cacio_e_pepe.jpg"
   },
   {
       "categoria": "secondi",
       "nome": "Gegrillte Fischplatte",
       "prezzo": "24.00€",
-      "immagine": "assets/grigliata_pesce.jpg"
-    },
-    {
+      "immagine": "assets/piatti/grigliata_pesce.jpg"
+  },
+  {
       "categoria": "secondi",
-      "nome": "*Frittierte Kalmare und Garnelen",
+      "nome": "*Frittierte Calamari und Garnelen",
       "prezzo": "16.00€",
-      "immagine": "assets/frittura_calamar_gamberi.jpg"
-    },
-    {
+      "immagine": "assets/piatti/frittura_calamar_gamberi.jpg"
+  },
+  {
       "categoria": "secondi",
-      "nome": "Fischmischung",
+      "nome": "Gemischte Fischplatte",
       "prezzo": "24.00€",
-      "immagine": "assets/miscuglio_pesce.jpg"
-    },
-    {
+      "immagine": "assets/piatti/miscuglio_pesce.jpg"
+  },
+  {
       "categoria": "secondi",
       "nome": "Thunfischsteak",
       "prezzo": "18.00€",
-      "immagine": "assets/tagliata_tonno.jpg"
-    },
-    {
+      "immagine": "assets/piatti/tagliata_tonno.jpg"
+  },
+  {
       "categoria": "secondi",
       "nome": "Gebackener Steinbutt mit Kartoffeln",
-      "prezzo": "6.50€ pro 100g",
-      "immagine": "assets/rombo_patate.jpg"
-    },
-    {
+      "prezzo": "6.50 pro 100g",
+      "immagine": "assets/piatti/rombo_patate.jpg"
+  },
+  {
       "categoria": "secondi",
-      "nome": "Gebackener Fisch des Tages mit Kartoffeln",
-      "prezzo": "6.50€ pro 100g",
-      "immagine": "assets/pescato_patate.jpg"
-    },
-    {
+      "nome": "Gebackener Fang des Tages mit Kartoffeln",
+      "prezzo": "6.50 pro 100g",
+      "immagine": "assets/piatti/pescato_patate.jpg"
+  },
+  {
       "categoria": "secondi",
-      "nome": "Gebackene Dorade mit Kartoffeln",
+      "nome": "Gebackene Zucht-Dorade mit Kartoffeln",
       "prezzo": "18.00€",
-      "immagine": "assets/orata_patate.jpg"
-    },
-    {
+      "immagine": "assets/piatti/orata_patate.jpg"
+  },
+  {
       "categoria": "secondi",
       "nome": "Fischsuppe",
       "prezzo": "55.00€",
-      "immagine": "assets/zuppa_pesce.jpg"
-    },
-    {
+      "immagine": "assets/piatti/zuppa_pesce.jpg"
+  },
+  {
       "categoria": "secondi",
       "nome": "Krustentiersuppe",
       "prezzo": "60.00€",
-      "immagine": "assets/zuppa_crostacei.jpg"
-    },
-    {
+      "immagine": "assets/piatti/zuppa_crostacei.jpg"
+  },
+  {
       "categoria": "secondi",
-      "nome": "Knuspriges Lachsteak mit Kräutern",
+      "nome": "Knuspriges Lachssteak mit Kräutern",
       "prezzo": "18.00€",
-      "immagine": "assets/salmone_erbe.jpg"
-    },
-    {
+      "immagine": "assets/piatti/salmone_erbe.jpg"
+  },
+  {
       "categoria": "secondi",
       "nome": "Rindersteak",
       "prezzo": "18.00€",
-      "immagine": "assets/bistecca_manzo.jpg"
-    },
-    {
+      "immagine": "assets/piatti/bistecca_manzo.jpg"
+  },
+  {
       "categoria": "contorni",
-      "nome": "Gemischter oder grüner Salat",
+      "nome": "Gemischter Salat oder grüner Salat",
       "prezzo": "5.00€",
-      "immagine": "assets/insalata_mista.jpg"
-    },
-    {
+      "immagine": "assets/piatti/insalata_mista.jpg"
+  },
+  {
       "categoria": "contorni",
       "nome": "*Pommes frites oder Ofenkartoffeln",
       "prezzo": "5.00€",
-      "immagine": "assets/patatine_fritte_forno.jpg"
-    },
-    {
+      "immagine": "assets/piatti/patatine_fritte_forno.jpg"
+  },
+  {
       "categoria": "contorni",
-      "nome": "Cicoria in der Pfanne oder mit Essig",
+      "nome": "Chicorée in der Pfanne oder mit Essig",
       "prezzo": "5.00€",
-      "immagine": "assets/cicoria_ripassata.jpg"
-    },
-    {
+      "immagine": "assets/piatti/cicoria_ripassata.jpg"
+  },
+  {
       "categoria": "da bere",
       "nome": "Mineralwasser",
-      "prezzo": "2.50€",
-      "immagine": "assets/acqua_minerale.jpg"
-    },
-    {
+      "prezzo": "2.50",
+      "immagine": "assets/piatti/acqua_minerale.jpg"
+  },
+  {
       "categoria": "da bere",
-      "nome": "Bier – 0,25l",
+      "nome": "Bier – 0.25l",
       "prezzo": "4.00€",
-      "immagine": "assets/birra_025l.jpg"
-    },
-    {
+      "immagine": "assets/piatti/birra_025l.jpg"
+  },
+  {
       "categoria": "da bere",
       "nome": "Fanta/Cola/Sprite",
       "prezzo": "3.00€",
-      "immagine": "assets/fanta_cola_sprite.jpg"
-    },
-    {
+      "immagine": "assets/piatti/fanta_cola_sprite.jpg"
+  },
+  {
       "categoria": "da bere",
-      "nome": "Bier – 0,5l",
+      "nome": "Bier – 0.5l",
       "prezzo": "6.00€",
-      "immagine": "assets/birra_05l.jpg"
-    },
-    {
+      "immagine": "assets/piatti/birra_05l.jpg"
+  },
+  {
       "categoria": "da bere",
-      "nome": "Eistee (Pfirsich/Zitrone)",
+      "nome": "Pfirsich/Zitrone Eistee",
       "prezzo": "3.00€",
-      "immagine": "assets/the_freddo.jpg"
-    },
-    {
+      "immagine": "assets/piatti/the_freddo.jpg"
+  },
+  {
       "categoria": "da bere",
       "nome": "Fruchtsäfte",
       "prezzo": "3.00€",
-      "immagine": "assets/succhi_frutta.jpg"
-    },
-    {
+      "immagine": "assets/piatti/succhi_frutta.jpg"
+  },
+  {
       "categoria": "da bere",
-      "nome": "Peroni Bier – 0,62l",
+      "nome": "Peroni Bier – 0.62l",
       "prezzo": "6.00€",
-      "immagine": "assets/birra_peroni_066l.jpg"
-    },
-    {
+      "immagine": "assets/piatti/birra_peroni_066l.jpg"
+  },
+  {
       "categoria": "da bere",
-      "nome": "Ichnusa/Corona Bier – 0,33l",
+      "nome": "Ichnusa/Corona Bier – 0.33l",
       "prezzo": "4.00€",
-      "immagine": "assets/birra_ichnusa_corona_033l.jpg"
-    },
-    {
+      "immagine": "assets/piatti/birra_ichnusa_corona_033l.jpg"
+  },
+  {
       "categoria": "dessert",
       "nome": "Tiramisu",
       "prezzo": "6.00€",
-      "immagine": "assets/tiramisu.jpg"
-    },
-    {
+      "immagine": "assets/piatti/tiramisu.jpg"
+  },
+  {
       "categoria": "dessert",
-      "nome": "Beeren-Panna cotta",
+      "nome": "Panna cotta mit Beeren",
       "prezzo": "6.00€",
-      "immagine": "assets/panna_cotta_frutti_bosco.jpg"
-    },
-    {
+      "immagine": "assets/piatti/panna_cotta_frutti_bosco.jpg"
+  },
+  {
       "categoria": "dessert",
-      "nome": "Panna cotta mit Bronte-Pistazien",
+      "nome": "Panna cotta mit Bronte-Pistazie",
       "prezzo": "6.00€",
-      "immagine": "assets/panna_cotta_pistacchio.jpg"
-    },
-    {
+      "immagine": "assets/piatti/panna_cotta_pistacchio.jpg"
+  },
+  {
       "categoria": "dessert",
       "nome": "Crème caramel",
       "prezzo": "6.00€",
-      "immagine": "assets/creme_caramel.jpg"
-    },
-    {
+      "immagine": "assets/piatti/creme_caramel.jpg"
+  },
+  {
       "categoria": "dessert",
-      "nome": "Millefoglie vom Chef",
+      "nome": "Millefoglie des Küchenchefs",
       "prezzo": "6.00€",
-      "immagine": "assets/millefoglie.jpg"
-    },
-    {
+      "immagine": "assets/piatti/millefoglie.jpg"
+  },
+  {
       "categoria": "dessert",
       "nome": "Schokoladensoufflé mit warmem Kern",
       "prezzo": "6.00€",
-      "immagine": "assets/souffle_cioccolato.jpg"
-    },
-    {
+      "immagine": "assets/piatti/souffle_cioccolato.jpg"
+  },
+  {
       "categoria": "dessert",
       "nome": "Zitronensorbet",
       "prezzo": "6.00€",
-      "immagine": "assets/sorbetto_limone.jpg"
-    },
-    {
+      "immagine": "assets/piatti/sorbetto_limone.jpg"
+  },
+  {
       "categoria": "dessert",
-      "nome": "Crème catalane",
+      "nome": "Crème brûlée",
       "prezzo": "6.00€",
-      "immagine": "assets/crema_catalana.jpg"
-    },
-    {
+      "immagine": "assets/piatti/crema_catalana.jpg"
+  },
+  {
       "categoria": "dessert",
-      "nome": "Coppa del Cherubino",
+      "nome": "Cherubino-Becher",
       "prezzo": "6.00€",
-      "immagine": "assets/coppa_cherubino.jpg"
-    },
-    {
+      "immagine": "assets/piatti/coppa_cherubino.jpg"
+  },
+  {
       "categoria": "dessert",
-      "nome": "Käsekuchen",
+      "nome": "Cheesecake",
       "prezzo": "6.00€",
-      "immagine": "assets/cheesecake.jpg"
-    },
-    {
+      "immagine": "assets/piatti/cheesecake.jpg"
+  },
+  {
       "categoria": "dessert",
       "nome": "Bavaroise mit Schokolade und Baileys",
       "prezzo": "6.00€",
-      "immagine": "assets/bavarese_cioccolato_baileys.jpg"
-    },
-    {
+      "immagine": "assets/piatti/bavarese_cioccolato_baileys.jpg"
+  },
+  {
       "categoria": "dessert",
       "nome": "Bavaroise mit weißer Schokolade, Zitrusfrüchten und Limoncello",
       "prezzo": "6.00€",
-      "immagine": "assets/bavarese_cioccolato_bianco.jpg"
-    },
-    {
+      "immagine": "assets/piatti/bavarese_cioccolato_bianco.jpg"
+  },
+  {
       "categoria": "caffetteria",
       "nome": "Espresso",
       "prezzo": "2.00€",
-      "immagine": "assets/caffe_espresso.jpg"
-    },
-    {
+      "immagine": "assets/piatti/caffe_espresso.jpg"
+  },
+  {
       "categoria": "caffetteria",
       "nome": "Entkoffeinierter Kaffee",
       "prezzo": "2.00€",
-      "immagine": "assets/caffe_decaffeinato.jpg"
-    },
-    {
+      "immagine": "assets/piatti/caffe_decaffeinato.jpg"
+  },
+  {
       "categoria": "caffetteria",
       "nome": "Cappuccino",
-      "prezzo": "2.50€",
-      "immagine": "assets/cappuccino.jpg"
-    },
-    {
+      "prezzo": "2.50",
+      "immagine": "assets/piatti/cappuccino.jpg"
+  },
+  {
       "categoria": "caffetteria",
       "nome": "Caffè Latte",
       "prezzo": "3.00€",
-      "immagine": "assets/caffe_latte.jpg"
-    },
-    {
+      "immagine": "assets/piatti/caffe_latte.jpg"
+  },
+  {
       "categoria": "caffetteria",
       "nome": "Americano",
-      "prezzo": "2.50€",
-      "immagine": "assets/caffe_americano.jpg"
-    },
-    {
+      "prezzo": "2.50",
+      "immagine": "assets/piatti/caffe_americano.jpg"
+  },
+  {
       "categoria": "caffetteria",
       "nome": "Entkoffeinierter Cappuccino",
-      "prezzo": "2.50€",
-      "immagine": "assets/cappuccino_decaffeinato.jpg"
-    },
-    {
+      "prezzo": "2.50",
+      "immagine": "assets/piatti/cappuccino_decaffeinato.jpg"
+  },
+  {
       "categoria": "caffetteria",
       "nome": "Tee/Kamille",
-      "prezzo": "2.50€",
-      "immagine": "assets/te_camomilla.jpg"
-    }
+      "prezzo": "2.50",
+      "immagine": "assets/piatti/te_camomilla.jpg"
+  }
 ]
