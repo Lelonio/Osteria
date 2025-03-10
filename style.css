@@ -41,7 +41,7 @@ header {
   background-attachment: scroll;
   display: flex;
   flex-direction: column;
-  background-image: url("assets/small/tavolo.jpg");
+  background-image: url("assets/small/gnocchi.jpg");
   filter: contrast(120%); 
   animation: changeBg 20s infinite;
 
@@ -60,12 +60,12 @@ header::before {
 }
 
 
-@keyframes changeBg{
-  100%  {background-image: url("assets/small/crema.jpeg");}
-  75% {background-image: url("assets/small/cozze.jpeg");}
-  50% {background-image: url("assets/small/tonno.jpeg");}
-  15% {background-image: url("assets/small/tavolo.jpg");}
-  
+@keyframes changeBg {
+  100% {background-image: url("assets/small/tiramisu.jpg");}
+  75% {background-image: url("assets/small/crema.jpg");}
+  50% {background-image: url("assets/small/pesce.jpg");}
+  25% {background-image: url("assets/small/tonno.jpg");}
+  0% {background-image: url("assets/small/gnocchi.jpg");}
 }
 
 header nav h2 #social {
@@ -357,15 +357,15 @@ nav div.show {
 }
 
 .cucina-background {
-  background: black url("assets/cucina.jpg") no-repeat center center;
+  background: black url("assets/salaest.jpg") no-repeat center -100px;
   background-size: cover;
-  height: 500px;
+  height: 600px;
   
 }
 .ristorante-background {
-  background: black url("assets/sala.jpg") no-repeat center center;
+  background: black url("assets/salaint.jpg") no-repeat center -200px;
   background-size: cover;
-  height: 500px;
+  height: 600px;
   
 }
 .menus{
@@ -718,10 +718,10 @@ footer button {
     background-size: cover;
     display: flex;
     flex-direction: column;
-    background-image: url("assets/tavolo.jpg");
+    background-image: url("assets/gnocchi.jpg");
     position: relative; /* Necessario per il pseudo-elemento */
     z-index: 0;
-    animation: changeBg 20s infinite;
+    animation: changeBg 30s infinite;
 }
 
 /* Overlay opaco */
@@ -738,10 +738,11 @@ header::before {
 
 /* Animazione per il cambio di sfondo */
 @keyframes changeBg {
-    100% {background-image: url("assets/crema.jpeg");}
-    75% {background-image: url("assets/tonno.jpeg");}
-    50% {background-image: url("assets/cozze.jpeg");}
-    15% {background-image: url("assets/tavolo.jpg");}
+    100% {background-image: url("assets/tiramisu.jpg");}
+    75% {background-image: url("assets/crema.jpg");}
+    50% {background-image: url("assets/pesce.jpg");}
+    25% {background-image: url("assets/tonno.jpg");}
+    0% {background-image: url("assets/gnocchi.jpg");}
 }
 
  
