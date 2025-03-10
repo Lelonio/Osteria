@@ -584,24 +584,47 @@ nav div.show {
 }
 
 
-.navlogo{
-  margin-left: 35px;
-  padding-left: 100px;
-  padding-top: 20px;
-  
-}
+
 footer {
-  margin: 0;
+  background-color: #222;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
   position: relative;
-  background: #141414;
-  color: lightgray;
 }
+
+.restaurant-info {
+  display: flex;
+  justify-content: center; /* Centra gli elementi orizzontalmente */
+  align-items: center; /* Allinea verticalmente */
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.restaurant-info .navlogo {
+  display: block;
+  width: 180px; /* Mantiene la dimensione originale */
+  height: auto;
+  margin: 0 auto; /* Centra orizzontalmente */
+}
+
+.locations, .hours {
+  text-align: center;
+  max-width: 250px;
+}
+
+@media (max-width: 768px) {
+  .restaurant-info {
+    flex-direction: column;
+  }
+}
+
 footer button {
   width: 50px;
   height: 50px;
   position: absolute;
   top: -20px;
-  left: 50%;
+  left: 50.7%;
   transform: translate(-50%, -10%);
   background: white;
   display: flex;
@@ -615,25 +638,11 @@ footer button {
   border-radius: 50%;
   margin-top: 0;
 }
-footer h4 {
-  margin-bottom: 0;
-}
-footer h5 {
-  line-height: 1.5;
-}
-footer .restaurant-info {
-  padding: 35px 40px !important;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 
 @media screen and (max-width: 425px) {
   
-.cucina-background,
-.cocktail-background {
-    background-attachment: fixed;
-  }
+
   .prenotazione div:last-child img {
     display: none;
   }
@@ -673,12 +682,7 @@ footer .restaurant-info {
     font-size: 10px;
   }
 
-  .navlogo{
   
-    right: 0px;
-    padding-top: 20px;
-    padding-left: 100px;
-  }
 
   .prenotazione div:last-child img {
     margin: auto;
