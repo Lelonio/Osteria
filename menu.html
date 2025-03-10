@@ -710,6 +710,13 @@ function changeLanguage(lang, button) {
     }
     button.offsetWidth;
 
+
+    window.scrollTo({
+        top, // 50px di margine per visibilità
+        behavior:"smooth"
+    });
+
+
     loadMenu();
     updateButtonText(lang);
 }
@@ -1072,7 +1079,7 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
 </head>
 <body>
-  <div class="fixed-top-bar">
+  <div class="fixed-top-bar" id="bar">
     <button onclick="openMenuPage()" class="home-button" href="index.html"><i class="fa fa-home"></i></button>
     <div class="language-selector">
       <img id="ita" src="assets/flags/it.png" alt="Italiano" onclick="changeLanguage('it',this)">
