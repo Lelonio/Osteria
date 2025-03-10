@@ -509,7 +509,7 @@ nav div.show {
   transition: max-height 0.5s ease, padding-bottom 0.5s ease;
 }
 .faq li.active .question {
-  color: #d2d2d2;
+  color: lightskyblue;
   transition: color 0.5s ease;
 }
 .faq .answer {
@@ -532,7 +532,7 @@ nav div.show {
   z-index: 2;
 }
 .faq .plus-minus-toggle:before, .plus-minus-toggle:after {
-  background: #d2d2d2;
+  background: lightskyblue;
   content: "";
   height: 5px;
   left: 0;
