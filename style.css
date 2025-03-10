@@ -581,6 +581,11 @@ nav div.show {
     font-size: 12px;
     line-height: 1.8; /* Puoi aumentare ulteriormente per schermi piccoli */
   }
+
+
+  .logo-container{
+    margin-top: 150px;
+  }
 }
 
 
@@ -645,6 +650,10 @@ footer button {
 
   .prenotazione div:last-child img {
     display: none;
+  }
+
+  .logo-container{
+    margin-top: 150px;
   }
   
 }
