@@ -1,350 +1,380 @@
 [
-  {
-      "categoria": "antipasti",
-      "nome": "Sopa de mejillones",
-      "prezzo": "12.00€",
-      "immagine": "assets/piatti/cozze.jpg"
-  },
-  {
-      "categoria": "antipasti",
-      "nome": "Plato de pescado crudo",
-      "prezzo": "28.00€",
-      "immagine": "assets/piatti/crudi.jpg"
-  },
-  {
-      "categoria": "antipasti",
-      "nome": "Ostras",
-      "prezzo": "4.00€ cada una",
-      "immagine": "assets/piatti/ostriche.jpg"
-  },
-  {
-      "categoria": "antipasti",
-      "nome": "Delicatessen de pescado frío y caliente",
-      "prezzo": "18.00€ - 6 degustaciones",
-      "immagine": "assets/piatti/sfiziosita_pesce.jpg"
-  },
-  {
-      "categoria": "antipasti",
-      "nome": "Trío de tartar",
-      "prezzo": "18.00€",
-      "immagine": "assets/piatti/tris_tartare.jpg"
-  },
-  {
-      "categoria": "antipasti",
-      "nome": "Ensalada de mariscos",
-      "prezzo": "16.00€",
-      "immagine": "assets/piatti/insalata_mare.jpg"
-  },
-  {
-      "categoria": "antipasti",
-      "nome": "*Pulpo a la Luciana",
-      "prezzo": "12.00€",
-      "immagine": "assets/piatti/polipetti_luciana.jpg"
-  },
-  {
-      "categoria": "antipasti",
-      "nome": "*Pulpo con patatas",
-      "prezzo": "16.00€",
-      "immagine": "assets/piatti/polpo_patate.jpg"
-  },
-  {
-      "categoria": "antipasti",
-      "nome": "Tabla de embutidos, crostini y quesos D.O.P. con fantasías de tierra",
-      "prezzo": "20.00€",
-      "immagine": "assets/piatti/tagliere_salumi.jpg"
-  },
-  {
-      "nome": "Espaguetis con almejas",
-      "categoria": "Primi",
-      "prezzo": "16.00€",
-      "immagine": "assets/piatti/spaghetti_alle_vongole_veraci.jpg"
-  },
-  {
-      "nome": "Risotto con crema de langostinos",
-      "categoria": "Primi",
-      "prezzo": "14.00€",
-      "immagine": "assets/piatti/risotto_alla_crema_di_scampi.jpg"
-  },
-  {
-      "nome": "*Risotto a la pescadora",
-      "categoria": "Primi",
-      "prezzo": "15.00€",
-      "immagine": "assets/piatti/risotto_alla_pescatora.jpg"
-  },
-  {
-      "nome": "Linguini con bogavante",
-      "categoria": "Primi",
-      "prezzo": "22.00€",
-      "immagine": "assets/piatti/linguine_allastice.jpg"
-  },
-  {
-      "nome": "Tonnarelli con mariscos",
-      "categoria": "Primi",
-      "prezzo": "16.00€",
-      "immagine": "assets/piatti/tonnarelli_allo_scoglio.jpg"
-  },
-  {
-      "nome": "Ñoquis con pez espada y pistacho",
-      "categoria": "Primi",
-      "prezzo": "14.00€",
-      "immagine": "assets/piatti/gnocchi_pesce_spada_e_pistacchio.jpg"
-  },
-  {
-      "nome": "Carbonara",
-      "categoria": "Primi",
-      "prezzo": "13.00€",
-      "immagine": "assets/piatti/carbonara.jpg"
-  },
-  {
-      "nome": "Cacio e pepe",
-      "categoria": "Primi",
-      "prezzo": "13.00€",
-      "immagine": "assets/piatti/cacio_e_pepe.jpg"
-  },
-  {
-      "categoria": "secondi",
-      "nome": "Parrillada de pescado",
-      "prezzo": "24.00€",
-      "immagine": "assets/piatti/grigliata_pesce.jpg"
-  },
-  {
-      "categoria": "secondi",
-      "nome": "*Fritura de calamares y gambas",
-      "prezzo": "16.00€",
-      "immagine": "assets/piatti/frittura_calamar_gamberi.jpg"
-  },
-  {
-      "categoria": "secondi",
-      "nome": "Mezcla de pescado",
-      "prezzo": "24.00€",
-      "immagine": "assets/piatti/miscuglio_pesce.jpg"
-  },
-  {
-      "categoria": "secondi",
-      "nome": "Filete de atún",
-      "prezzo": "18.00€",
-      "immagine": "assets/piatti/tagliata_tonno.jpg"
-  },
-  {
-      "categoria": "secondi",
-      "nome": "Rodaballo al horno con patatas",
-      "prezzo": "6.50 por 100g",
-      "immagine": "assets/piatti/rombo_patate.jpg"
-  },
-  {
-      "categoria": "secondi",
-      "nome": "Pescado del día al horno con patatas",
-      "prezzo": "6.50 por 100g",
-      "immagine": "assets/piatti/pescato_patate.jpg"
-  },
-  {
-      "categoria": "secondi",
-      "nome": "Dorada de cultivo al horno con patatas",
-      "prezzo": "18.00€",
-      "immagine": "assets/piatti/orata_patate.jpg"
-  },
-  {
-      "categoria": "secondi",
-      "nome": "Sopa de pescado",
-      "prezzo": "55.00€",
-      "immagine": "assets/piatti/zuppa_pesce.jpg"
-  },
-  {
-      "categoria": "secondi",
-      "nome": "Sopa de mariscos",
-      "prezzo": "60.00€",
-      "immagine": "assets/piatti/zuppa_crostacei.jpg"
-  },
-  {
-      "categoria": "secondi",
-      "nome": "Filete de salmón crujiente con hierbas",
-      "prezzo": "18.00€",
-      "immagine": "assets/piatti/salmone_erbe.jpg"
-  },
-  {
-      "categoria": "secondi",
-      "nome": "Filete de ternera",
-      "prezzo": "18.00€",
-      "immagine": "assets/piatti/bistecca_manzo.jpg"
-  },
-  {
-      "categoria": "contorni",
-      "nome": "Ensalada mixta o verde",
-      "prezzo": "5.00€",
-      "immagine": "assets/piatti/insalata_mista.jpg"
-  },
-  {
-      "categoria": "contorni",
-      "nome": "*Patatas fritas o al horno",
-      "prezzo": "5.00€",
-      "immagine": "assets/piatti/patatine_fritte_forno.jpg"
-  },
-  {
-      "categoria": "contorni",
-      "nome": "Achicoria salteada o al agro",
-      "prezzo": "5.00€",
-      "immagine": "assets/piatti/cicoria_ripassata.jpg"
-  },
-  {
-      "categoria": "da bere",
-      "nome": "Agua mineral",
-      "prezzo": "2.50",
-      "immagine": "assets/piatti/acqua_minerale.jpg"
-  },
-  {
-      "categoria": "da bere",
-      "nome": "Cerveza – 0.25l",
-      "prezzo": "4.00€",
-      "immagine": "assets/piatti/birra_025l.jpg"
-  },
-  {
-      "categoria": "da bere",
-      "nome": "Fanta/Coca-Cola/Sprite",
-      "prezzo": "3.00€",
-      "immagine": "assets/piatti/fanta_cola_sprite.jpg"
-  },
-  {
-      "categoria": "da bere",
-      "nome": "Cerveza – 0.5l",
-      "prezzo": "6.00€",
-      "immagine": "assets/piatti/birra_05l.jpg"
-  },
-  {
-      "categoria": "da bere",
-      "nome": "Té frío de melocotón/limón",
-      "prezzo": "3.00€",
-      "immagine": "assets/piatti/the_freddo.jpg"
-  },
-  {
-      "categoria": "da bere",
-      "nome": "Zumos de frutas",
-      "prezzo": "3.00€",
-      "immagine": "assets/piatti/succhi_frutta.jpg"
-  },
-  {
-      "categoria": "da bere",
-      "nome": "Cerveza Peroni – 0.62l",
-      "prezzo": "6.00€",
-      "immagine": "assets/piatti/birra_peroni_066l.jpg"
-  },
-  {
-      "categoria": "da bere",
-      "nome": "Cerveza Ichnusa/Corona – 0.33l",
-      "prezzo": "4.00€",
-      "immagine": "assets/piatti/birra_ichnusa_corona_033l.jpg"
-  },
-  {
-      "categoria": "dessert",
-      "nome": "Tiramisú",
-      "prezzo": "6.00€",
-      "immagine": "assets/piatti/tiramisu.jpg"
-  },
-  {
-      "categoria": "dessert",
-      "nome": "Panna cotta con frutos del bosque",
-      "prezzo": "6.00€",
-      "immagine": "assets/piatti/panna_cotta_frutti_bosco.jpg"
-  },
-  {
-      "categoria": "dessert",
-      "nome": "Panna cotta con pistacho de Bronte",
-      "prezzo": "6.00€",
-      "immagine": "assets/piatti/panna_cotta_pistacchio.jpg"
-  },
-  {
-      "categoria": "dessert",
-      "nome": "Crema caramel",
-      "prezzo": "6.00€",
-      "immagine": "assets/piatti/creme_caramel.jpg"
-  },
-  {
-      "categoria": "dessert",
-      "nome": "Milhojas del chef",
-      "prezzo": "6.00€",
-      "immagine": "assets/piatti/millefoglie.jpg"
-  },
-  {
-      "categoria": "dessert",
-      "nome": "Soufflé de chocolate con corazón caliente",
-      "prezzo": "6.00€",
-      "immagine": "assets/piatti/souffle_cioccolato.jpg"
-  },
-  {
-      "categoria": "dessert",
-      "nome": "Sorbete de limón",
-      "prezzo": "6.00€",
-      "immagine": "assets/piatti/sorbetto_limone.jpg"
-  },
-  {
-      "categoria": "dessert",
-      "nome": "Crema catalana",
-      "prezzo": "6.00€",
-      "immagine": "assets/piatti/crema_catalana.jpg"
-  },
-  {
-      "categoria": "dessert",
-      "nome": "Copa del Cherubino",
-      "prezzo": "6.00€",
-      "immagine": "assets/piatti/coppa_cherubino.jpg"
-  },
-  {
-      "categoria": "dessert",
-      "nome": "Cheesecake",
-      "prezzo": "6.00€",
-      "immagine": "assets/piatti/cheesecake.jpg"
-  },
-  {
-      "categoria": "dessert",
-      "nome": "Bavaroise de chocolate y Baileys",
-      "prezzo": "6.00€",
-      "immagine": "assets/piatti/bavarese_cioccolato_baileys.jpg"
-  },
-  {
-      "categoria": "dessert",
-      "nome": "Bavaroise de chocolate blanco, cítricos y limoncello",
-      "prezzo": "6.00€",
-      "immagine": "assets/piatti/bavarese_cioccolato_bianco.jpg"
-  },
-  {
-      "categoria": "caffetteria",
-      "nome": "Café espresso",
-      "prezzo": "2.00€",
-      "immagine": "assets/piatti/caffe_espresso.jpg"
-  },
-  {
-      "categoria": "caffetteria",
-      "nome": "Café descafeinado",
-      "prezzo": "2.00€",
-      "immagine": "assets/piatti/caffe_decaffeinato.jpg"
-  },
-  {
-      "categoria": "caffetteria",
-      "nome": "Cappuccino",
-      "prezzo": "2.50",
-      "immagine": "assets/piatti/cappuccino.jpg"
-  },
-  {
-      "categoria": "caffetteria",
-      "nome": "Caffè Latte",
-      "prezzo": "3.00€",
-      "immagine": "assets/piatti/caffe_latte.jpg"
-  },
-  {
-      "categoria": "caffetteria",
-      "nome": "Café Americano",
-      "prezzo": "2.50",
-      "immagine": "assets/piatti/caffe_americano.jpg"
-  },
-  {
-      "categoria": "caffetteria",
-      "nome": "Cappuccino descafeinado",
-      "prezzo": "2.50",
-      "immagine": "assets/piatti/cappuccino_decaffeinato.jpg"
-  },
-  {
-      "categoria": "caffetteria",
-      "nome": "Té/Manzanilla",
-      "prezzo": "2.50",
-      "immagine": "assets/piatti/te_camomilla.jpg"
-  }
+    {
+        "categoria": "antipasti",
+        "nome": "Sopa de mejillones",
+        "prezzo": "12.00€",
+        "immagine": "assets/piatti/cozze.jpg",
+        "allergeni": "1/11/13"
+    },
+    {
+        "categoria": "antipasti",
+        "nome": "Mariscos crudos",
+        "prezzo": "28.00€",
+        "immagine": "assets/piatti/crudi.jpg",
+        "allergeni": "2/4/13/14"
+    },
+    {
+        "categoria": "antipasti",
+        "nome": "Ostras",
+        "prezzo": "4.00€ c/u",
+        "immagine": "assets/piatti/ostriche.jpg",
+        "allergeni": "13"
+    },
+    {
+        "categoria": "antipasti",
+        "nome": "Delicias de pescado frías y calientes",
+        "prezzo": "18.00€ - 6 degustaciones",
+        "immagine": "assets/piatti/sfiziosita_pesce.jpg",
+        "allergeni": "4/14"
+    },
+    {
+        "categoria": "antipasti",
+        "nome": "Trío de tartar",
+        "prezzo": "18.00€",
+        "immagine": "assets/piatti/tris_tartare.jpg",
+        "allergeni": "4/14"
+    },
+    {
+        "categoria": "antipasti",
+        "nome": "Ensalada de mariscos",
+        "prezzo": "16.00€",
+        "immagine": "assets/piatti/insalata_mare.jpg",
+        "allergeni": "2/4/13"
+    },
+    {
+        "categoria": "antipasti",
+        "nome": "*Pulpo a la Luciana",
+        "prezzo": "12.00€",
+        "immagine": "assets/piatti/polipetti_luciana.jpg",
+        "allergeni": "1/13"
+    },
+    {
+        "categoria": "antipasti",
+        "nome": "*Pulpo con patatas",
+        "prezzo": "16.00€",
+        "immagine": "assets/piatti/polpo_patate.jpg",
+        "allergeni": "6/13"
+    },
+    {
+        "categoria": "antipasti",
+        "nome": "Tabla de embutidos, crostini y quesos D.O.P. con fantasías de tierra",
+        "prezzo": "20.00€",
+        "immagine": "assets/piatti/tagliere_salumi.jpg",
+        "allergeni": "1/3/6/7/9"
+    },
+    {
+        "nome": "Espaguetis con almejas",
+        "categoria": "Primi",
+        "prezzo": "16.00€",
+        "immagine": "assets/piatti/spaghetti_alle_vongole_veraci.jpg",
+        "allergeni": "1/13"
+    },
+    {
+        "nome": "Risotto con crema de langostinos",
+        "categoria": "Primi",
+        "prezzo": "14.00€",
+        "immagine": "assets/piatti/risotto_alla_crema_di_scampi.jpg",
+        "allergeni": "2/7"
+    },
+    {
+        "nome": "*Risotto a la pescadora",
+        "categoria": "Primi",
+        "prezzo": "15.00€",
+        "immagine": "assets/piatti/risotto_alla_pescatora.jpg",
+        "allergeni": "2/4/13"
+    },
+    {
+        "nome": "Linguini con bogavante",
+        "categoria": "Primi",
+        "prezzo": "22.00€",
+        "immagine": "assets/piatti/linguine_allastice.jpg",
+        "allergeni": "1/2"
+    },
+    {
+        "nome": "Tonnarelli con mariscos",
+        "categoria": "Primi",
+        "prezzo": "16.00€",
+        "immagine": "assets/piatti/tonnarelli_allo_scoglio.jpg",
+        "allergeni": "2/4/13"
+    },
+    {
+        "nome": "Ñoquis con pez espada y pistacho",
+        "categoria": "Primi",
+        "prezzo": "14.00€",
+        "immagine": "assets/piatti/gnocchi_pesce_spada_e_pistacchio.jpg",
+        "allergeni": "1/4"
+    },
+    {
+        "nome": "Carbonara",
+        "categoria": "Primi",
+        "prezzo": "13.00€",
+        "immagine": "assets/piatti/carbonara.jpg",
+        "allergeni": "3/7"
+    },
+    {
+        "nome": "Cacio e pepe",
+        "categoria": "Primi",
+        "prezzo": "13.00€",
+        "immagine": "assets/piatti/cacio_e_pepe.jpg",
+        "allergeni": "3/7"
+    },
+    {
+        "categoria": "secondi",
+        "nome": "Pescado a la parrilla",
+        "prezzo": "24.00€",
+        "immagine": "assets/piatti/grigliata_pesce.jpg",
+        "allergeni": "2/4/13"
+    },
+    {
+        "categoria": "secondi",
+        "nome": "*Fritura de calamares y gambas",
+        "prezzo": "16.00€",
+        "immagine": "assets/piatti/frittura_calamar_gamberi.jpg",
+        "allergeni": "2/4/13"
+    },
+    {
+        "categoria": "secondi",
+        "nome": "Mezcla de pescado",
+        "prezzo": "24.00€",
+        "immagine": "assets/piatti/miscuglio_pesce.jpg",
+        "allergeni": "2/3/4/13"
+    },
+    {
+        "categoria": "secondi",
+        "nome": "Filete de atún",
+        "prezzo": "18.00€",
+        "immagine": "assets/piatti/tagliata_tonno.jpg",
+        "allergeni": "4/5/6/14"
+    },
+    {
+        "categoria": "secondi",
+        "nome": "Rodaballo al horno con patatas",
+        "prezzo": "6.50 por 100g",
+        "immagine": "assets/piatti/rombo_patate.jpg",
+        "allergeni": "4"
+    },
+    {
+        "categoria": "secondi",
+        "nome": "Pescado del día al horno con patatas",
+        "prezzo": "6.50 por 100g",
+        "immagine": "assets/piatti/pescato_patate.jpg",
+        "allergeni": "4"
+    },
+    {
+        "categoria": "secondi",
+        "nome": "Dorada de cultivo al horno con patatas",
+        "prezzo": "18.00€",
+        "immagine": "assets/piatti/orata_patate.jpg",
+        "allergeni": "4"
+    },
+    {
+        "categoria": "secondi",
+        "nome": "Sopa de pescado",
+        "prezzo": "55.00€",
+        "immagine": "assets/piatti/zuppa_pesce.jpg",
+        "allergeni": "2/3/4/13"
+    },
+    {
+        "categoria": "secondi",
+        "nome": "Sopa de mariscos",
+        "prezzo": "60.00€",
+        "immagine": "assets/piatti/zuppa_crostacei.jpg",
+        "allergeni": "2/3/13"
+    },
+    {
+        "categoria": "secondi",
+        "nome": "Filete de salmón crujiente con hierbas",
+        "prezzo": "18.00€",
+        "immagine": "assets/piatti/salmone_erbe.jpg",
+        "allergeni": "2/3/13"
+    },
+    {
+        "categoria": "secondi",
+        "nome": "Filete de ternera",
+        "prezzo": "18.00€",
+        "immagine": "assets/piatti/bistecca_manzo.jpg",
+        "allergeni": "1/6"
+    },
+    {
+        "categoria": "contorni",
+        "nome": "Ensalada mixta o verde",
+        "prezzo": "5.00€",
+        "immagine": "assets/piatti/insalata_mista.jpg"
+    },
+    {
+        "categoria": "contorni",
+        "nome": "*Patatas fritas o al horno",
+        "prezzo": "5.00€",
+        "immagine": "assets/piatti/patatine_fritte_forno.jpg",
+        "allergeni": "1"
+    },
+    {
+        "categoria": "contorni",
+        "nome": "Achicoria salteada o al agro",
+        "prezzo": "5.00€",
+        "immagine": "assets/piatti/cicoria_ripassata.jpg",
+        "allergeni": "1"
+    },
+    {
+        "categoria": "da bere",
+        "nome": "Agua mineral",
+        "prezzo": "2.50",
+        "immagine": "assets/piatti/acqua_minerale.jpg"
+    },
+    {
+        "categoria": "da bere",
+        "nome": "Cerveza – 0.25l",
+        "prezzo": "4.00€",
+        "immagine": "assets/piatti/birra_025l.jpg"
+    },
+    {
+        "categoria": "da bere",
+        "nome": "Fanta/Cola/Sprite",
+        "prezzo": "3.00€",
+        "immagine": "assets/piatti/fanta_cola_sprite.jpg"
+    },
+    {
+        "categoria": "da bere",
+        "nome": "Cerveza – 0.5l",
+        "prezzo": "6.00€",
+        "immagine": "assets/piatti/birra_05l.jpg"
+    },
+    {
+        "categoria": "da bere",
+        "nome": "Té frío de melocotón/limón",
+        "prezzo": "3.00€",
+        "immagine": "assets/piatti/the_freddo.jpg"
+    },
+    {
+        "categoria": "da bere",
+        "nome": "Jugos de frutas",
+        "prezzo": "3.00€",
+        "immagine": "assets/piatti/succhi_frutta.jpg"
+    },
+    {
+        "categoria": "da bere",
+        "nome": "Cerveza Peroni – 0.62l",
+        "prezzo": "6.00€",
+        "immagine": "assets/piatti/birra_peroni_066l.jpg"
+    },
+    {
+        "categoria": "da bere",
+        "nome": "Cerveza Ichnusa/Corona – 0.33l",
+        "prezzo": "4.00€",
+        "immagine": "assets/piatti/birra_ichnusa_corona_033l.jpg"
+    },
+    {
+        "categoria": "dessert",
+        "nome": "Tiramisú",
+        "prezzo": "6.00€",
+        "immagine": "assets/piatti/tiramisu.jpg"
+    },
+    {
+        "categoria": "dessert",
+        "nome": "Panna cotta con frutos del bosque",
+        "prezzo": "6.00€",
+        "immagine": "assets/piatti/panna_cotta_frutti_bosco.jpg"
+    },
+    {
+        "categoria": "dessert",
+        "nome": "Panna cotta con pistacho de Bronte",
+        "prezzo": "6.00€",
+        "immagine": "assets/piatti/panna_cotta_pistacchio.jpg"
+    },
+    {
+        "categoria": "dessert",
+        "nome": "Crema Caramel",
+        "prezzo": "6.00€",
+        "immagine": "assets/piatti/creme_caramel.jpg"
+    },
+    {
+        "categoria": "dessert",
+        "nome": "Milhojas del chef",
+        "prezzo": "6.00€",
+        "immagine": "assets/piatti/millefoglie.jpg"
+    },
+    {
+        "categoria": "dessert",
+        "nome": "Soufflé de chocolate con corazón caliente",
+        "prezzo": "6.00€",
+        "immagine": "assets/piatti/souffle_cioccolato.jpg"
+    },
+    {
+        "categoria": "dessert",
+        "nome": "Sorbete de limón",
+        "prezzo": "6.00€",
+        "immagine": "assets/piatti/sorbetto_limone.jpg"
+    },
+    {
+        "categoria": "dessert",
+        "nome": "Crema catalana",
+        "prezzo": "6.00€",
+        "immagine": "assets/piatti/crema_catalana.jpg"
+    },
+    {
+        "categoria": "dessert",
+        "nome": "Copa del Cherubino",
+        "prezzo": "6.00€",
+        "immagine": "assets/piatti/coppa_cherubino.jpg"
+    },
+    {
+        "categoria": "dessert",
+        "nome": "Cheesecake",
+        "prezzo": "6.00€",
+        "immagine": "assets/piatti/cheesecake.jpg"
+    },
+    {
+        "categoria": "dessert",
+        "nome": "Bavarois de chocolate y Baileys",
+        "prezzo": "6.00€",
+        "immagine": "assets/piatti/bavarese_cioccolato_baileys.jpg"
+    },
+    {
+        "categoria": "dessert",
+        "nome": "Bavarois de chocolate blanco, cítricos y limoncello",
+        "prezzo": "6.00€",
+        "immagine": "assets/piatti/bavarese_cioccolato_bianco.jpg"
+    },
+    {
+        "categoria": "caffetteria",
+        "nome": "Café espresso",
+        "prezzo": "2.00€",
+        "immagine": "assets/piatti/caffe_espresso.jpg"
+    },
+    {
+        "categoria": "caffetteria",
+        "nome": "Café descafeinado",
+        "prezzo": "2.00€",
+        "immagine": "assets/piatti/caffe_decaffeinato.jpg"
+    },
+    {
+        "categoria": "caffetteria",
+        "nome": "Cappuccino",
+        "prezzo": "2.50",
+        "immagine": "assets/piatti/cappuccino.jpg"
+    },
+    {
+        "categoria": "caffetteria",
+        "nome": "Café Latte",
+        "prezzo": "3.00€",
+        "immagine": "assets/piatti/caffe_latte.jpg"
+    },
+    {
+        "categoria": "caffetteria",
+        "nome": "Café Americano",
+        "prezzo": "2.50",
+        "immagine": "assets/piatti/caffe_americano.jpg"
+    },
+    {
+        "categoria": "caffetteria",
+        "nome": "Cappuccino descafeinado",
+        "prezzo": "2.50",
+        "immagine": "assets/piatti/cappuccino_decaffeinato.jpg"
+    },
+    {
+        "categoria": "caffetteria",
+        "nome": "Té/Manzanilla",
+        "prezzo": "2.50",
+        "immagine": "assets/piatti/te_camomilla.jpg"
+    }
 ]

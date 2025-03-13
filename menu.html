@@ -513,6 +513,12 @@
   cursor: pointer;
   padding-bottom: 50px;
 }
+.allergeni {
+    font-size: 0.8em;
+    color: #a9a9a9;
+    font-weight: bold;
+}
+
 
 .language-selector {
   display: flex;
@@ -540,7 +546,6 @@
 
 
   </style>
-
 
 
 <script>
@@ -843,7 +848,8 @@ async function loadMenu() {
                 menuItem.innerHTML = `
                     <img src="${imgPath}" alt="${item.nome}">
                     <div class="info">
-                        <h3>${item.nome}</h3>
+                      <h3>${item.nome} ${item.allergeni ? `<sup class="allergeni">${item.allergeni}</sup>` : ''}</h3>
+
                     </div>
                     <span class="price" style="text-shadow: 1px 1px 1px  #d2d2d2;">${prezzoQuantita}</span>
                 `;
@@ -856,20 +862,35 @@ async function loadMenu() {
                 menuItem.innerHTML = `
                     <i class="fa fa-cutlery fa-4x" aria-hidden="true"></i>
                     <div class="info">
-                        <h3>${item.nome}</h3>
+                        <h3>${item.nome} ${item.allergeni ? `<sup class="allergeni">${item.allergeni}</sup>` : ''}</h3>
                     </div>
                     <span class="price" style="text-shadow: 1px 1px 1px  #d2d2d2;">${prezzoQuantita}</span>
                 `;
                 setTimeout(() => menuItem.classList.add('show'), index * 100);
-            } else {
+            } else if (item.categoria != "caffetteria" && item.cantina){
               menuItem.innerHTML = `
                     <i class="fa fa-glass fa-4x" aria-hidden="true"></i>
                     <div class="info">
-                        <h3>${item.nome}</h3>
+                      <h3>${item.nome} ${item.allergeni ? `<sup class="allergeni">${item.allergeni}</sup>` : ''}</h3>
+                      <p>${item.cantina} (${item.provenienza})</p>
+
                     </div>
                     <span class="price" style="text-shadow: 1px 1px 1px  #d2d2d2;">${prezzoQuantita}</span>
                 `;
                 setTimeout(() => menuItem.classList.add('show'), index * 100);
+            } else{
+
+              menuItem.innerHTML = `
+                    <i class="fa fa-glass fa-4x" aria-hidden="true"></i>
+                    <div class="info">
+                      <h3>${item.nome} ${item.allergeni ? `<sup class="allergeni">${item.allergeni}</sup>` : ''}</h3>
+                    
+
+                    </div>
+                    <span class="price" style="text-shadow: 1px 1px 1px  #d2d2d2;">${prezzoQuantita}</span>
+                `;
+                setTimeout(() => menuItem.classList.add('show'), index * 100);
+
             }
           
           };
@@ -877,7 +898,7 @@ async function loadMenu() {
             menuItem.addEventListener('click', async function () {
     let popupConfig = {
 
-        title: item.nome,
+        title: `<h3>${item.nome} ${item.allergeni ? `<sup class="allergeni" style="font-size:20px;">${item.allergeni}</sup>` : ''}</h3>`,
         text: `${prezzoQuantita}`,
         showCloseButton: true,
         showConfirmButton: false
@@ -1028,6 +1049,9 @@ function filterMenu(category, button) {
 
 
 document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("i").addEventListener("click", function() {
+    document.getElementById("allergens").scrollIntoView({ behavior: "smooth" });
+});
     loadMenu();  // Aggiungilo qui
 });
 
@@ -1112,6 +1136,9 @@ document.addEventListener("DOMContentLoaded", () => {
   function openMenuPage() {
     window.location.href = 'index.html'; 
   }
+
+
+
 </script>
 </head>
 <body>
@@ -1137,6 +1164,7 @@ document.addEventListener("DOMContentLoaded", () => {
   </div>
   <h1 class="alex-brush"><span class="custom-font" style="text-shadow: 1px 1px 1px  #000000;">Menu</span><br /></h1>
   <div class="categories">
+    <button id="i"><i class="fa fa-info-circle"></i></button>
     <button onclick="filterMenu('antipasti', this)">Antipasti</button>
     <button onclick="filterMenu('Primi', this)">Primi Piatti</button>
     <button onclick="filterMenu('secondi', this)">Secondi Piatti</button>
@@ -1170,7 +1198,7 @@ document.addEventListener("DOMContentLoaded", () => {
 </div>
 <div class="menu-items" id="menu-items"></div>
 
-<section class="allergens-container">
+<section class="allergens-container" id="allergens">
   <i class="fas fa-info-circle"></i>
   <h2>Informazioni sugli Allergeni</h2>
   <p>Si avvisa la gentile clientela che nei piatti preparati possono essere contenuti ingredienti o coadiuvanti considerati allergeni.</p>

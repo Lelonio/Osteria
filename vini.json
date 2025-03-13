@@ -2,89 +2,157 @@
     {
         "categoria": "bianchi",
         "nome": "Gewurztraminer",
+        "cantina": "Abbazia di Novacella",
+        "provenienza": "Alto Adige",
         "prezzo": "28.00€"
     },
     {
         "categoria": "bianchi",
         "nome": "Muller Thurgau",
+        "cantina": "Abbazia di Novacella",
+        "provenienza": "Alto Adige",
         "prezzo": "27.00€"
     },
     {
         "categoria": "bianchi",
         "nome": "Riesling",
+        "cantina": "Abbazia di Novacella",
+        "provenienza": "Alto Adige",
         "prezzo": "28.00€"
     },
     {
         "categoria": "bianchi",
         "nome": "Silvaner",
+        "cantina": "Abbazia di Novacella",
+        "provenienza": "Alto Adige",
         "prezzo": "27.00€"
     },
     {
         "categoria": "bianchi",
         "nome": "Kerner",
+        "cantina": "Abbazia di Novacella",
+        "provenienza": "Alto Adige",
         "prezzo": "27.00€"
     },
     {
         "categoria": "bianchi",
         "nome": "Gewurztraminer DOC",
+        "cantina": "Cantina Disesa",
+        "provenienza": "Trentino",
         "prezzo": "25.00€"
     },
     {
         "categoria": "bianchi",
         "nome": "Falanghina Del Sannio DOC",
+        "cantina": "Feudi di San Gregorio",
+        "provenienza": "Campania",
         "prezzo": "22.00€"
-       
     },
     {
         "categoria": "bianchi",
         "nome": "Falanghina Del Sannio DOC",
+        "cantina": "Feudi di San Gregorio",
+        "provenienza": "Campania",
         "prezzo": "13.00€",
         "quantita": "0.375lt"
     },
     {
         "categoria": "bianchi",
         "nome": "Sauvignon DOC",
+        "cantina": "Tenuta del Morer",
+        "provenienza": "Friuli Venezia Giulia",
         "prezzo": "20.00€"
     },
     {
         "categoria": "bianchi",
         "nome": "Traminer IGT",
+        "cantina": "Tenuta del Morer",
+        "provenienza": "Friuli Venezia Giulia",
         "prezzo": "20.00€"
     },
     {
         "categoria": "bianchi",
         "nome": "Roma Bianco Bellone DOC",
+        "cantina": "Casa Divina Provvidenza",
+        "provenienza": "Lazio",
         "prezzo": "20.00€"
     },
     {
         "categoria": "bianchi",
         "nome": "Lintóri Vermentino DOC",
+        "cantina": "Capichera",
+        "provenienza": "Sardegna",
         "prezzo": "28.00€"
     },
     {
         "categoria": "bianchi",
         "nome": "Vign'Angena Vermentino sup. DOCG",
+        "cantina": "Capichera",
+        "provenienza": "Sardegna",
         "prezzo": "45.00€"
     },
     {
         "categoria": "bianchi",
         "nome": "Vign'Angena Vermentino sup. DOCG",
+        "cantina": "Capichera",
+        "provenienza": "Sardegna",
         "prezzo": "23.00€",
         "quantita": "0.375lt"
     },
     {
         "categoria": "rossi",
         "nome": "Brunello di Montalcino DOCG",
+        "cantina": "Tenute del Cerro",
+        "provenienza": "Toscana",
         "prezzo": "68.00€"
     },
     {
         "categoria": "rossi",
         "nome": "Spiaggiole Morellino di Scansano DOCG",
+        "cantina": "Poggio Maestrino",
+        "provenienza": "Toscana",
         "prezzo": "24.00€"
     },
     {
         "categoria": "rossi",
         "nome": "Montepulciano Jus Primæ Noctis",
+        "cantina": "Terra del Barone",
+        "provenienza": "Abruzzo",
+        "prezzo": "22.00€"
+    },
+    {
+        "categoria": "rossi",
+        "nome": "Barolo DOCG",
+        "cantina": "Cantina Carlin de Paolo",
+        "provenienza": "Piemonte",
+        "prezzo": "60.00€"
+    },
+    {
+        "categoria": "rossi",
+        "nome": "Chianti Colli Senesi",
+        "cantina": "San Giorgio a Lapi",
+        "provenienza": "Toscana",
+        "prezzo": "24.00€"
+    },
+    {
+        "categoria": "rossi",
+        "nome": "Primo Scuro Cannonau di Sardegna DOC",
+        "cantina": "Cantina Mesa",
+        "provenienza": "Sardegna",
+        "prezzo": "22.00€"
+    },
+    {
+        "categoria": "rossi",
+        "nome": "Taurasi DOCG",
+        "cantina": "Feudi di San Gregorio",
+        "provenienza": "Campania",
+        "prezzo": "35.00€"
+    },
+    {
+        "categoria": "rossi",
+        "nome": "Syrah",
+        "cantina": "Tenute Mokarta",
+        "provenienza": "Sicilia",
         "prezzo": "22.00€"
     },
     {
@@ -93,114 +161,123 @@
         "prezzo": "5.00€"
     },
     {
-        "categoria": "rossi",
-        "nome": "Barolo DOCG",
-        "prezzo": "60.00€"
-    },
-    {
-        "categoria": "rossi",
-        "nome": "Chianti Colli Senesi",
-        "prezzo": "24.00€"
-    },
-    {
-        "categoria": "rossi",
-        "nome": "Primo Scuro Cannonau di Sardegna DOC",
-        "prezzo": "22.00€"
-    },
-    {
-        "categoria": "rossi",
-        "nome": "Taurasi DOCG",
-        "prezzo": "35.00€"
-    },
-    {
-        "categoria": "rossi",
-        "nome": "Syrah",
-        "prezzo": "22.00€"
-    },
-    {
         "categoria": "bollicine",
         "nome": "Prosecco Brut DOC",
+        "cantina": "Lentviale",
+        "provenienza": "Veneto",
         "prezzo": "20.00€"
     },
     {
         "categoria": "bollicine",
         "nome": "Prosecco Extra Dry DOC",
+        "cantina": "Corte delle Galli",
+        "provenienza": "Veneto",
         "prezzo": "22.00€"
     },
     {
         "categoria": "bollicine",
         "nome": "Mare Divino Cesanese Rosè",
+        "cantina": "Casa Divina Provvidenza",
+        "provenienza": "Lazio",
         "prezzo": "20.00€"
     },
     {
         "categoria": "bollicine",
-        "nome": "Cama Brut Prosecco  Superiore DOCG",
+        "nome": "Cama Brut Prosecco Superiore DOCG",
+        "cantina": "Fasol Menin",
+        "provenienza": "Veneto",
         "prezzo": "26.00€"
     },
     {
         "categoria": "bollicine",
         "nome": "Leonte Extra Dry Prosecco Superiore DOCG",
+        "cantina": "Fasol Menin",
+        "provenienza": "Veneto",
         "prezzo": "26.00€"
     },
     {
         "categoria": "bollicine",
         "nome": "Ferrari Brut Metodo Classico",
+        "cantina": "Ferrari",
+        "provenienza": "Trento DOC",
         "prezzo": "32.00€"
     },
     {
         "categoria": "bollicine",
         "nome": "Ferrari Brut Metodo Classico",
+        "cantina": "Ferrari",
+        "provenienza": "Trento DOC",
         "prezzo": "18.00€",
         "quantita": "0.375lt"
     },
     {
         "categoria": "bollicine",
         "nome": "Ferrari Rosé Metodo Classico",
+        "cantina": "Ferrari",
+        "provenienza": "Trento DOC",
         "prezzo": "38.00€"
     },
     {
         "categoria": "bollicine",
         "nome": "Ferrari Perlè Metodo Classico",
+        "cantina": "Ferrari",
+        "provenienza": "Trento DOC",
         "prezzo": "45.00€"
     },
     {
         "categoria": "bollicine",
         "nome": "Franciacorta DOCG Brut",
+        "cantina": "Antica Fratta",
+        "provenienza": "Lombardia",
         "prezzo": "34.00€"
     },
     {
         "categoria": "bollicine",
         "nome": "Franciacorta DOCG Rosé",
+        "cantina": "Antica Fratta",
+        "provenienza": "Lombardia",
         "prezzo": "38.00€"
     },
     {
         "categoria": "bollicine",
         "nome": "Franciacorta DOCG Satèn",
+        "cantina": "Antica Fratta",
+        "provenienza": "Lombardia",
         "prezzo": "36.00€"
     },
     {
         "categoria": "bollicine",
         "nome": "Franciacorta DOCG Prestige",
+        "cantina": "Ca del Bosco",
+        "provenienza": "Lombardia",
         "prezzo": "59.00€"
     },
     {
         "categoria": "bollicine",
         "nome": "Champagne Brut",
+        "cantina": "Veuve Clicquot",
+        "provenienza": "Francia",
         "prezzo": "75.00€"
     },
     {
         "categoria": "bollicine",
         "nome": "Giulio Ferrari Extra Brut",
+        "cantina": "Ferrari",
+        "provenienza": "Trento DOC",
         "prezzo": "195.00€"
     },
     {
         "categoria": "bollicine",
         "nome": "Champagne Brut Eclat",
+        "cantina": "Esterum",
+        "provenienza": "Francia",
         "prezzo": "50.00€"
     },
     {
         "categoria": "bollicine",
         "nome": "Champagne Vintage Dom Pérignon",
+        "cantina": "Dom Pérignon",
+        "provenienza": "Francia",
         "prezzo": "360.00€"
     },
     {
@@ -246,135 +323,187 @@
     {
         "categoria": "rosati",
         "nome": "Insolitus Rosá Lagrein",
+        "cantina": "Abbazia di Novacella",
+        "provenienza": "Alto Adige",
         "prezzo": "28.00€"
     },
     {
         "categoria": "rosati",
         "nome": "Cerasuolo d'Abruzzo DOP",
+        "cantina": "Terzini",
+        "provenienza": "Abruzzo",
         "prezzo": "18.00€"
     },
     {
         "categoria": "rosati",
         "nome": "San Crag Campania Rosato IGT",
+        "cantina": "Feudi di San Gregorio",
+        "provenienza": "Campania",
         "prezzo": "24.00€"
     },
     {
         "categoria": "rosati",
         "nome": "Isola dei Nuraghi Rosato Tambè IGT",
+        "cantina": "Capichera",
+        "provenienza": "Sardegna",
         "prezzo": "30.00€"
     },
     {
         "categoria": "bianchi",
         "nome": "Grüner Veltliner “Praepositus”",
+        "cantina": "Abbazia di Novacella",
+        "provenienza": "Alto Adige",
         "prezzo": "34.00€"
     },
     {
         "categoria": "bianchi",
         "nome": "Moscato Giallo DOC",
+        "cantina": "Cantina Disesa",
+        "provenienza": "Trentino",
         "prezzo": "24.00€"
     },
     {
         "categoria": "bianchi",
         "nome": "Chardonnay Collio DOC",
+        "cantina": "Freg.",
+        "provenienza": "Friuli Venezia Giulia",
         "prezzo": "14.00€",
         "quantita": "0.375lt"
     },
     {
         "categoria": "bianchi",
         "nome": "Pinot Grigio Collio DOC",
+        "cantina": "Freg.",
+        "provenienza": "Friuli Venezia Giulia",
         "prezzo": "14.00€",
         "quantita": "0.375lt"
     },
     {
         "categoria": "bianchi",
         "nome": "Ribolla Gialla IGT",
+        "cantina": "Tenuta del Morer",
+        "provenienza": "Friuli Venezia Giulia",
         "prezzo": "22.00€"
     },
     {
         "categoria": "bianchi",
         "nome": "Pinot Grigio DOC",
+        "cantina": "Tenuta del Morer",
+        "provenienza": "Friuli Venezia Giulia",
         "prezzo": "22.00€"
     },
     {
         "categoria": "bianchi",
         "nome": "Arneis 'Macadì' DOCG",
+        "cantina": "Cantina Carlin de Paolo",
+        "provenienza": "Piemonte",
         "prezzo": "22.00€"
     },
     {
         "categoria": "bianchi",
         "nome": "Arneis 'Macadì' DOCG",
+        "cantina": "Cantina Carlin de Paolo",
+        "provenienza": "Piemonte",
         "prezzo": "13.00€",
         "quantita": "0.375lt"
     },
     {
         "categoria": "bianchi",
         "nome": "Santasso Viognier DOC",
+        "cantina": "Tenuta Casteani",
+        "provenienza": "Toscana",
         "prezzo": "24.00€"
     },
     {
         "categoria": "bianchi",
         "nome": "Incrocio Bruni 54 IGT",
+        "cantina": "Fontecoppa",
+        "provenienza": "Marche",
         "prezzo": "28.00€"
     },
     {
         "categoria": "bianchi",
         "nome": "Joco Falerio Pecorino DOC Biologico",
+        "cantina": "Fontecoppa",
+        "provenienza": "Marche",
         "prezzo": "20.00€"
     },
     {
         "categoria": "bianchi",
         "nome": "Trebbiano Spoletino DOC",
+        "cantina": "Le Cimate",
+        "provenienza": "Umbria",
         "prezzo": "24.00€"
     },
     {
         "categoria": "bianchi",
         "nome": "Breza Marina IGT",
+        "cantina": "Casa Divina Provvidenza",
+        "provenienza": "Lazio",
         "prezzo": "18.00€"
     },
     {
         "categoria": "bianchi",
         "nome": "Zui Passerina IGP",
+        "cantina": "Cantina Federici",
+        "provenienza": "Lazio",
         "prezzo": "22.00€"
     },
     {
         "categoria": "bianchi",
         "nome": "Greco di Tufo DOCG",
+        "cantina": "Feudi di San Gregorio",
+        "provenienza": "Campania",
         "prezzo": "24.00€"
     },
     {
         "categoria": "bianchi",
         "nome": "Greco di Tufo DOCG",
+        "cantina": "Feudi di San Gregorio",
+        "provenienza": "Campania",
         "prezzo": "14.00€",
         "quantita": "0.375lt"
     },
     {
         "categoria": "bianchi",
         "nome": "Fiano di Avellino DOCG",
+        "cantina": "Feudi di San Gregorio",
+        "provenienza": "Campania",
         "prezzo": "24.00€"
     },
     {
         "categoria": "bianchi",
         "nome": "Fiano di Avellino DOCG 'Pietracalda' Riserva",
+        "cantina": "Feudi di San Gregorio",
+        "provenienza": "Campania",
         "prezzo": "30.00€"
     },
     {
         "categoria": "bianchi",
         "nome": "Vermentino di Sardegna DOC",
+        "cantina": "Cantina Mesa",
+        "provenienza": "Sardegna",
         "prezzo": "20.00€"
     },
     {
         "categoria": "bianchi",
         "nome": "Isola dei Nuraghi Vermentino IGT",
+        "cantina": "Capichera",
+        "provenienza": "Sardegna",
         "prezzo": "55.00€"
     },
     {
         "categoria": "bianchi",
         "nome": "Insolia IGP",
+        "cantina": "Tenute Monarta",
+        "provenienza": "Sicilia",
         "prezzo": "18.00€"
     },
     {
         "categoria": "bianchi",
         "nome": "Zibibbo Secco Talia DOC Biologico",
+        "cantina": "Tenute Monarta",
+        "provenienza": "Sicilia",
         "prezzo": "22.00€"
     },
     {
@@ -458,6 +587,4 @@
         "nome": "Cointreau",
         "prezzo": "6.00€"
     }
-
-
 ]
