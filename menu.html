@@ -96,9 +96,9 @@
     }
 
     .logo-container img {
-    width: 90%;
+    width: 100%;
     max-width: 250px;
-    padding-top: 50px;
+    padding-top: 30px;
     ;
   }
 
@@ -116,9 +116,10 @@
 .language-selector {
     position: fixed;
     top: 20px;
-    right: 20px;
+    
     display: flex;
     gap: 10px;
+    
 }
 
 .language-selector img {
@@ -161,7 +162,7 @@
 
     @media screen and (max-width: 768px) {
       .logo-container {
-      padding-top: 60px !important; /* Rimuove lo spazio sopra */
+      padding-top: 40px !important; /* Rimuove lo spazio sopra */
       margin-top: 0 !important; /* Rimuove eventuali margini sopra */
       }
   /* Rende il pulsante home più piccolo e lo sposta */
@@ -210,7 +211,7 @@
   .logo-container img {
     padding: 0; /* Rimuove eventuali padding extra */
 
-    width: 80%;
+    width: 100%;
     max-width: 150px;
   }
 
@@ -494,28 +495,66 @@
     }
 
 
-  .fixed-top-bar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 50px; /* Altezza fissa per evitare sovrapposizioni */
-  backdrop-filter: url(filters.svg#filter) blur(10px) brightness(30%);
+    .fixed-bottom-bar {
+    position: fixed;
+    bottom: 10px; /* Leggermente sollevata dal bordo inferiore */
+    left: 50%;
+    transform: translateX(-50%); /* Centra la barra */
+    width: 20%; /* Occupa solo parte dello schermo */
+    
+    max-width: 600px; /* Evita che diventi troppo grande su schermi larghi */
+    min-width: 250px;
+    height: 40px;
+    backdrop-filter: blur(10px) brightness(60%);
+    border-radius: 20px; /* Arrotonda gli angoli per effetto dock */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 1000;
+}
+
+.language-selector {
+    display: flex;
+    gap: 15px;
+    justify-content: center; /* Centra le bandiere */
+    align-items: center; /* Assicura l'allineamento verticale */
+   margin-top: -7px;
+    
+}
+
+.fixed-top-bar {
+  position:absolute;
+  top: 10px;
+  left: 10px; /* Mantiene la posizione a sinistra */
+  width: 3%; /* Adatta la larghezza al contenuto */
+  min-width: 20px;
+  
+  height: 3%; /* Altezza fissa per evitare sovrapposizioni */
+  min-height: 20px;
+  backdrop-filter: url(filters.svg#filter) blur(10px) brightness(50%);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 10px 20px;
-  z-index: 1000;
+  padding: 15px;
+  border-radius: 50px; /* Bordo arrotondato */
+  z-index: 1;
 }
 
 .home-button {
   background: none;
   border: none;
   color: white;
-  font-size: 20px;
+  font-size: 24px;
   cursor: pointer;
-  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px; /* Dimensione fissa per centrare l'icona */
+  height: 40px; /* Dimensione fissa per centrare l'icona */
+  padding-bottom: 20px;
 }
+
 .allergeni {
     font-size: 0.8em;
     color: #a9a9a9;
@@ -1145,19 +1184,7 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
 </head>
 <body>
-  <div class="fixed-top-bar" id="bar">
-    <button onclick="openMenuPage()" class="home-button" href="index.html"><i class="fa fa-home"></i></button>
-    <div class="language-selector">
-      <img id="ita" src="assets/flags/it.png" alt="Italiano" onclick="changeLanguage('it',this)">
-      <img src="assets/flags/en.png" alt="English" onclick="changeLanguage('en',this)">
-      <img src="assets/flags/es.png" alt="Español" onclick="changeLanguage('es',this)">
-      <img src="assets/flags/de.png" alt="Deutsch" onclick="changeLanguage('de',this)">
-      <img src="assets/flags/fr.png" alt="Français" onclick="changeLanguage('fr',this)">
-      <img src="assets/flags/ru.png" alt="Русский" onclick="changeLanguage('ru',this)">
-      <img src="assets/flags/zh.png" alt="中文" onclick="changeLanguage('zh',this)">
 
-    </div>
-  </div>
 
 
   
@@ -1224,5 +1251,20 @@ document.addEventListener("DOMContentLoaded", () => {
   </ul>
 </section>
 </section>
+<div class="fixed-bottom-bar" id="bar">
+  <div class="language-selector">
+    <img id="ita" src="assets/flags/it.png" alt="Italiano" onclick="changeLanguage('it',this)">
+    <img src="assets/flags/en.png" alt="English" onclick="changeLanguage('en',this)">
+    <img src="assets/flags/es.png" alt="Español" onclick="changeLanguage('es',this)">
+    <img src="assets/flags/de.png" alt="Deutsch" onclick="changeLanguage('de',this)">
+    <img src="assets/flags/fr.png" alt="Français" onclick="changeLanguage('fr',this)">
+    <img src="assets/flags/ru.png" alt="Русский" onclick="changeLanguage('ru',this)">
+    <img src="assets/flags/zh.png" alt="中文" onclick="changeLanguage('zh',this)">
+
+  </div>
+</div>
+  <div class="fixed-top-bar" id="topbar">
+    <button onclick="openMenuPage()" class="home-button" href="index.html"><i class="fa fa-home"></i></button>
+</div>
 </body>
 </html>
