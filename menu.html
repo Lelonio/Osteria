@@ -97,7 +97,7 @@
 
     .logo-container img {
     width: 100%;
-    max-width: 250px;
+    max-width: 300px;
     padding-top: 30px;
     ;
   }
@@ -162,9 +162,10 @@
 
     @media screen and (max-width: 768px) {
       .logo-container {
-      padding-top: 40px !important; /* Rimuove lo spazio sopra */
+      padding-top: 60px !important; /* Rimuove lo spazio sopra */
       margin-top: 0 !important; /* Rimuove eventuali margini sopra */
       }
+
   /* Rende il pulsante home più piccolo e lo sposta */
   .home-button {
     width: 10px !important;  /* Ulteriore riduzione */ 
@@ -212,7 +213,7 @@
     padding: 0; /* Rimuove eventuali padding extra */
 
     width: 100%;
-    max-width: 150px;
+    max-width: 200px;
   }
 
   /* Ridimensiona la finestra popup */
@@ -1076,7 +1077,7 @@ function filterMenu(category, button) {
     setTimeout(() => {
         if (menuContainer) {
             window.scrollTo({
-                top: menuContainer.offsetTop - 70, // 50px di margine per visibilità
+                top: menuContainer.offsetTop - 20, // 50px di margine per visibilità
                 behavior: 'smooth'
             });
         }
