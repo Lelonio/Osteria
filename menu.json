@@ -29,7 +29,7 @@
     },
     {
         "categoria": "antipasti",
-        "nome": "Tris di tartare",
+        "nome": "Tris di tartare (Tonno,Spada,Salmone)",
         "prezzo": "18.00€",
         "immagine": "assets/piatti/tris_tartare.jpg",
         "allergeni": "4/14"

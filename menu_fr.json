@@ -29,7 +29,7 @@
     },
     {
         "categoria": "antipasti",
-        "nome": "Trio de tartare",
+        "nome": "Trio de tartare (Thon, Espadon, Saumon)",
         "prezzo": "18.00€",
         "immagine": "assets/piatti/tris_tartare.jpg",
         "allergeni": "4/14"

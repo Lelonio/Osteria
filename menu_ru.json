@@ -29,7 +29,7 @@
     },
     {
         "categoria": "antipasti",
-        "nome": "Трио тартара",
+        "nome": "Трио тартара (Тунец, Рыба-меч, Лосось)",
         "prezzo": "18.00€",
         "immagine": "assets/piatti/tris_tartare.jpg",
         "allergeni": "4/14"
