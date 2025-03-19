@@ -87,18 +87,19 @@ header nav .nav-button {
 
 }
 .div-nav {
-  background: rgba(0, 0, 0, 0.9);
+  background: black;
   position: fixed;
   right: 0;
   left: 0;
   top: 0;
   bottom: 0;
-  z-index: 1;
+  z-index: 10000000;
   text-align: center;
   transform: scale(0);
   opacity: 0;
   transition: opacity 0.2s;
 }
+
 header nav div ul {
   position: relative;
   height: 100%;
@@ -292,19 +293,6 @@ nav div.show {
   font-size: 15px;
 }
 
-#prenota-experience{
-
-  font-size: 15px;
-}
-
-
-#experienceForm{
-
-  font-family: "PT Sans", sans-serif;
-  line-height: 2;
- padding-left: 10px;
-
-}
 
 #btnMenu{
   font-size: 40px;
@@ -347,11 +335,40 @@ nav div.show {
 
 
 .ristorante-background {
-  background: black url("assets/salaint.webp") no-repeat center -200px;
-  background-size: cover;
-  height: 600px;
-  
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    height: 600px; /* Altezza fissa della sezione */
+    overflow: hidden; /* Evita eventuali overflow */
 }
+
+.ristorante-background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Mantiene le proporzioni senza schiacciare */
+  display: block;
+  position: absolute;
+  top: 0;
+  border-radius: 0 !important; /* Rimuove qualsiasi arrotondamento */
+  left: 0;
+  z-index: 1;
+}
+
+.ristorante-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 2;
+}
+
+
+
 .menus{
 
   display: grid;
@@ -360,66 +377,8 @@ nav div.show {
   
 }
 
-.exclusive-menu{
-
-  font-family: "PT Sans", sans-serif !important;
-  letter-spacing: 1px;
-  text-shadow: 0px 1px 1px   #be4340;
-  color: #ffffff;
-
-}
-
-#btnVoucher{
-
-  margin-left: 15px;
-}
 
 
-
-.exclusive{
-
-  font-size: 50px;
-}
-.experience {
-  list-style: none;
-  padding-left: 40px;
-  padding-right: 20px;
-}
-.experience li {
-  
-  margin-bottom: -45px;
-
-}
-.experience li.active .experience-form {
-  max-height: 275px !important;
-  padding-bottom: 25px;
-  transition: max-height 0.5s ease, padding-bottom 0.5s ease;
-}
-.experience li.active .experience-btn {
-  color: #ffffff;
-  transition: color 0.5s ease;
-}
-.experience .experience-form {
-  color: #4d4d4d;
-  font-family: "PT Sans", sans-serif !important;
-  font-size: 16px;
-  line-height: 24px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.5s ease, padding-bottom 0.5s ease;
-}
-.experience .experience-btn {
-  font-family: "PT Sans", sans-serif;
-  color: #ffffff;
-  text-transform: uppercase;
-  font-size: 15px;
-  font-weight: 600;
-  letter-spacing: 1px;
-  border-bottom: solid 2px #ffffff;
-  position: relative;
-  cursor: pointer;
-  
-}
 #menu {
   flex: 1;
 }
@@ -438,27 +397,6 @@ nav div.show {
   width: 100%;
 }
 
-
-
-
-.prenotazione {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-.prenotazione div:first-child {
-  flex: 1;
-}
-.prenotazione div:last-child {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  flex: 1;
-}
-.prenotazione div:last-child img {
-  margin: auto;
-  width: 85%;
-  display: none;
-}
 .faq-map{
   
   display: grid;
@@ -569,11 +507,36 @@ nav div.show {
 
   
   .ristorante-background {
-    background: black url("assets/salaint.webp") no-repeat center center;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-size: cover;
     height: 600px;
-    
-  }
+}
+
+.ristorante-background img {
+    width: 100%;
+    height: 600px;
+    display: block;
+}
+
+.ristorante-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 2;
+}
+
+.ristorante-overlay h1 {
+    font-size: 3rem; /* Modifica la dimensione del testo */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
 }
 
 
@@ -635,11 +598,6 @@ footer button {
 
 @media screen and (max-width: 425px) {
   
-
-  .prenotazione div:last-child img {
-    display: none;
-  }
-
   .logo-container{
     margin-top: 150px;
   }
@@ -659,13 +617,7 @@ footer button {
     margin-left: -1px;
   }
 
-  #experienceForm{
 
-    font-family: "PT Sans", sans-serif;
-    line-height: 2;
-    padding-right: 70px;
-  
-  }
 
   #map{
 
@@ -679,13 +631,6 @@ footer button {
     font-size: 10px;
   }
 
-  
-
-  .prenotazione div:last-child img {
-    margin: auto;
-    width: 85%;
-    display:block;
-  }
 
   .map{
      margin-bottom: 100px;
@@ -835,10 +780,7 @@ header::before {
 
           animation: spin 0.5s forwards;
           animation-delay: 0.3s;
-          -webkit-animation: spin 0.5s forwards;
-          -webkit-animation-delay: 0.3s;
-          -moz-animation: spin 0.5s forwards;
-          -moz-animation-delay: 0.3s;
+
           
 }
 
@@ -848,10 +790,7 @@ header::before {
 
           animation: grow 0.5s forwards;
           animation-delay: 0.8s;
-          -webkit-animation: grow 0.5s forwards;
-          -webkit-animation-delay: 0.8s;
-          -moz-animation: grow 0.5s forwards;
-          -moz-animation-delay: 0.8s;
+
           
 }
 
@@ -861,10 +800,7 @@ header::before {
   
           animation: fadeDown 0.9s forwards;
           animation-delay: 1.3s;
-          -webkit-animation: fadeDown 0.9s forwards;
-          -webkit-animation-delay: 1.3s;
-          -moz-animation: fadeDown 0.9s forwards;
-          -moz-animation-delay: 1.3s;
+
   
           
 }
@@ -874,8 +810,7 @@ header::before {
   opacity: 0;
 
           animation: fade 0.5s forwards;
-          -webkit-animation: fade 0.5s forwards;
-          -moz-animation: fade 0.5s forwards;
+
 }
 
 .center h1 {
@@ -884,10 +819,7 @@ header::before {
 
           animation: fadeUp 0.5s forwards;
           animation-delay: 0.3s;
-          -webkit-animation: fadeUp 0.5s forwards;
-          -webkit-animation-delay: 0.3s;
-          -moz-animation: fadeUp 0.5s forwards;
-          -moz-animation-delay: 0.3s;
+
           
 }
 
@@ -919,27 +851,6 @@ select {
   }
 }
 
-@-webkit-keyframes fadeUp {
-  0% {
-    opacity: 0;
-    transform: translateY(40px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@-moz-keyframes fadeUp {
-  0% {
-    opacity: 0;
-    transform: translateY(40px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
 @keyframes fade {
   0% {
@@ -952,27 +863,7 @@ select {
   }
 }
 
-@-webkit-keyframes fade {
-  0% {
-    transform: scale(2);
-    opacity: 0;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
 
-@-moz-keyframes fade {
-  0% {
-    transform: scale(2);
-    opacity: 0;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
 
 @keyframes fadeDown {
   0% {
@@ -985,27 +876,7 @@ select {
   }
 }
 
-@-webkit-keyframes fadeDown {
-  0% {
-    opacity: 0;
-    transform: translateY(-40px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
-@-moz-keyframes fadeDown {
-  0% {
-    opacity: 0;
-    transform: translateY(-40px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
 @keyframes grow {
   0% {
@@ -1017,35 +888,7 @@ select {
   }
   100% {
     opacity: 1;
-    width: 40%;
-  }
-}
-
-@-webkit-keyframes grow {
-  0% {
-    opacity: 0;
-    width: 0%;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-    width: 40%;
-  }
-}
-
-@-moz-keyframes grow {
-  0% {
-    opacity: 0;
-    width: 0%;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-    width: 40%;
+    width: 10%;
   }
 }
 @keyframes spin {
@@ -1059,24 +902,3 @@ select {
   }
 }
 
-@-webkit-keyframes spin {
-  0% {
-    transform: rotate(0);
-    opacity: 0;
-  }
-  100% {
-    transform: rotate(360deg);
-    opacity: 1;
-  }
-}
-
-@-moz-keyframes spin {
-  0% {
-    transform: rotate(0);
-    opacity: 0;
-  }
-  100% {
-    transform: rotate(360deg);
-    opacity: 1;
-  }
-}

@@ -10,6 +10,8 @@
   
   <link rel="stylesheet" href="./style.css">
 
+
+  
 <link rel="preload" href="css/normalize.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="css/normalize.min.css"></noscript>
 
@@ -18,12 +20,8 @@
 <link rel="preload" href="css/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="css/swiper-bundle.min.css"></noscript>
 
-<link rel="preload" href="css/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="css/aos.css"></noscript>
 
 
-<link rel="preload" href="css/alexbrush.css" as="font" type="font/woff2" crossorigin="anonymous">
-<link rel="preload" href="css/pt-sans.css" as="font" type="font/woff2" crossorigin="anonymous">
 
 
 
@@ -45,6 +43,9 @@
 
 
 <style>
+  .swiper-container {
+    touch-action: pan-y !important; /* Permette lo scroll verticale */
+}
   .cucina-carousel {
     position: relative;
     
@@ -212,14 +213,13 @@
     <h1 class="custom-h1 alex-brush"><span class="custom-font" style="text-shadow: 1px 1px 1px #000000;">Vista</span><br />SUL MARE</h1>
   </div>
   <div class="swiper-wrapper">
-    <div class="swiper-slide" style="background: url('assets/slide/slide.jpeg') no-repeat center center; background-size: cover; height: 600px;" loading="lazy"></div>
-    <div class="swiper-slide" style="background: url('assets/slide/slide 2.jpeg') no-repeat center center; background-size: cover; height: 600px;" loading="lazy"></div>
-    <div class="swiper-slide" style="background: url('assets/slide/slide 3.jpeg') no-repeat center center; background-size: cover; height: 600px;" loading="lazy"></div>
-    <div class="swiper-slide" style="background: url('assets/slide/slide 4.jpeg') no-repeat center center; background-size: cover; height: 600px;" loading="lazy"></div>
-    <div class="swiper-slide" style="background: url('assets/slide/slide 5.jpeg') no-repeat center center; background-size: cover; height: 600px;" loading="lazy"></div>
+    <div class="swiper-slide" style="background: url('assets/slide/slide.jpeg') no-repeat center center; background-size: cover; height: 600px;" ></div>
+    <div class="swiper-slide" style="background: url('assets/slide/slide 2.jpeg') no-repeat center center; background-size: cover; height: 600px;" ></div>
+    <div class="swiper-slide" style="background: url('assets/slide/slide 3.jpeg') no-repeat center center; background-size: cover; height: 600px;" ></div>
+    <div class="swiper-slide" style="background: url('assets/slide/slide 4.jpeg') no-repeat center center; background-size: cover; height: 600px;" ></div>
+    <div class="swiper-slide" style="background: url('assets/slide/slide 5.jpeg') no-repeat center center; background-size: cover; height: 600px;" ></div>
   </div>
   <!-- Paginazione -->
-  <div class="swiper-pagination"></div>
 </section>
 
 <section class="menu add-flex add-padding">
@@ -243,10 +243,15 @@
 </section>
 
 
-</section>
 <section class="ristorante-background center-h1">
-  <h1 class="custom-h1 alex-brush"><span class="custom-font" style="text-shadow: 1px 1px 1px  #000000;">Sala</span><br />INTERNA</h1>
+  <div class="ristorante-overlay"> 
+    <h1 class="custom-h1 alex-brush">
+      <span class="custom-font" style="text-shadow: 1px 1px 1px  #000000;">Sala</span><br />INTERNA
+    </h1>
+  </div>
+  <img src="assets/salaint.webp" alt="Sala Interna">
 </section>
+
 
 
 
@@ -307,7 +312,7 @@
 
     <!-- Contenitore per il logo -->
     <div class="footer-logo">
-      <img class="navlogo" src="assets/navlogo.png" data-aos="fade" data-aos-delay="300" width="180" height="100"/>
+      <img class="navlogo" src="assets/navlogo.webp"/>
       <p style="font-size: 10px;">Sito realizzato da Emanuele Maio</p>
     </div>
 
@@ -327,15 +332,66 @@
     </div>
   </div>
 </footer>
-
-
-
-
 <script src='js/jquery.min.js' defer></script>
 <script src="js/fontawesome.js" defer></script>
-<script src="js/aos.js" defer></script>
 <script  src="js/script.js" defer></script>
 <script src="js/swiper-bundle.min.js" defer></script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const images = [
+    "assets/gnocchi.webp",
+    "assets/pesce.webp",
+    "assets/tonno.webp",
+     "assets/crema.webp",
+      "assets/tiramisu.webp",
+      "assets/salaint.webp",
+      "assets/tavolo2.webp",
+      "assets/tavolo3.webp"
+  
+  
+  
+  ];
+  
+  images.forEach((src) => {
+    const img = new Image();
+    img.src = src;
+  });
+    new Swiper(".header-carousel", {
+      preventInteractionOnTransition: true, // Evita interferenze con lo scroll
+
+      loop: false,
+      autoplay: {
+        delay: 3000,
+        
+      },
+      pagination: {
+      },
+      effect: "fade",
+      fadeEffect: {
+        crossFade: false,
+      },
+
+    });
+  
+    new Swiper(".cucina-carousel", {
+      preventInteractionOnTransition: false, // Evita interferenze con lo scroll
+  
+      loop: false,
+      autoplay: {
+        delay: 3000,
+        
+      },
+      pagination: {
+      },
+
+      effect: "fade",
+      fadeEffect: {
+        crossFade: false,
+      },
+    });
+});
+</script>
+
 
 
 </body>
