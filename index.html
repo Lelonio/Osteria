@@ -10,10 +10,10 @@
 <link rel="stylesheet" href="css/normalize.min.css">
 
 
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link href="css/aos.css" rel="stylesheet">
 
 <link rel="stylesheet" href="./style.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+<link rel="stylesheet" href="css/swiper-bundle.min.css">
 
 <link rel="preload" as="image" href="assets/gnocchi.webp">
 <link rel="preload" as="image" href="assets/pesce.webp">
@@ -183,7 +183,7 @@
     
   </div>
   <div>
-  <img class="carbonara add-flex" src="assets/pasta.jpg">
+  <img class="carbonara add-flex" src="assets/pasta.jpg"  loading="lazy">
   </div>
 </section>
 
@@ -316,7 +316,12 @@
     "assets/pesce.webp",
     "assets/tonno.webp",
      "assets/crema.webp",
-      "assets/tiramisu.webp"
+      "assets/tiramisu.webp",
+      "assets/salaint.jpg",
+      "assets/tavolo2.jpg",
+      "assets/tavolo3.jpg"
+
+
 
   ];
   
@@ -351,6 +356,9 @@
       observeParents: true, // Osserva i cambiamenti anche nei contenitori
       preloadImages: false, // Precarica tutte le immagini
       lazy: false, // Evita che Swiper ricarichi le immagini ogni volta
+      passiveListeners: true, // Evita listener non necessari
+  speed: 600, // Riduci la velocità di transizione
+  allowTouchMove: false // Blocca swipe manuale se non necessario
     });
 
     new Swiper(".cucina-carousel", {
@@ -375,11 +383,9 @@
 
 <script src='js/jquery.min.js'></script>
 <script src="js/fontawesome.js" ></script>
-<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script  src="js/script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="js/aos.js" defer></script>
+<script  src="js/script.js" defer></script>
+<script src="js/swiper-bundle.min.js"></script>
 
 
 </body>
