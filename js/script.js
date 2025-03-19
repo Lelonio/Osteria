@@ -57,7 +57,17 @@ $('.faq li .question').click(function () {
 
   AOS.init({      
         duration: 500,
-    easing: 'ease'
+    easing: 'ease',
+    once: true,
+    disable: function() {
+      return document.querySelector(".header-carousel") ? true : false;
+    },
+    disable: function() {
+      return document.querySelector(".cucina-carousel") ? true : false;
+    }
   });
    
+
+
+  
 })
