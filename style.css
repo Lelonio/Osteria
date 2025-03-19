@@ -41,9 +41,6 @@ header {
   background-attachment: scroll;
   display: flex;
   flex-direction: column;
-  background-image: url("assets/small/gnocchi.jpg");
-  filter: contrast(120%); 
-  animation: changeBg 20s infinite;
 
 
 }
@@ -55,7 +52,6 @@ header::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Cambia l'opacità qui */
   z-index: -1;
 }
 
@@ -356,12 +352,7 @@ nav div.show {
   letter-spacing: 0;
 }
 
-.cucina-background {
-  background: black url("assets/salaest.jpg") no-repeat center -100px;
-  background-size: cover;
-  height: 600px;
-  
-}
+
 .ristorante-background {
   background: black url("assets/salaint.jpg") no-repeat center -200px;
   background-size: cover;
@@ -587,12 +578,8 @@ nav div.show {
     margin-top: 150px;
   }
 
-  .cucina-background {
-    background: black url("assets/salaest.jpg") no-repeat center center;
-    background-size: cover;
-    height: 600px;
-    
-  }
+
+  
   .ristorante-background {
     background: black url("assets/salaint.jpg") no-repeat center center;
     background-size: cover;
@@ -731,10 +718,8 @@ footer button {
     background-size: cover;
     display: flex;
     flex-direction: column;
-    background-image: url("assets/gnocchi.jpg");
     position: relative; /* Necessario per il pseudo-elemento */
     z-index: 0;
-    animation: changeBg 30s infinite;
 }
 
 /* Overlay opaco */
@@ -745,7 +730,6 @@ header::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Cambia l'opacità qui */
     z-index: -1;
 }
 
@@ -846,6 +830,8 @@ header::before {
     padding: 0 0 0 50px;
 
   }
+
+  
   footer .restaurant-info .hours {
     display: flex;
     justify-content: space-between;
