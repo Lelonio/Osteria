@@ -7,24 +7,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content=" ">
 
-<link rel="stylesheet" href="css/normalize.min.css">
+  
+  <link rel="stylesheet" href="./style.css">
+
+<link rel="preload" href="css/normalize.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="css/normalize.min.css"></noscript>
 
 
-<link href="css/aos.css" rel="stylesheet" defer>
 
-<link rel="stylesheet" href="./style.css">
-<link rel="stylesheet" href="css/swiper-bundle.min.css">
+<link rel="preload" href="css/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="css/swiper-bundle.min.css"></noscript>
 
+<link rel="preload" href="css/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="css/aos.css"></noscript>
+
+
+<link rel="preload" href="css/alexbrush.css" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="css/pt-sans.css" as="font" type="font/woff2" crossorigin="anonymous">
+
+
+
+<link rel="preload" as="image" href="assets/navlogo.webp">
 <link rel="preload" as="image" href="assets/gnocchi.webp">
 <link rel="preload" as="image" href="assets/pesce.webp">
 <link rel="preload" as="image" href="assets/tonno.webp">
 <link rel="preload" as="image" href="assets/crema.webp">
 <link rel="preload" as="image" href="assets/tiramisu.webp">
 
-<link rel="preload" as="image" href="assets/pasta.jpg">
-<link rel="preload" as="image" href="assets/tavolo2.jpg">
-<link rel="preload" as="image" href="assets/tavolo3.jpg">
-<link rel="preload" as="image" href="assets/salaint.jpg">
+<link rel="preload" as="image" href="assets/pasta.webp">
+<link rel="preload" as="image" href="assets/tavolo2.webp">
+<link rel="preload" as="image" href="assets/tavolo3.webp">
+<link rel="preload" as="image" href="assets/salaint.webp">
 
 <link rel="preconnect" href="https://ka-f.fontawesome.com/">
 <link rel="preconnect" href="https://maps.googleapis.com">
@@ -170,7 +183,7 @@
   <div class="center">
     
     <div class="logo-container">
-      <img src="assets/navlogo.png" alt="Osteria Del Pirgo" class="logo" data-aos="fade-in" data-aos-duration="2000">
+      <img src="assets/navlogo.webp" alt="Osteria Del Pirgo" class="logo">
     </div>
     <span id="asterisk" style="text-shadow: 1px 1px 1px  #000000;">*</span>
     <p><a href="https://maps.app.goo.gl/7aqM6TVFBC5BSXei8" class="maps"><i class="fa fa-map-marker"></i> Lungomare Thaon de Revel 10 - Civitavecchia</a></p>
@@ -189,7 +202,7 @@
     
   </div>
   <div>
-  <img class="carbonara add-flex" src="assets/pasta.jpg"  loading="lazy">
+  <img class="carbonara add-flex" src="assets/pasta.webp"  loading="lazy">
   </div>
 </section>
 
@@ -212,8 +225,8 @@
 <section class="menu add-flex add-padding">
   <div class="menu-images">
     
-    <img src="assets/tavolo2.jpg" />
-    <img src="assets/tavolo3.jpg" />
+    <img src="assets/tavolo2.webp" />
+    <img src="assets/tavolo3.webp" />
     
   </div>
   <div class="menus">

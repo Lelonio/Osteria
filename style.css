@@ -56,13 +56,6 @@ header::before {
 }
 
 
-@keyframes changeBg {
-  100% {background-image: url("assets/small/tiramisu.jpg");}
-  75% {background-image: url("assets/small/crema.jpg");}
-  50% {background-image: url("assets/small/pesce.jpg");}
-  25% {background-image: url("assets/small/tonno.jpg");}
-  0% {background-image: url("assets/small/gnocchi.jpg");}
-}
 
 header nav h2 #social {
   font-family: "PT Sans", sans-serif !important;
@@ -354,7 +347,7 @@ nav div.show {
 
 
 .ristorante-background {
-  background: black url("assets/salaint.jpg") no-repeat center -200px;
+  background: black url("assets/salaint.webp") no-repeat center -200px;
   background-size: cover;
   height: 600px;
   
@@ -446,12 +439,7 @@ nav div.show {
 }
 
 
-.cocktail-background {
-  background: black url("assets/cocktailbar.jpg") no-repeat center center;
-  
-  background-size: cover;
-  height: 500px;
-}
+
 
 .prenotazione {
   margin-top: 40px;
@@ -581,7 +569,7 @@ nav div.show {
 
   
   .ristorante-background {
-    background: black url("assets/salaint.jpg") no-repeat center center;
+    background: black url("assets/salaint.webp") no-repeat center center;
     background-size: cover;
     height: 600px;
     
@@ -733,14 +721,7 @@ header::before {
     z-index: -1;
 }
 
-/* Animazione per il cambio di sfondo */
-@keyframes changeBg {
-    100% {background-image: url("assets/tiramisu.jpg");}
-    75% {background-image: url("assets/crema.jpg");}
-    50% {background-image: url("assets/pesce.jpg");}
-    25% {background-image: url("assets/tonno.jpg");}
-    0% {background-image: url("assets/gnocchi.jpg");}
-}
+
 
  
   
