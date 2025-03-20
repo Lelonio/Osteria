@@ -620,7 +620,8 @@ footer button {
 
 
   #map{
-
+    border-radius: 20px; /* Cambia il valore per più o meno arrotondamento */
+    overflow: hidden; /* Evita che l'effetto venga tagliato */
     width:500px;
     height:440px;
     margin-bottom: 100px;
