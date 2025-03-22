@@ -3,49 +3,49 @@
         "categoria": "antipasti",
         "nome": "Soutè di cozze",
         "prezzo": "12.00€",
-        "immagine": "assets/piatti/cozze.jpg",
+        "immagine": "assets/piatti/cozze.webp",
         "allergeni": "1/11/13"
     },
     {
         "categoria": "antipasti",
         "nome": "Crudi",
         "prezzo": "28.00€",
-        "immagine": "assets/piatti/crudi.jpg",
+        "immagine": "assets/piatti/crudi.webp",
         "allergeni": "2/4/13/14"
     },
     {
         "categoria": "antipasti",
         "nome": "Ostriche",
         "prezzo": "4.00€ cad.",
-        "immagine": "assets/piatti/ostriche.jpg",
+        "immagine": "assets/piatti/ostriche.webp",
         "allergeni": "13"
     },
     {
         "categoria": "antipasti",
         "nome": "Sfiziosità di pesce caldi e freddi",
         "prezzo": "18.00€ - 6 assaggi",
-        "immagine": "assets/piatti/sfiziosita_pesce.jpg",
+        "immagine": "assets/piatti/sfiziosita_pesce.webp",
         "allergeni": "4/14"
     },
     {
         "categoria": "antipasti",
         "nome": "Tris di tartare (Tonno,Spada,Salmone)",
         "prezzo": "18.00€",
-        "immagine": "assets/piatti/tris_tartare.jpg",
+        "immagine": "assets/piatti/tris_tartare.webp",
         "allergeni": "4/14"
     },
     {
         "categoria": "antipasti",
         "nome": "Insalata di mare",
         "prezzo": "16.00€",
-        "immagine": "assets/piatti/insalata_mare.jpg",
+        "immagine": "assets/piatti/insalata_mare.webp",
         "allergeni": "2/4/13"
     },
     {
         "categoria": "antipasti",
         "nome": "*Polipetti alla Luciana",
         "prezzo": "12.00€",
-        "immagine": "assets/piatti/polipetti_luciana.jpg",
+        "immagine": "assets/piatti/polipetti_luciana.webp",
         "allergeni": "1/13"
 
     },
@@ -53,7 +53,7 @@
         "categoria": "antipasti",
         "nome": "*Polpo con patate",
         "prezzo": "16.00€",
-        "immagine": "assets/piatti/polpo_patate.jpg",
+        "immagine": "assets/piatti/polpo_patate.webp",
         "allergeni": "6/13"
 
     },
@@ -61,153 +61,153 @@
         "categoria": "antipasti",
         "nome": "Tagliere di salumi, crostini e formaggi D.O.P. e fantasie di terra",
         "prezzo": "20.00€",
-        "immagine": "assets/piatti/tagliere_salumi.jpg",
+        "immagine": "assets/piatti/tagliere_salumi.webp",
         "allergeni": "1/3/6/7/9"
     },
     {
         "nome": "Spaghetti alle vongole veraci",
         "categoria": "Primi",
         "prezzo": "16.00€",
-        "immagine": "assets/piatti/spaghetti_alle_vongole_veraci.jpg",
+        "immagine": "assets/piatti/spaghetti_alle_vongole_veraci.webp",
         "allergeni": "1/13"
     },
     {
         "nome": "Risotto alla crema di scampi",
         "categoria": "Primi",
         "prezzo": "14.00€",
-        "immagine": "assets/piatti/risotto_alla_crema_di_scampi.jpg",
+        "immagine": "assets/piatti/risotto_alla_crema_di_scampi.webp",
         "allergeni": "2/7"
     },
     {
         "nome": "*Risotto alla pescatora",
         "categoria": "Primi",
         "prezzo": "15.00€",
-        "immagine": "assets/piatti/risotto_alla_pescatora.jpg",
+        "immagine": "assets/piatti/risotto_alla_pescatora.webp",
         "allergeni": "2/4/13"
     },
     {
         "nome": "Linguine all’astice",
         "categoria": "Primi",
         "prezzo": "22.00€",
-        "immagine": "assets/piatti/linguine_allastice.jpg",
+        "immagine": "assets/piatti/linguine_allastice.webp",
         "allergeni": "1/2"
     },
     {
         "nome": "Tonnarelli allo scoglio",
         "categoria": "Primi",
         "prezzo": "16.00€",
-        "immagine": "assets/piatti/tonnarelli_allo_scoglio.jpg",
+        "immagine": "assets/piatti/tonnarelli_allo_scoglio.webp",
         "allergeni": "2/4/13"
     },
     {
         "nome": "Gnocchi pesce spada e pistacchio",
         "categoria": "Primi",
         "prezzo": "14.00€",
-        "immagine": "assets/piatti/gnocchi_pesce_spada_e_pistacchio.jpg",
+        "immagine": "assets/piatti/gnocchi_pesce_spada_e_pistacchio.webp",
         "allergeni": "1/4"
     },
     {
         "nome": "Carbonara",
         "categoria": "Primi",
         "prezzo": "13.00€",
-        "immagine": "assets/piatti/carbonara.jpg",
+        "immagine": "assets/piatti/carbonara.webp",
         "allergeni": "3/7"
     },
     {
         "nome": "Cacio e pepe",
         "categoria": "Primi",
         "prezzo": "13.00€",
-        "immagine": "assets/piatti/cacio_e_pepe.jpg",
+        "immagine": "assets/piatti/cacio_e_pepe.webp",
         "allergeni": "3/7"
     },
     {
         "categoria": "secondi",
         "nome": "Grigliata di pesce",
         "prezzo": "24.00€",
-        "immagine": "assets/piatti/grigliata_pesce.jpg",
+        "immagine": "assets/piatti/grigliata_pesce.webp",
         "allergeni": "2/4/13"
     },
     {
         "categoria": "secondi",
         "nome": "*Frittura di calamari e gamberi",
         "prezzo": "16.00€",
-        "immagine": "assets/piatti/frittura_calamar_gamberi.jpg",
+        "immagine": "assets/piatti/frittura_calamar_gamberi.webp",
         "allergeni": "2/4/13"
     },
     {
         "categoria": "secondi",
         "nome": "Miscuglio di pesce",
         "prezzo": "24.00€",
-        "immagine": "assets/piatti/miscuglio_pesce.jpg",
+        "immagine": "assets/piatti/miscuglio_pesce.webp",
         "allergeni": "2/3/4/13"
     },
     {
         "categoria": "secondi",
         "nome": "Tagliata di tonno",
         "prezzo": "18.00€",
-        "immagine": "assets/piatti/tagliata_tonno.jpg",
+        "immagine": "assets/piatti/tagliata_tonno.webp",
         "allergeni": "4/5/6/14"
     },
     {
         "categoria": "secondi",
         "nome": "Rombo al forno con patate",
         "prezzo": "6.50 all'etto",
-        "immagine": "assets/piatti/rombo_patate.jpg",
+        "immagine": "assets/piatti/rombo_patate.webp",
         "allergeni": "4"
     },
     {
         "categoria": "secondi",
         "nome": "Pesce di pescato al forno con patate",
         "prezzo": "6.50 all'etto",
-        "immagine": "assets/piatti/pescato_patate.jpg",
+        "immagine": "assets/piatti/pescato_patate.webp",
         "allergeni": "4"
     },
     {
         "categoria": "secondi",
         "nome": "Orata di allevamento al forno con patate",
         "prezzo": "18.00€",
-        "immagine": "assets/piatti/orata_patate.jpg",
+        "immagine": "assets/piatti/orata_patate.webp",
         "allergeni": "4"
     },
     {
         "categoria": "secondi",
         "nome": "Zuppa di pesce",
         "prezzo": "55.00€",
-        "immagine": "assets/piatti/zuppa_pesce.jpg",
+        "immagine": "assets/piatti/zuppa_pesce.webp",
         "allergeni": "2/3/4/13"
     },
     {
         "categoria": "secondi",
         "nome": "Zuppa di crostacei",
         "prezzo": "60.00€",
-        "immagine": "assets/piatti/zuppa_crostacei.jpg",
+        "immagine": "assets/piatti/zuppa_crostacei.webp",
         "allergeni": "2/3/13"
     },
     {
         "categoria": "secondi",
         "nome": "Trancio di salmone croccante alle erbe",
         "prezzo": "18.00€",
-        "immagine": "assets/piatti/salmone_erbe.jpg",
+        "immagine": "assets/piatti/salmone_erbe.webp",
         "allergeni": "2/3/13"
     },
     {
         "categoria": "secondi",
         "nome": "Bistecca di manzo",
         "prezzo": "18.00€",
-        "immagine": "assets/piatti/bistecca_manzo.jpg",
+        "immagine": "assets/piatti/bistecca_manzo.webp",
         "allergeni": "1/6"
     },
     {
         "categoria": "contorni",
         "nome": "Insalata mista o verde",
         "prezzo": "5.00€",
-        "immagine": "assets/piatti/insalata_mista.jpg"
+        "immagine": "assets/piatti/insalata_mista.webp"
     },
     {
         "categoria": "contorni",
         "nome": "*Patate fritte o al forno",
         "prezzo": "5.00€",
-        "immagine": "assets/piatti/patatine_fritte_forno.jpg",
+        "immagine": "assets/piatti/patatine_fritte_forno.webp",
         "allergeni": "1"
 
     },
@@ -215,170 +215,170 @@
         "categoria": "contorni",
         "nome": "Cicoria ripassata in padella o all’agro",
         "prezzo": "5.00€",
-        "immagine": "assets/piatti/cicoria_ripassata.jpg",
+        "immagine": "assets/piatti/cicoria_ripassata.webp",
         "allergeni": "1"
     },
     {
         "categoria": "da bere",
         "nome": "Acqua minerale",
         "prezzo": "2.50",
-        "immagine": "assets/piatti/acqua_minerale.jpg"
+        "immagine": "assets/piatti/acqua_minerale.webp"
     },
     {
         "categoria": "da bere",
         "nome": "Birra – 0,25l",
         "prezzo": "4.00€",
-        "immagine": "assets/piatti/birra_025l.jpg"
+        "immagine": "assets/piatti/birra_025l.webp"
     },
     {
         "categoria": "da bere",
         "nome": "Fanta/Cola/Sprite",
         "prezzo": "3.00€",
-        "immagine": "assets/piatti/fanta_cola_sprite.jpg"
+        "immagine": "assets/piatti/fanta_cola_sprite.webp"
     },
     {
         "categoria": "da bere",
         "nome": "Birra – 0,5l",
         "prezzo": "6.00€",
-        "immagine": "assets/piatti/birra_05l.jpg"
+        "immagine": "assets/piatti/birra_05l.webp"
     },
     {
         "categoria": "da bere",
         "nome": "Thè freddo alla pesca / limone",
         "prezzo": "3.00€",
-        "immagine": "assets/piatti/the_freddo.jpg"
+        "immagine": "assets/piatti/the_freddo.webp"
     },
     {
         "categoria": "da bere",
         "nome": "Succhi di frutta",
         "prezzo": "3.00€",
-        "immagine": "assets/piatti/succhi_frutta.jpg"
+        "immagine": "assets/piatti/succhi_frutta.webp"
     },
     {
         "categoria": "da bere",
         "nome": "Birra Peroni – 0,62l",
         "prezzo": "6.00€",
-        "immagine": "assets/piatti/birra_peroni_066l.jpg"
+        "immagine": "assets/piatti/birra_peroni_066l.webp"
     },
     {
         "categoria": "da bere",
         "nome": "Birra Ichnusa/Corona – 0,33l",
         "prezzo": "4.00€",
-        "immagine": "assets/piatti/birra_ichnusa_corona_033l.jpg"
+        "immagine": "assets/piatti/birra_ichnusa_corona_033l.webp"
     },
     {
         "categoria": "dessert",
         "nome": "Tiramisù",
         "prezzo": "6.00€",
-        "immagine": "assets/piatti/tiramisu.jpg"
+        "immagine": "assets/piatti/tiramisu.webp"
     },
     {
         "categoria": "dessert",
         "nome": "Panna cotta ai frutti di bosco",
         "prezzo": "6.00€",
-        "immagine": "assets/piatti/panna_cotta_frutti_bosco.jpg"
+        "immagine": "assets/piatti/panna_cotta_frutti_bosco.webp"
     },
     {
         "categoria": "dessert",
         "nome": "Panna cotta al pistacchio di Bronte",
         "prezzo": "6.00€",
-        "immagine": "assets/piatti/panna_cotta_pistacchio.jpg"
+        "immagine": "assets/piatti/panna_cotta_pistacchio.webp"
     },
     {
         "categoria": "dessert",
         "nome": "Creme Caramel",
         "prezzo": "6.00€",
-        "immagine": "assets/piatti/creme_caramel.jpg"
+        "immagine": "assets/piatti/creme_caramel.webp"
     },
     {
         "categoria": "dessert",
         "nome": "Millefoglie dello chef",
         "prezzo": "6.00€",
-        "immagine": "assets/piatti/millefoglie.jpg"
+        "immagine": "assets/piatti/millefoglie.webp"
     },
     {
         "categoria": "dessert",
         "nome": "Soufflé al cioccolato con cuore caldo",
         "prezzo": "6.00€",
-        "immagine": "assets/piatti/souffle_cioccolato.jpg"
+        "immagine": "assets/piatti/souffle_cioccolato.webp"
     },
     {
         "categoria": "dessert",
         "nome": "Sorbetto al limone",
         "prezzo": "6.00€",
-        "immagine": "assets/piatti/sorbetto_limone.jpg"
+        "immagine": "assets/piatti/sorbetto_limone.webp"
     },
     {
         "categoria": "dessert",
         "nome": "Crema catalana",
         "prezzo": "6.00€",
-        "immagine": "assets/piatti/crema_catalana.jpg"
+        "immagine": "assets/piatti/crema_catalana.webp"
     },
     {
         "categoria": "dessert",
         "nome": "Coppa del Cherubino",
         "prezzo": "6.00€",
-        "immagine": "assets/piatti/coppa_cherubino.jpg"
+        "immagine": "assets/piatti/coppa_cherubino.webp"
     },
     {
         "categoria": "dessert",
         "nome": "Cheesecake",
         "prezzo": "6.00€",
-        "immagine": "assets/piatti/cheesecake.jpg"
+        "immagine": "assets/piatti/cheesecake.webp"
     },
     {
         "categoria": "dessert",
         "nome": "Bavarese al cioccolato e Baileys",
         "prezzo": "6.00€",
-        "immagine": "assets/piatti/bavarese_cioccolato_baileys.jpg"
+        "immagine": "assets/piatti/bavarese_cioccolato_baileys.webp"
     },
     {
         "categoria": "dessert",
         "nome": "Bavarese al cioccolato bianco, agrumi e limoncello",
         "prezzo": "6.00€",
-        "immagine": "assets/piatti/bavarese_cioccolato_bianco.jpg"
+        "immagine": "assets/piatti/bavarese_cioccolato_bianco.webp"
     },
     {
         "categoria": "caffetteria",
         "nome": "Caffè espresso",
         "prezzo": "2.00€",
-        "immagine": "assets/piatti/caffe_espresso.jpg"
+        "immagine": "assets/piatti/caffe_espresso.webp"
     },
     {
         "categoria": "caffetteria",
         "nome": "Caffè decaffeinato",
         "prezzo": "2.00€",
-        "immagine": "assets/piatti/caffe_decaffeinato.jpg"
+        "immagine": "assets/piatti/caffe_decaffeinato.webp"
     },
     {
         "categoria": "caffetteria",
         "nome": "Cappuccino",
         "prezzo": "2.50",
-        "immagine": "assets/piatti/cappuccino.jpg"
+        "immagine": "assets/piatti/cappuccino.webp"
     },
     {
         "categoria": "caffetteria",
         "nome": "Caffè Latte",
         "prezzo": "3.00€",
-        "immagine": "assets/piatti/caffe_latte.jpg"
+        "immagine": "assets/piatti/caffe_latte.webp"
     },
     {
         "categoria": "caffetteria",
         "nome": "Caffè Americano",
         "prezzo": "2.50",
-        "immagine": "assets/piatti/caffe_americano.jpg"
+        "immagine": "assets/piatti/caffe_americano.webp"
     },
     {
         "categoria": "caffetteria",
         "nome": "Cappuccino decaffeinato",
         "prezzo": "2.50",
-        "immagine": "assets/piatti/cappuccino_decaffeinato.jpg"
+        "immagine": "assets/piatti/cappuccino_decaffeinato.webp"
     },
     {
         "categoria": "caffetteria",
         "nome": "Tè/Camomilla",
         "prezzo": "2.50",
-        "immagine": "assets/piatti/te_camomilla.jpg"
+        "immagine": "assets/piatti/te_camomilla.webp"
     }
     
 ]

@@ -3,378 +3,378 @@
         "categoria": "antipasti",
         "nome": "青口汤",
         "prezzo": "12.00€",
-        "immagine": "assets/piatti/cozze.jpg",
+        "immagine": "assets/piatti/cozze.webp",
         "allergeni": "1/11/13"
     },
     {
         "categoria": "antipasti",
         "nome": "生海鲜",
         "prezzo": "28.00€",
-        "immagine": "assets/piatti/crudi.jpg",
+        "immagine": "assets/piatti/crudi.webp",
         "allergeni": "2/4/13/14"
     },
     {
         "categoria": "antipasti",
         "nome": "生蚝",
         "prezzo": "4.00€ 每只",
-        "immagine": "assets/piatti/ostriche.jpg",
+        "immagine": "assets/piatti/ostriche.webp",
         "allergeni": "13"
     },
     {
         "categoria": "antipasti",
         "nome": "冷热鱼鲜小吃",
         "prezzo": "18.00€ - 6 种品尝",
-        "immagine": "assets/piatti/sfiziosita_pesce.jpg",
+        "immagine": "assets/piatti/sfiziosita_pesce.webp",
         "allergeni": "4/14"
     },
     {
         "categoria": "antipasti",
         "nome": "三种鞑靼 (金枪鱼, 剑鱼, 三文鱼)",
         "prezzo": "18.00€",
-        "immagine": "assets/piatti/tris_tartare.jpg",
+        "immagine": "assets/piatti/tris_tartare.webp",
         "allergeni": "4/14"
     },
     {
         "categoria": "antipasti",
         "nome": "海鲜沙拉",
         "prezzo": "16.00€",
-        "immagine": "assets/piatti/insalata_mare.jpg",
+        "immagine": "assets/piatti/insalata_mare.webp",
         "allergeni": "2/4/13"
     },
     {
         "categoria": "antipasti",
         "nome": "*卢西亚纳风味小章鱼",
         "prezzo": "12.00€",
-        "immagine": "assets/piatti/polipetti_luciana.jpg",
+        "immagine": "assets/piatti/polipetti_luciana.webp",
         "allergeni": "1/13"
     },
     {
         "categoria": "antipasti",
         "nome": "*章鱼配土豆",
         "prezzo": "16.00€",
-        "immagine": "assets/piatti/polpo_patate.jpg",
+        "immagine": "assets/piatti/polpo_patate.webp",
         "allergeni": "6/13"
     },
     {
         "categoria": "antipasti",
         "nome": "冷盘拼盘，包括腌肉、烤面包片和D.O.P.奶酪",
         "prezzo": "20.00€",
-        "immagine": "assets/piatti/tagliere_salumi.jpg",
+        "immagine": "assets/piatti/tagliere_salumi.webp",
         "allergeni": "1/3/6/7/9"
     },
     {
         "nome": "蛤蜊意大利面",
         "categoria": "Primi",
         "prezzo": "16.00€",
-        "immagine": "assets/piatti/spaghetti_alle_vongole_veraci.jpg",
+        "immagine": "assets/piatti/spaghetti_alle_vongole_veraci.webp",
         "allergeni": "1/13"
     },
     {
         "nome": "虾仁奶油烩饭",
         "categoria": "Primi",
         "prezzo": "14.00€",
-        "immagine": "assets/piatti/risotto_alla_crema_di_scampi.jpg",
+        "immagine": "assets/piatti/risotto_alla_crema_di_scampi.webp",
         "allergeni": "2/7"
     },
     {
         "nome": "*渔夫烩饭",
         "categoria": "Primi",
         "prezzo": "15.00€",
-        "immagine": "assets/piatti/risotto_alla_pescatora.jpg",
+        "immagine": "assets/piatti/risotto_alla_pescatora.webp",
         "allergeni": "2/4/13"
     },
     {
         "nome": "龙虾扁面",
         "categoria": "Primi",
         "prezzo": "22.00€",
-        "immagine": "assets/piatti/linguine_allastice.jpg",
+        "immagine": "assets/piatti/linguine_allastice.webp",
         "allergeni": "1/2"
     },
     {
         "nome": "海鲜通心粉",
         "categoria": "Primi",
         "prezzo": "16.00€",
-        "immagine": "assets/piatti/tonnarelli_allo_scoglio.jpg",
+        "immagine": "assets/piatti/tonnarelli_allo_scoglio.webp",
         "allergeni": "2/4/13"
     },
     {
         "nome": "剑鱼和开心果意式面疙瘩",
         "categoria": "Primi",
         "prezzo": "14.00€",
-        "immagine": "assets/piatti/gnocchi_pesce_spada_e_pistacchio.jpg",
+        "immagine": "assets/piatti/gnocchi_pesce_spada_e_pistacchio.webp",
         "allergeni": "1/4"
     },
     {
         "nome": "卡邦尼",
         "categoria": "Primi",
         "prezzo": "13.00€",
-        "immagine": "assets/piatti/carbonara.jpg",
+        "immagine": "assets/piatti/carbonara.webp",
         "allergeni": "3/7"
     },
     {
         "nome": "奶酪胡椒面",
         "categoria": "Primi",
         "prezzo": "13.00€",
-        "immagine": "assets/piatti/cacio_e_pepe.jpg",
+        "immagine": "assets/piatti/cacio_e_pepe.webp",
         "allergeni": "3/7"
     },
     {
         "categoria": "secondi",
         "nome": "烤鱼",
         "prezzo": "24.00€",
-        "immagine": "assets/piatti/grigliata_pesce.jpg",
+        "immagine": "assets/piatti/grigliata_pesce.webp",
         "allergeni": "2/4/13"
     },
     {
         "categoria": "secondi",
         "nome": "*炸鱿鱼和虾",
         "prezzo": "16.00€",
-        "immagine": "assets/piatti/frittura_calamar_gamberi.jpg",
+        "immagine": "assets/piatti/frittura_calamar_gamberi.webp",
         "allergeni": "2/4/13"
     },
     {
         "categoria": "secondi",
         "nome": "混合鱼",
         "prezzo": "24.00€",
-        "immagine": "assets/piatti/miscuglio_pesce.jpg",
+        "immagine": "assets/piatti/miscuglio_pesce.webp",
         "allergeni": "2/3/4/13"
     },
     {
         "categoria": "secondi",
         "nome": "金枪鱼排",
         "prezzo": "18.00€",
-        "immagine": "assets/piatti/tagliata_tonno.jpg",
+        "immagine": "assets/piatti/tagliata_tonno.webp",
         "allergeni": "4/5/6/14"
     },
     {
         "categoria": "secondi",
         "nome": "烤比目鱼配土豆",
         "prezzo": "6.50 每100克",
-        "immagine": "assets/piatti/rombo_patate.jpg",
+        "immagine": "assets/piatti/rombo_patate.webp",
         "allergeni": "4"
     },
     {
         "categoria": "secondi",
         "nome": "当日烤鱼配土豆",
         "prezzo": "6.50 每100克",
-        "immagine": "assets/piatti/pescato_patate.jpg",
+        "immagine": "assets/piatti/pescato_patate.webp",
         "allergeni": "4"
     },
     {
         "categoria": "secondi",
         "nome": "烤养殖鲷鱼配土豆",
         "prezzo": "18.00€",
-        "immagine": "assets/piatti/orata_patate.jpg",
+        "immagine": "assets/piatti/orata_patate.webp",
         "allergeni": "4"
     },
     {
         "categoria": "secondi",
         "nome": "鱼汤",
         "prezzo": "55.00€",
-        "immagine": "assets/piatti/zuppa_pesce.jpg",
+        "immagine": "assets/piatti/zuppa_pesce.webp",
         "allergeni": "2/3/4/13"
     },
     {
         "categoria": "secondi",
         "nome": "甲壳类汤",
         "prezzo": "60.00€",
-        "immagine": "assets/piatti/zuppa_crostacei.jpg",
+        "immagine": "assets/piatti/zuppa_crostacei.webp",
         "allergeni": "2/3/13"
     },
     {
         "categoria": "secondi",
         "nome": "香草脆皮三文鱼",
         "prezzo": "18.00€",
-        "immagine": "assets/piatti/salmone_erbe.jpg",
+        "immagine": "assets/piatti/salmone_erbe.webp",
         "allergeni": "2/3/13"
     },
     {
         "categoria": "secondi",
         "nome": "牛排",
         "prezzo": "18.00€",
-        "immagine": "assets/piatti/bistecca_manzo.jpg",
+        "immagine": "assets/piatti/bistecca_manzo.webp",
         "allergeni": "1/6"
     },
     {
         "categoria": "contorni",
         "nome": "混合或绿色沙拉",
         "prezzo": "5.00€",
-        "immagine": "assets/piatti/insalata_mista.jpg"
+        "immagine": "assets/piatti/insalata_mista.webp"
     },
     {
         "categoria": "contorni",
         "nome": "*炸薯条或烤土豆",
         "prezzo": "5.00€",
-        "immagine": "assets/piatti/patatine_fritte_forno.jpg",
+        "immagine": "assets/piatti/patatine_fritte_forno.webp",
         "allergeni": "1"
     },
     {
         "categoria": "contorni",
         "nome": "炒菊苣或醋味",
         "prezzo": "5.00€",
-        "immagine": "assets/piatti/cicoria_ripassata.jpg",
+        "immagine": "assets/piatti/cicoria_ripassata.webp",
         "allergeni": "1"
     },
     {
         "categoria": "da bere",
         "nome": "矿泉水",
         "prezzo": "2.50",
-        "immagine": "assets/piatti/acqua_minerale.jpg"
+        "immagine": "assets/piatti/acqua_minerale.webp"
     },
     {
         "categoria": "da bere",
         "nome": "啤酒 – 0.25升",
         "prezzo": "4.00€",
-        "immagine": "assets/piatti/birra_025l.jpg"
+        "immagine": "assets/piatti/birra_025l.webp"
     },
     {
         "categoria": "da bere",
         "nome": "芬达/可乐/雪碧",
         "prezzo": "3.00€",
-        "immagine": "assets/piatti/fanta_cola_sprite.jpg"
+        "immagine": "assets/piatti/fanta_cola_sprite.webp"
     },
     {
         "categoria": "da bere",
         "nome": "啤酒 – 0.5升",
         "prezzo": "6.00€",
-        "immagine": "assets/piatti/birra_05l.jpg"
+        "immagine": "assets/piatti/birra_05l.webp"
     },
     {
         "categoria": "da bere",
         "nome": "桃子/柠檬冰茶",
         "prezzo": "3.00€",
-        "immagine": "assets/piatti/the_freddo.jpg"
+        "immagine": "assets/piatti/the_freddo.webp"
     },
     {
         "categoria": "da bere",
         "nome": "果汁",
         "prezzo": "3.00€",
-        "immagine": "assets/piatti/succhi_frutta.jpg"
+        "immagine": "assets/piatti/succhi_frutta.webp"
     },
     {
         "categoria": "da bere",
         "nome": "Peroni啤酒 – 0.62升",
         "prezzo": "6.00€",
-        "immagine": "assets/piatti/birra_peroni_066l.jpg"
+        "immagine": "assets/piatti/birra_peroni_066l.webp"
     },
     {
         "categoria": "da bere",
         "nome": "Ichnusa/Corona啤酒 – 0.33升",
         "prezzo": "4.00€",
-        "immagine": "assets/piatti/birra_ichnusa_corona_033l.jpg"
+        "immagine": "assets/piatti/birra_ichnusa_corona_033l.webp"
     },
     {
         "categoria": "dessert",
         "nome": "提拉米苏",
         "prezzo": "6.00€",
-        "immagine": "assets/piatti/tiramisu.jpg"
+        "immagine": "assets/piatti/tiramisu.webp"
     },
     {
         "categoria": "dessert",
         "nome": "浆果奶冻",
         "prezzo": "6.00€",
-        "immagine": "assets/piatti/panna_cotta_frutti_bosco.jpg"
+        "immagine": "assets/piatti/panna_cotta_frutti_bosco.webp"
     },
     {
         "categoria": "dessert",
         "nome": "布朗特开心果奶冻",
         "prezzo": "6.00€",
-        "immagine": "assets/piatti/panna_cotta_pistacchio.jpg"
+        "immagine": "assets/piatti/panna_cotta_pistacchio.webp"
     },
     {
         "categoria": "dessert",
         "nome": "焦糖布丁",
         "prezzo": "6.00€",
-        "immagine": "assets/piatti/creme_caramel.jpg"
+        "immagine": "assets/piatti/creme_caramel.webp"
     },
     {
         "categoria": "dessert",
         "nome": "主厨千层酥",
         "prezzo": "6.00€",
-        "immagine": "assets/piatti/millefoglie.jpg"
+        "immagine": "assets/piatti/millefoglie.webp"
     },
     {
         "categoria": "dessert",
         "nome": "巧克力舒芙蕾配热心",
         "prezzo": "6.00€",
-        "immagine": "assets/piatti/souffle_cioccolato.jpg"
+        "immagine": "assets/piatti/souffle_cioccolato.webp"
     },
     {
         "categoria": "dessert",
         "nome": "柠檬雪葩",
         "prezzo": "6.00€",
-        "immagine": "assets/piatti/sorbetto_limone.jpg"
+        "immagine": "assets/piatti/sorbetto_limone.webp"
     },
     {
         "categoria": "dessert",
         "nome": "焦糖布丁",
         "prezzo": "6.00€",
-        "immagine": "assets/piatti/crema_catalana.jpg"
+        "immagine": "assets/piatti/crema_catalana.webp"
     },
     {
         "categoria": "dessert",
         "nome": "天使杯",
         "prezzo": "6.00€",
-        "immagine": "assets/piatti/coppa_cherubino.jpg"
+        "immagine": "assets/piatti/coppa_cherubino.webp"
     },
     {
         "categoria": "dessert",
         "nome": "芝士蛋糕",
         "prezzo": "6.00€",
-        "immagine": "assets/piatti/cheesecake.jpg"
+        "immagine": "assets/piatti/cheesecake.webp"
     },
     {
         "categoria": "dessert",
         "nome": "巧克力和百利甜酒巴伐利亚奶油",
         "prezzo": "6.00€",
-        "immagine": "assets/piatti/bavarese_cioccolato_baileys.jpg"
+        "immagine": "assets/piatti/bavarese_cioccolato_baileys.webp"
     },
     {
         "categoria": "dessert",
         "nome": "白巧克力、柑橘和柠檬酒巴伐利亚奶油",
         "prezzo": "6.00€",
-        "immagine": "assets/piatti/bavarese_cioccolato_bianco.jpg"
+        "immagine": "assets/piatti/bavarese_cioccolato_bianco.webp"
     },
     {
         "categoria": "caffetteria",
         "nome": "浓缩咖啡",
         "prezzo": "2.00€",
-        "immagine": "assets/piatti/caffe_espresso.jpg"
+        "immagine": "assets/piatti/caffe_espresso.webp"
     },
     {
         "categoria": "caffetteria",
         "nome": "无咖啡因咖啡",
         "prezzo": "2.00€",
-        "immagine": "assets/piatti/caffe_decaffeinato.jpg"
+        "immagine": "assets/piatti/caffe_decaffeinato.webp"
     },
     {
         "categoria": "caffetteria",
         "nome": "卡布奇诺",
         "prezzo": "2.50",
-        "immagine": "assets/piatti/cappuccino.jpg"
+        "immagine": "assets/piatti/cappuccino.webp"
     },
     {
         "categoria": "caffetteria",
         "nome": "拿铁咖啡",
         "prezzo": "3.00€",
-        "immagine": "assets/piatti/caffe_latte.jpg"
+        "immagine": "assets/piatti/caffe_latte.webp"
     },
     {
         "categoria": "caffetteria",
         "nome": "美式咖啡",
         "prezzo": "2.50",
-        "immagine": "assets/piatti/caffe_americano.jpg"
+        "immagine": "assets/piatti/caffe_americano.webp"
     },
     {
         "categoria": "caffetteria",
         "nome": "无咖啡因卡布奇诺",
         "prezzo": "2.50",
-        "immagine": "assets/piatti/cappuccino_decaffeinato.jpg"
+        "immagine": "assets/piatti/cappuccino_decaffeinato.webp"
     },
     {
         "categoria": "caffetteria",
         "nome": "茶/洋甘菊",
         "prezzo": "2.50",
-        "immagine": "assets/piatti/te_camomilla.jpg"
+        "immagine": "assets/piatti/te_camomilla.webp"
     }
 ]
