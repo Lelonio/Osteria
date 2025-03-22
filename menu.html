@@ -828,6 +828,9 @@ async function loadAllergens() {
         note.textContent = allergens.nota;
         allergenList.appendChild(note);
 
+        document.getElementById("service-fee").textContent = allergens.servizio;
+
+
     } catch (error) {
         console.error('Errore nel caricamento degli allergeni:', error);
     }
@@ -1297,6 +1300,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 </div>
 <div class="menu-items" id="menu-items"></div>
+
+<p id="service-fee" style="font-weight: bold; margin-top: 2px;"></p>
+
 
 <section class="allergens-container" id="allergens">
   <i class="fas fa-info-circle"></i>

@@ -18,7 +18,8 @@
           "Molluschi e prodotti a base di mollusco",
           "Frutta a guscio"
         ],
-        "nota": "*Per ulteriori informazioni, si prega di rivolgersi al personale di sala."
+        "nota": "*Per ulteriori informazioni, si prega di rivolgersi al personale di sala.",
+        "servizio": "Servizio 2,50€"
       },
       "en": {
         "titolo": "Allergen Information",
@@ -39,7 +40,9 @@
           "Mollusks and mollusk-based products",
           "Tree nuts"
         ],
-        "nota": "*For further information, please contact the staff."
+        "nota": "*For further information, please contact the staff.",
+        "servizio": "Service charge 2.50€"
+
       },
       "es": {
         "titolo": "Información sobre alérgenos",
@@ -60,7 +63,8 @@
           "Moluscos y productos a base de moluscos",
           "Frutos secos"
         ],
-        "nota": "*Para más información, por favor consulte al personal."
+        "nota": "*Para más información, por favor consulte al personal.",
+        "servizio": "Servicio 2,50€"
       },
       "de": {
         "titolo": "Informationen zu Allergenen",
@@ -81,7 +85,9 @@
           "Weichtiere und daraus gewonnene Produkte",
           "Schalenfrüchte"
         ],
-        "nota": "*Für weitere Informationen wenden Sie sich bitte an das Personal."
+        "nota": "*Für weitere Informationen wenden Sie sich bitte an das Personal.",
+        "servizio": "Servicegebühr 2,50€"
+
       },
       "fr": {
         "titolo": "Informations sur les allergènes",
@@ -102,7 +108,9 @@
           "Mollusques et produits à base de mollusques",
           "Fruits à coque"
         ],
-        "nota": "*Pour plus d’informations, veuillez contacter le personnel."
+        "nota": "*Pour plus d’informations, veuillez contacter le personnel.",
+        "servizio": "Service 2,50€"
+
       },
       "ru": {
         "titolo": "Информация о аллергенах",
@@ -123,7 +131,9 @@
           "Моллюски и продукты на основе моллюсков",
           "Орехи"
         ],
-        "nota": "*Для получения дополнительной информации, пожалуйста, обратитесь к персоналу."
+        "nota": "*Для получения дополнительной информации, пожалуйста, обратитесь к персоналу.",
+        "servizio": "Обслуживание 2,50€"
+
       },
       "zh": {
         "titolo": "过敏原信息",
@@ -144,7 +154,9 @@
           "软体动物及其制品",
           "坚果"
         ],
-        "nota": "*如需更多信息，请咨询工作人员。"
+        "nota": "*如需更多信息，请咨询工作人员。",
+        "servizio": "服务费 2.50€"
+
       }
     }
   
