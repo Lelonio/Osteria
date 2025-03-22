@@ -17,26 +17,66 @@
 <link rel="apple-touch-icon" sizes="192x192" href="assets/osteria192x192.png">
 <link rel="apple-touch-icon" sizes="512x512" href="assets/osteria512x512.png">
 
-  <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('js/sw.js').then(() => {
-        console.log("Service Worker registrato!");
-      });
-    }
-  </script>
-  
+<link rel="preconnect" href="https://ka-f.fontawesome.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/">
+
+<link rel="preload" href="css/pt-sans.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="css/pt-sans.css"></noscript>
   <script src="js/fontawesome.js" ></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <link rel="icon" href="assets/logomenu.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Menu - Osteria Del Pirgo</title>
-  <link rel="stylesheet" href="css/normalize.min.css">
-  <link rel="stylesheet" href="css/aos.css">
-  <link rel="stylesheet" href="style.css">
+  
+  <link rel="preload" href="css/normalize.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="css/normalize.min.css"></noscript>
+    
+<link rel="preload" href="css/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="css/aos.css"></noscript>
+
+<link rel="stylesheet" href="style.css">
   <style>
     @import url("css/pt-sans.css");
 
 
+    .logo-container {
+  position: relative;
+  display: inline-block;
+  cursor: pointer; /* Mostra il puntatore a mano per indicare che è cliccabile */
+}
+
+.logo-container img {
+  width: 100%;
+  max-width: 300px;
+  padding-top: 30px;
+  transition: transform 0.2s ease-in-out; /* Aggiunge un leggero effetto hover */
+}
+
+.logo-container:hover img {
+  transform: scale(1.05); /* Leggera ingrandimento quando si passa sopra */
+}
+
+.logo-container::after {
+  content: "Torna alla Home"; /* Testo tooltip */
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 12px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out;
+  white-space: nowrap;
+}
+
+.logo-container:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
 
     /* Imposta lo stato iniziale del dropdown */
 .dropdown-content {
@@ -45,6 +85,15 @@
     overflow: hidden!important;
     transition: max-height 0.4s ease-in-out, opacity 0.3s ease-in-out!important;
     opacity: 0!important;
+}
+
+.qr-text {
+  font-size: 13px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap; /* Evita il ritorno a capo */
+  margin-left: 2px;
 }
 
 /* Quando il dropdown è aperto */
@@ -152,6 +201,11 @@
   .language-selector img.active {
     transform: scale(1.1);
   }
+
+  .qr-code{
+    max-width: 110%;
+    max-height: 110%;
+  }
 }
 
 
@@ -161,8 +215,9 @@
 
 
     @media screen and (max-width: 768px) {
+      
       .logo-container {
-      padding-top: 60px !important; /* Rimuove lo spazio sopra */
+      padding-top: 90px !important; /* Rimuove lo spazio sopra */
       margin-top: 0 !important; /* Rimuove eventuali margini sopra */
       }
 
@@ -555,6 +610,16 @@
   height: 40px; /* Dimensione fissa per centrare l'icona */
   padding-bottom: 20px;
 }
+
+.qr-code {
+  position: absolute;
+  top: 20px;  /* Stessa altezza del tasto home */
+  left: 30px; /* Sposta il QR code a destra del tasto home */
+  width: 50px;
+  height: 50px;
+  z-index: 1000;
+}
+
 
 .allergeni {
     font-size: 0.8em;
@@ -1195,7 +1260,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
 <section class="menu">
   <div class="logo-container">
-    <img src="assets/logomenu.png" alt="Menu" class="logo">
+    <img src="assets/logomenu.png" alt="Menu" class="logo" onclick="openMenuPage()" href="index.html">
   </div>
   <h1 class="alex-brush"><span class="custom-font" style="text-shadow: 1px 1px 1px  #000000;">Menu</span><br /></h1>
   <div class="categories">
@@ -1268,8 +1333,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   </div>
 </div>
-  <div class="fixed-top-bar" id="topbar">
-    <button onclick="openMenuPage()" class="home-button" href="index.html"><i class="fa fa-home"></i></button>
+<div class="qr-code">
+
+  <img id="qr" src="assets/qr.jpg" width="150%" height="150%">
+  <div class="qr-text"> Digital Menu</div>
 </div>
+
 </body>
 </html>
