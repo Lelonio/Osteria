@@ -61,6 +61,17 @@
 
 
 <style>
+
+
+/* Parallasse per i caroselli */
+.header-carousel .swiper-slide,
+.cucina-carousel .swiper-slide {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+
   .swiper-container {
     touch-action: pan-y !important; /* Permette lo scroll verticale */
 }
@@ -147,12 +158,13 @@
     
     </div>
     <div class="swiper-wrapper">
-      <div class="swiper-slide" style="background: url('assets/gnocchi.webp') no-repeat center center; background-size: cover; height: 100vh;" ></div>
-      <div class="swiper-slide" style="background: url('assets/pesce.webp') no-repeat center center; background-size: cover; height: 100vh;" ></div>
-      <div class="swiper-slide" style="background: url('assets/tartare.webp') no-repeat center center; background-size: cover; height: 100vh;" ></div>
-      <div class="swiper-slide" style="background: url('assets/tonno.webp') no-repeat center center; background-size: cover; height: 100vh;" ></div>
-      <div class="swiper-slide" style="background: url('assets/crema.webp') no-repeat center center; background-size: cover; height: 100vh;" ></div>
-      <div class="swiper-slide" style="background: url('assets/tiramisu.webp') no-repeat center center; background-size: cover; height: 100vh;" ></div>
+      <div class="swiper-slide" style="background: url('assets/gnocchi.webp') no-repeat center center; background-size: cover; height: 100vh;" aria-label="Gnocchi con condimento"></div>
+      <div class="swiper-slide" style="background: url('assets/pesce.webp') no-repeat center center; background-size: cover; height: 100vh;" aria-label="Piatto di pesce fresco"></div>
+      <div class="swiper-slide" style="background: url('assets/tartare.webp') no-repeat center center; background-size: cover; height: 100vh;" aria-label="Tartare di pesce"></div>
+      <div class="swiper-slide" style="background: url('assets/tonno.webp') no-repeat center center; background-size: cover; height: 100vh;" aria-label="Filetto di tonno"></div>
+      <div class="swiper-slide" style="background: url('assets/crema.webp') no-repeat center center; background-size: cover; height: 100vh;" aria-label="Dessert con crema"></div>
+      <div class="swiper-slide" style="background: url('assets/tiramisu.webp') no-repeat center center; background-size: cover; height: 100vh;" aria-label="Tiramisù"></div>
+      
     </div>
     <div class="swiper-pagination"></div>
   </section>
@@ -202,7 +214,7 @@
   <div class="center">
     
     <div class="logo-container">
-      <img src="assets/navlogo.webp" alt="Osteria Del Pirgo" class="logo" loading="eager">
+      <img src="assets/navlogo.png" alt="Logo Osteria Del Pirgo" class="logo" loading="eager">
     </div>
     <span id="asterisk" style="text-shadow: 1px 1px 1px  #000000;">*</span>
     <p><a href="https://maps.app.goo.gl/7aqM6TVFBC5BSXei8" class="maps"><i class="fa fa-map-marker"></i> Lungomare Thaon de Revel 10 - Civitavecchia</a></p>
@@ -221,7 +233,7 @@
     
   </div>
   <div>
-  <img class="carbonara add-flex" src="assets/pasta.webp" loading="eager" >
+    <img class="carbonara add-flex" src="assets/pasta.webp" alt="Piatto di pasta con condimento" loading="eager">
   </div>
 </section>
 
@@ -231,11 +243,11 @@
     <h1 class="custom-h1 alex-brush"><span class="custom-font" style="text-shadow: 1px 1px 1px #000000;">Vista</span><br />SUL MARE</h1>
   </div>
   <div class="swiper-wrapper">
-    <div class="swiper-slide" style="background: url('assets/slide/slide.webp') no-repeat center center; background-size: cover; height: 600px;"  ></div>
-    <div class="swiper-slide" style="background: url('assets/slide/slide2.webp') no-repeat center center; background-size: cover; height: 600px;" ></div>
-    <div class="swiper-slide" style="background: url('assets/slide/slide3.webp') no-repeat center center; background-size: cover; height: 600px;" ></div>
-    <div class="swiper-slide" style="background: url('assets/slide/slide4.webp') no-repeat center center; background-size: cover; height: 600px;" ></div>
-    <div class="swiper-slide" style="background: url('assets/slide/slide5.webp') no-repeat center center; background-size: cover; height: 600px;" ></div>
+    <div class="swiper-slide" style="background: url('assets/slide/slide.webp') no-repeat center center; background-size: cover; height: 600px; background-attachment: fixed;"  ></div>
+    <div class="swiper-slide" style="background: url('assets/slide/slide2.webp') no-repeat center center; background-size: cover; height: 600px; background-attachment: fixed;" ></div>
+    <div class="swiper-slide" style="background: url('assets/slide/slide3.webp') no-repeat center center; background-size: cover; height: 600px; background-attachment: fixed;" ></div>
+    <div class="swiper-slide" style="background: url('assets/slide/slide4.webp') no-repeat center center; background-size: cover; height: 600px; background-attachment: fixed;" ></div>
+    <div class="swiper-slide" style="background: url('assets/slide/slide5.webp') no-repeat center center; background-size: cover; height: 600px; background-attachment: fixed;" ></div>
   </div>
   <!-- Paginazione -->
 </section>
@@ -243,8 +255,8 @@
 <section class="menu add-flex add-padding">
   <div class="menu-images">
     
-    <img src="assets/tavolo2.webp" />
-    <img src="assets/tavolo3.webp" />
+    <img src="assets/tavolo2.webp" alt="Piatto con specialità di pesce">
+    <img src="assets/tavolo3.webp" alt="Interno del ristorante con tavoli">
     
   </div>
   <div class="menus">
@@ -267,7 +279,7 @@
       <span class="custom-font" style="text-shadow: 1px 1px 1px  #000000;">Sala</span><br />INTERNA
     </h1>
   </div>
-  <img src="assets/salaint.webp" alt="Sala Interna">
+  <img src="assets/salaint.webp" alt="Sala interna del ristorante">
 </section>
 
 
@@ -331,7 +343,7 @@
 
     <!-- Contenitore per il logo -->
     <div class="footer-logo">
-      <img class="navlogo" src="assets/navlogo.webp"/>
+      <img class="navlogo" src="assets/navlogo.webp" alt="Logo Osteria Del Pirgo">
       <p style="font-size: 10px;">Sito realizzato da Emanuele Maio</p>
     </div>
 
@@ -359,6 +371,8 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
+
+
   const images = [
     "assets/gnocchi.webp",
     "assets/pesce.webp",
@@ -425,6 +439,7 @@ L.marker([42.086721935234074, 11.799642336842012]).addTo(map)
       fadeEffect: {
         crossFade: false,
       },
+      
     });
 });
 </script>
